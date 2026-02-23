@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockBaller - Chainlink CRE Integration Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0D2758;
+            border-bottom: 3px solid #F5CB3F;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0D2758;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        h3 {
+            color: #0528F3;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header img {
+            width: 60px;
+            height: 60px;
+        }
+        .logo-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: #0D2758;
+        }
+        .logo-text span {
+            color: #F5CB3F;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .diagram {
+            background: #1a1a2e;
+            color: #00ff00;
+            font-family: 'Consolas', 'Courier New', monospace;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+            font-size: 12px;
+            white-space: pre;
+        }
+        .code {
+            background: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 13px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        .highlight {
+            background: #FFF9E6;
+            border-left: 4px solid #F5CB3F;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .success {
+            background: #E8F5E9;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .problem {
+            background: #FFEBEE;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #0D2758;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .flow-step {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .step-number {
+            background: #0D2758;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        .arrow {
+            text-align: center;
+            color: #0528F3;
+            font-size: 20px;
+            margin: 5px 0;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+        }
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .diagram {
+                background: #333;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-text">Stock<span>Baller</span></div>
+            <div class="subtitle">Chainlink CRE Integration Guide</div>
+            <div class="subtitle">Chainlink Convergence Hackathon 2026</div>
+        </div>
+
+        <h2>1. The Problem We're Solving</h2>
+        
+        <h3>Traditional Approach (Centralized)</h3>
+        <div class="diagram">┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│  Your Server│────▶│  Database   │────▶│  Smart      │
+│  (single    │     │  (you       │     │  Contract   │
+│   point of  │     │   control)  │     │  (you set   │
+│   failure)  │     │             │     │   prices)   │
+└─────────────┘     └─────────────┘     └─────────────┘</div>
+        
+        <div class="problem">
+            <strong>❌ Problem:</strong> Users must trust YOU to set fair prices. Single point of failure.
+        </div>
+
+        <h3>Chainlink CRE Approach (Decentralized)</h3>
+        <div class="diagram">┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│  Chainlink  │────▶│  DON        │────▶│  Smart      │
+│  Nodes      │     │  (multiple  │     │  Contract   │
+│  (many      │     │   nodes     │     │  (oracle    │
+│   operators)│     │   agree)    │     │   writes)   │
+└─────────────┘     └─────────────┘     └─────────────┘</div>
+        
+        <div class="success">
+            <strong>✅ Solution:</strong> Users trust the NETWORK, not you. Verifiable and trustless.
+        </div>
+
+        <h2>2. What is Chainlink CRE?</h2>
+        
+        <p><strong>CRE = Compute Runtime Environment</strong></p>
+        
+        <p>It's a framework that lets you write <strong>workflows</strong> that:</p>
+        <ul>
+            <li><strong>Trigger</strong> on a schedule (cron) or blockchain event</li>
+            <li><strong>Fetch</strong> external data (APIs, databases)</li>
+            <li><strong>Compute</strong> results (your price formula)</li>
+            <li><strong>Write</strong> to blockchain with cryptographic proof</li>
+        </ul>
+
+        <h2>3. Current Architecture</h2>
+        
+        <div class="diagram">┌──────────────────────────────────────────────────────────────────┐
+│                         CURRENTLY                                │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   ┌───────────────┐    ┌───────────────┐    ┌───────────────┐   │
+│   │  API-Football │    │   NestJS API  │    │  ProSpectVault│   │
+│   │  (stats)      │───▶│   (YOUR       │───▶│   (blockchain)│   │
+│   │               │    │    server)    │    │               │   │
+│   └───────────────┘    └───────────────┘    └───────────────┘   │
+│                              │                      ▲            │
+│                              │                      │            │
+│                              ▼                      │            │
+│                        ┌───────────┐          Scheduler         │
+│                        │  MongoDB  │          writes prices      │
+│                        │ (prices)  │                             │
+│                        └───────────┘                             │
+│                                                                  │
+│   Problem: YOUR server calculates prices. Users must trust you.  │
+└──────────────────────────────────────────────────────────────────┘</div>
+
+        <h2>4. With Chainlink CRE</h2>
+        
+        <div class="diagram">┌──────────────────────────────────────────────────────────────────┐
+│                    WITH CHAINLINK CRE                            │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   ┌───────────────┐    ┌───────────────┐    ┌───────────────┐   │
+│   │  API-Football │    │  CHAINLINK    │    │  ProSpectVault│   │
+│   │  (stats)      │───▶│  CRE NODES    │───▶│   (blockchain)│   │
+│   │               │    │ (decentralized)    │               │   │
+│   └───────────────┘    └───────────────┘    └───────────────┘   │
+│                              │                      │            │
+│                     Multiple nodes                  │            │
+│                     run YOUR workflow               │            │
+│                     and AGREE on price              │            │
+│                              │                      │            │
+│                              ▼                      │            │
+│   ┌───────────────┐    ┌───────────────┐           │            │
+│   │  React Native │◀───│   NestJS API  │◀──────────┘            │
+│   │    (app)      │    │ (reads prices │  Reads from            │
+│   │               │    │  from chain)  │  blockchain            │
+│   └───────────────┘    └───────────────┘                        │
+│                                                                  │
+│   Benefit: CHAINLINK calculates prices. Verifiable & trustless. │
+└──────────────────────────────────────────────────────────────────┘</div>
+
+        <h2>5. The CRE Workflow Code</h2>
+        
+        <p>Location: <code>chainlink/stockballer-oracle/my-workflow/stockballer-main.ts</code></p>
+        
+        <div class="code">// 1. TRIGGER: Runs every hour
+handler(cronTrigger.trigger({ schedule: "0 * * * *" }), onCronTrigger)
+
+// 2. FETCH: Get stats from API-Football
+const stats = fetchAthleteStats(sendRequester, baseUrl, playerId, apiKey)
+
+// 3. COMPUTE: Calculate price with your formula
+const newPrice = calculatePrice(goals, assists, appearances, ...)
+// Formula: IPO + (Net_Yield × Form_Multiplier × Age_Multiplier)
+
+// 4. WRITE: Update blockchain
+evmClient.sendTransaction(runtime, {
+  call: encodeCallMsg({
+    to: vaultAddress,
+    data: encodeFunctionData({
+      abi: ProSpectVault,
+      functionName: 'updatePriceFromOracle',
+      args: [tokenId, newPrice],
+    }),
+  }),
+})</div>
+
+        <h2>6. Price Formula</h2>
+        
+        <div class="highlight">
+            <strong>Formula:</strong> Price = IPO + (Net_Yield × Form_Multiplier × Age_Multiplier)
+        </div>
+        
+        <h3>Yield Calculation</h3>
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Yield Impact</th>
+            </tr>
+            <tr>
+                <td>⚽ Goal</td>
+                <td>+$0.25</td>
+            </tr>
+            <tr>
+                <td>🅰️ Assist</td>
+                <td>+$0.12</td>
+            </tr>
+            <tr>
+                <td>📋 Match Played</td>
+                <td>+$0.02</td>
+            </tr>
+            <tr>
+                <td>🟨 Yellow Card</td>
+                <td>-$0.15</td>
+            </tr>
+            <tr>
+                <td>🟥 Red Card</td>
+                <td>-$1.50</td>
+            </tr>
+            <tr>
+                <td>❌ Missed Penalty</td>
+                <td>-$0.50</td>
+            </tr>
+        </table>
+
+        <h3>Age Multipliers</h3>
+        <table>
+            <tr>
+                <th>Age Range</th>
+                <th>Multiplier</th>
+                <th>Rationale</th>
+            </tr>
+            <tr>
+                <td>&lt; 20 years</td>
+                <td>15x</td>
+                <td>High potential youth</td>
+            </tr>
+            <tr>
+                <td>20-27 years</td>
+                <td>12x</td>
+                <td>Prime years</td>
+            </tr>
+            <tr>
+                <td>&gt; 27 years</td>
+                <td>8x</td>
+                <td>Veteran</td>
+            </tr>
+        </table>
+
+        <h2>7. Key Integration Points</h2>
+        
+        <table>
+            <tr>
+                <th>Component</th>
+                <th>Role</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>CRE Workflow</td>
+                <td>Calculates prices, writes to chain</td>
+                <td>chainlink/stockballer-oracle/</td>
+            </tr>
+            <tr>
+                <td>ProSpectVaultV2</td>
+                <td>Accepts prices from Chainlink only</td>
+                <td>chainlink/contracts/</td>
+            </tr>
+            <tr>
+                <td>NestJS API</td>
+                <td>Reads prices from blockchain for frontend</td>
+                <td>api/src/market/</td>
+            </tr>
+            <tr>
+                <td>React Native</td>
+                <td>Displays prices to users</td>
+                <td>app/</td>
+            </tr>
+        </table>
+
+        <h2>8. Why This Matters for Hackathon</h2>
+        
+        <div class="success">
+            <strong>Judges will look for:</strong>
+            <ul style="margin-top: 10px;">
+                <li>✅ External data integration (API-Football stats)</li>
+                <li>✅ On-chain computation (price formula in CRE)</li>
+                <li>✅ Real use case (athlete token trading)</li>
+                <li>✅ Working prototype (your app)</li>
+            </ul>
+        </div>
+
+        <h2>9. Demo Flow</h2>
+        
+        <div class="flow-step"><div class="step-number">1</div> Match happens (simulated)</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">2</div> Stats update: "Mbappe scored 2 goals"</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">3</div> CRE workflow triggers (cron or manual)</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">4</div> Chainlink nodes fetch API-Football data</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">5</div> Nodes run YOUR price formula</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">6</div> Nodes reach consensus on new price</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">7</div> Price written to ProSpectVault on Base Sepolia</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">8</div> Your app reads new price from blockchain</div>
+        <div class="arrow">↓</div>
+        <div class="flow-step"><div class="step-number">9</div> User sees: "Mbappe: $100 → $206"</div>
+
+        <h2>10. Simulation Results</h2>
+        
+        <div class="code">🏈 StockBaller Price Oracle - Starting price update
+📊 Processing: Neymar Jr (ID: 276)
+💰 Neymar Jr: $119.92
+📊 Processing: Kylian Mbappe (ID: 874)
+💰 Kylian Mbappe: $206.29
+📊 Processing: Lamine Yamal (ID: 1100)
+💰 Lamine Yamal: $180.53
+📊 Processing: Jude Bellingham (ID: 154)
+💰 Jude Bellingham: $174.18
+📊 Processing: Memphis Depay (ID: 306)
+💰 Memphis Depay: $101.52
+🎯 Price updates completed: 5/5 athletes</div>
+
+        <div class="footer">
+            <p>StockBaller - Chainlink Convergence Hackathon 2026</p>
+            <p>GitHub: github.com/Fillmore3000/Stockballer-app</p>
+            <p>Branch: chainlink-hackathon</p>
+        </div>
+    </div>
+</body>
+</html>
