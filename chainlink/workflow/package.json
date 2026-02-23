@@ -1,0 +1,29 @@
+{
+  "name": "stockballer-athlete-oracle",
+  "version": "1.0.0",
+  "description": "Chainlink CRE Workflow for StockBaller athlete price oracle",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "simulate": "cre simulate",
+    "deploy": "cre deploy"
+  },
+  "keywords": [
+    "chainlink",
+    "cre",
+    "oracle",
+    "sports",
+    "defi",
+    "stockballer"
+  ],
+  "author": "StockBaller Team",
+  "license": "MIT",
+  "dependencies": {
+    "@chainlink/cre-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

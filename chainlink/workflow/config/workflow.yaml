@@ -1,0 +1,133 @@
+# StockBaller Athlete Price Oracle - Workflow Configuration
+# Chainlink CRE (Chainlink Runtime Environment)
+# 
+# This workflow fetches real-time athlete statistics from API-Football,
+# calculates token prices using the StockBaller formula, and writes
+# verified prices to the blockchain via Chainlink DON consensus.
+
+name: stockballer-athlete-oracle
+version: 1.0.0
+description: "Decentralized athlete token price oracle for StockBaller"
+
+# Workflow triggers
+triggers:
+  # Primary: Run every hour to update prices
+  - name: hourly-price-update
+    type: cron
+    config:
+      schedule: "0 0 * * * *"  # Every hour at :00
+      
+  # Secondary: Manual HTTP trigger for testing
+  - name: manual-update
+    type: http
+    config:
+      path: /update-prices
+      method: POST
+
+# Required capabilities
+capabilities:
+  # Fetch data from external APIs
+  - name: http
+    description: "Fetch athlete stats from API-Football"
+    
+  # Read from EVM blockchain
+  - name: evm-read
+    description: "Read current prices from ProSpectVaultV2"
+    
+  # Write to EVM blockchain  
+  - name: evm-write
+    description: "Update prices on ProSpectVaultV2"
+
+# Target blockchain networks
+networks:
+  base-sepolia:
+    chainId: 84532
+    rpc: "https://sepolia.base.org"
+    explorer: "https://sepolia.basescan.org"
+
+# External data sources
+dataSources:
+  api-football:
+    baseUrl: "https://v3.football.api-sports.io"
+    rateLimit: 10 # requests per minute
+    authentication: api-key
+    
+# Smart contract addresses
+contracts:
+  ProSpectVaultV2:
+    # Base Sepolia deployment
+    address: "${VAULT_CONTRACT_ADDRESS}"
+    abi: "./abis/ProSpectVaultV2.json"
+
+# Secrets (encrypted via CRE secrets manager)
+secrets:
+  - name: API_FOOTBALL_KEY
+    description: "API-Football authentication key"
+    required: true
+    
+  - name: VAULT_CONTRACT_ADDRESS
+    description: "ProSpectVaultV2 contract address on Base Sepolia"
+    required: true
+
+# Athletes to monitor (token IDs map to on-chain tokens)
+athletes:
+  - tokenId: 1
+    apiFootballId: 1100
+    name: "Erling Haaland"
+    position: "Forward"
+    age: 24
+    
+  - tokenId: 2
+    apiFootballId: 184054
+    name: "Bukayo Saka"
+    position: "Winger"
+    age: 23
+    
+  - tokenId: 3
+    apiFootballId: 174
+    name: "Mohamed Salah"
+    position: "Forward"
+    age: 32
+    
+  - tokenId: 4
+    apiFootballId: 1460
+    name: "Cole Palmer"
+    position: "Midfielder"
+    age: 22
+    
+  - tokenId: 5
+    apiFootballId: 284
+    name: "Son Heung-min"
+    position: "Forward"
+    age: 32
+
+# Price formula configuration
+priceFormula:
+  ipoPrice: 100.00          # Starting price in USD
+  minPrice: 1.00            # Floor price
+  maxPrice: 10000.00        # Ceiling for hackathon demo
+  
+  # Yield factors (USD)
+  yieldPerGoal: 0.25
+  yieldPerAssist: 0.12
+  yieldPerMatch: 0.02
+  yieldPerCleanSheet: 0.10
+  
+  # Penalty factors (USD)
+  penaltyYellowCard: 0.15
+  penaltyRedCard: 1.50
+  penaltyMissedPenalty: 0.50
+  penaltyOwnGoal: 0.75
+  
+  # Age multipliers
+  ageMultipliers:
+    young: 15     # age < 20
+    prime: 12     # 20 <= age <= 27
+    veteran: 8    # age > 27
+
+# Execution settings
+execution:
+  maxGasPrice: 50 gwei
+  gasLimit: 500000
+  retryAttempts: 3
+  retryDelay: 5000 # ms

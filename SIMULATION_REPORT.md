@@ -2,7 +2,7 @@
 
 ## Base Case - 2024/25 Season
 
-**Generated:** 2026-02-23T12:46:19.365Z
+**Generated:** 2026-02-23T13:50:39.265Z
 
 ---
 
@@ -11,11 +11,11 @@
 | Metric | Value |
 |--------|-------|
 | Simulation Period | 38 weeks (2024-08-17 to 2025-05-03) |
-| Total Trading Volume | $3,260,556.6 |
-| Platform Fees Collected | $16367.14 |
+| Total Trading Volume | $3,284,375.74 |
+| Platform Fees Collected | $15635.86 |
 | Average Token Volatility | 2.9% |
 | Maximum Drawdown | 45.7% |
-| User Profitability Rate | 100.0% |
+| User Profitability Rate | 98.9% |
 | Risk Assessment | **HIGH** |
 
 ---
@@ -24,21 +24,21 @@
 
 | Rank | Player | Start Price | End Price | Return | Max Drawdown | Volatility |
 |------|--------|-------------|-----------|--------|--------------|------------|
-| 1 | Bukayo Saka | $107.42 | $500.00 | +365.5% | 2.1% | 3.4% |
-| 2 | Erling Haaland | $108.73 | $500.00 | +359.9% | 0.0% | 3.4% |
-| 3 | Jarrod Bowen | $107.18 | $355.74 | +231.9% | 2.0% | 2.6% |
-| 4 | Rodri | $102.08 | $330.13 | +223.4% | 0.8% | 1.8% |
-| 5 | Mohamed Salah | $105.74 | $316.83 | +199.6% | 45.7% | 6.2% |
-| 6 | Ollie Watkins | $106.28 | $301.79 | +184.0% | 2.4% | 2.6% |
-| 7 | Son Heung-min | $101.92 | $273.33 | +168.2% | 27.0% | 4.6% |
-| 8 | Kevin De Bruyne | $105.56 | $274.45 | +160.0% | 2.2% | 2.1% |
-| 9 | Gabriel Martinelli | $99.88 | $253.34 | +153.6% | 21.6% | 4.4% |
-| 10 | Gabriel Jesus | $104.36 | $263.60 | +152.6% | 2.8% | 2.6% |
-| 11 | Phil Foden | $106.74 | $266.99 | +150.1% | 0.2% | 1.6% |
-| 12 | Declan Rice | $101.93 | $245.34 | +140.7% | 2.6% | 2.2% |
-| 13 | Martin Odegaard | $101.99 | $239.86 | +135.2% | 0.7% | 2.0% |
-| 14 | Virgil van Dijk | $103.13 | $232.48 | +125.4% | 0.6% | 1.5% |
-| 15 | Ruben Dias | $100.85 | $202.81 | +101.1% | 0.6% | 1.5% |
+| 1 | Bukayo Saka | $108.38 | $500.00 | +361.3% | 1.9% | 3.4% |
+| 2 | Erling Haaland | $108.59 | $500.00 | +360.4% | 0.2% | 3.4% |
+| 3 | Jarrod Bowen | $107.07 | $351.12 | +227.9% | 1.8% | 2.7% |
+| 4 | Rodri | $101.70 | $322.78 | +217.4% | 0.6% | 1.9% |
+| 5 | Mohamed Salah | $105.66 | $318.93 | +201.8% | 45.7% | 6.2% |
+| 6 | Ollie Watkins | $105.91 | $301.62 | +184.8% | 2.5% | 2.8% |
+| 7 | Son Heung-min | $101.77 | $272.17 | +167.4% | 27.0% | 4.6% |
+| 8 | Kevin De Bruyne | $105.65 | $278.86 | +163.9% | 1.8% | 2.0% |
+| 9 | Gabriel Jesus | $104.74 | $268.94 | +156.8% | 2.8% | 2.6% |
+| 10 | Gabriel Martinelli | $99.70 | $250.20 | +151.0% | 21.6% | 4.4% |
+| 11 | Phil Foden | $106.75 | $265.97 | +149.2% | 0.6% | 1.6% |
+| 12 | Declan Rice | $101.85 | $242.68 | +138.3% | 2.9% | 2.1% |
+| 13 | Martin Odegaard | $102.06 | $239.92 | +135.1% | 0.9% | 2.0% |
+| 14 | Virgil van Dijk | $103.74 | $239.66 | +131.0% | 0.3% | 1.4% |
+| 15 | Ruben Dias | $101.44 | $202.43 | +99.6% | 0.7% | 1.5% |
 
 ---
 
@@ -46,10 +46,10 @@
 
 | Type | Count | Avg Return | Profitability | Best | Worst | Avg Trades |
 |------|-------|------------|---------------|------|-------|------------|
-| BANDWAGON | 350 | +200.7% | 100.0% | +257.9% | +102.1% | 5.6 |
-| HODLER | 300 | +91.3% | 100.0% | +123.5% | +41.5% | 6.3 |
-| PANIC | 200 | +75.0% | 100.0% | +163.5% | +12.1% | 6.9 |
-| VALUE | 150 | +29.7% | 100.0% | +40.2% | +3.7% | 5.4 |
+| BANDWAGON | 350 | +198.3% | 100.0% | +250.4% | +69.3% | 5.5 |
+| HODLER | 300 | +86.8% | 100.0% | +128.2% | +45.8% | 6.1 |
+| PANIC | 200 | +70.2% | 99.5% | +143.9% | -2.5% | 7.2 |
+| VALUE | 150 | +27.9% | 93.3% | +37.9% | +0.0% | 4.8 |
 
 ---
 
@@ -57,25 +57,25 @@
 
 | Week | Event | Impact |
 |------|-------|--------|
-| 2 | Mohamed Salah surged 11.3% | Positive market sentiment |
+| 2 | Mohamed Salah surged 11.0% | Positive market sentiment |
 | 3 | Casemiro dropped 15.0% | Panic selling observed |
 | 4 | Erling Haaland surged 10.5% | Positive market sentiment |
-| 4 | Bukayo Saka surged 10.6% | Positive market sentiment |
-| 5 | Mohamed Salah surged 10.4% | Positive market sentiment |
-| 5 | Bukayo Saka surged 11.1% | Positive market sentiment |
+| 4 | Bukayo Saka surged 10.5% | Positive market sentiment |
+| 5 | Mohamed Salah surged 10.9% | Positive market sentiment |
+| 5 | Bukayo Saka surged 11.2% | Positive market sentiment |
 | 5 | Trent Alexander-Arnold dropped 15.0% | Panic selling observed |
 | 6 | Son Heung-min dropped 15.0% | Panic selling observed |
-| 7 | Gabriel Martinelli surged 10.0% | Positive market sentiment |
 | 10 | Darwin Nunez dropped 15.0% | Panic selling observed |
+| 13 | Cole Palmer dropped 15.0% | Panic selling observed |
 
 ---
 
 ## Conclusions
 
-- Average token return: 147.1% over 38 weeks.
+- Average token return: 146.0% over 38 weeks.
 - Maximum system drawdown: 45.7%, indicating high risk.
 - Average volatility: 2.9% weekly standard deviation.
-- Platform collected $16367.14 in trading fees.
+- Platform collected $15635.86 in trading fees.
 
 ---
 
