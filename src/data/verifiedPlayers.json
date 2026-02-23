@@ -1,0 +1,259 @@
+{
+  "description": "Verified API-Football Player IDs for Premier League 2024/25 Season",
+  "source": "API-Football (api-sports.io)",
+  "lastVerified": "2026-01-30",
+  "notes": "These IDs are confirmed to return valid stats from API-Football",
+  "players": [
+    {
+      "tokenId": 1,
+      "apiFootballId": 1100,
+      "name": "Erling Haaland",
+      "team": "Manchester City",
+      "position": "FW",
+      "age": 24,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 2,
+      "apiFootballId": 306,
+      "name": "Mohamed Salah",
+      "team": "Liverpool",
+      "position": "FW",
+      "age": 32,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 3,
+      "apiFootballId": 186,
+      "name": "Son Heung-min",
+      "team": "Tottenham",
+      "position": "FW",
+      "age": 32,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 4,
+      "apiFootballId": 1485,
+      "name": "Bruno Fernandes",
+      "team": "Manchester United",
+      "position": "MF",
+      "age": 30,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 5,
+      "apiFootballId": 184,
+      "name": "Harry Kane",
+      "team": "Bayern Munich",
+      "position": "FW",
+      "age": 31,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 6,
+      "apiFootballId": 631,
+      "name": "Kevin De Bruyne",
+      "team": "Manchester City",
+      "position": "MF",
+      "age": 33,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 7,
+      "apiFootballId": 1138,
+      "name": "Virgil van Dijk",
+      "team": "Liverpool",
+      "position": "DF",
+      "age": 33,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 8,
+      "apiFootballId": 909,
+      "name": "Marcus Rashford",
+      "team": "Manchester United",
+      "position": "FW",
+      "age": 27,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 9,
+      "apiFootballId": 2932,
+      "name": "Alisson Becker",
+      "team": "Liverpool",
+      "position": "GK",
+      "age": 32,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 10,
+      "apiFootballId": 2879,
+      "name": "Ederson",
+      "team": "Manchester City",
+      "position": "GK",
+      "age": 31,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 11,
+      "apiFootballId": 629,
+      "name": "Bernardo Silva",
+      "team": "Manchester City",
+      "position": "MF",
+      "age": 30,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 12,
+      "apiFootballId": 284,
+      "name": "Trent Alexander-Arnold",
+      "team": "Liverpool",
+      "position": "DF",
+      "age": 26,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 13,
+      "apiFootballId": 2935,
+      "name": "Andrew Robertson",
+      "team": "Liverpool",
+      "position": "DF",
+      "age": 30,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 14,
+      "apiFootballId": 617,
+      "name": "Ruben Dias",
+      "team": "Manchester City",
+      "position": "DF",
+      "age": 27,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 15,
+      "apiFootballId": 627,
+      "name": "Kyle Walker",
+      "team": "Manchester City",
+      "position": "DF",
+      "age": 34,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 16,
+      "apiFootballId": 280,
+      "name": "Diogo Jota",
+      "team": "Liverpool",
+      "position": "FW",
+      "age": 28,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 17,
+      "apiFootballId": 632,
+      "name": "Ilkay Gundogan",
+      "team": "Manchester City",
+      "position": "MF",
+      "age": 34,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 18,
+      "apiFootballId": 19370,
+      "name": "Phil Foden",
+      "team": "Manchester City",
+      "position": "MF",
+      "age": 24,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 19,
+      "apiFootballId": 19211,
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "position": "FW",
+      "age": 23,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 20,
+      "apiFootballId": 1100,
+      "name": "Martin Odegaard",
+      "team": "Arsenal",
+      "position": "MF",
+      "age": 25,
+      "tokenSupply": 1000,
+      "verified": false,
+      "note": "Need to verify correct ID"
+    },
+    {
+      "tokenId": 21,
+      "apiFootballId": 47380,
+      "name": "Gabriel Jesus",
+      "team": "Arsenal",
+      "position": "FW",
+      "age": 27,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 22,
+      "apiFootballId": 1460,
+      "name": "Declan Rice",
+      "team": "Arsenal",
+      "position": "MF",
+      "age": 25,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 23,
+      "apiFootballId": 18933,
+      "name": "James Maddison",
+      "team": "Tottenham",
+      "position": "MF",
+      "age": 28,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 24,
+      "apiFootballId": 152865,
+      "name": "Alexander Isak",
+      "team": "Newcastle",
+      "position": "FW",
+      "age": 25,
+      "tokenSupply": 1000,
+      "verified": true
+    },
+    {
+      "tokenId": 25,
+      "apiFootballId": 162082,
+      "name": "Jude Bellingham",
+      "team": "Real Madrid",
+      "position": "MF",
+      "age": 21,
+      "tokenSupply": 1000,
+      "verified": true
+    }
+  ]
+}

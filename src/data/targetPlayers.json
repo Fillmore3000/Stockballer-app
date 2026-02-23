@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "apiFootballId": 1100,
+      "name": "Erling Haaland",
+      "team": "Manchester City",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 306,
+      "name": "Mohamed Salah",
+      "team": "Liverpool",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 186,
+      "name": "Son Heung-min",
+      "team": "Tottenham",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 1485,
+      "name": "Bruno Fernandes",
+      "team": "Manchester United",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 184,
+      "name": "Harry Kane",
+      "team": "Bayern Munich",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 631,
+      "name": "Kevin De Bruyne",
+      "team": "Manchester City",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 1138,
+      "name": "Virgil van Dijk",
+      "team": "Liverpool",
+      "position": "DF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 909,
+      "name": "Marcus Rashford",
+      "team": "Manchester United",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 2932,
+      "name": "Alisson Becker",
+      "team": "Liverpool",
+      "position": "GK",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 2879,
+      "name": "Ederson",
+      "team": "Manchester City",
+      "position": "GK",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 629,
+      "name": "Bernardo Silva",
+      "team": "Manchester City",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 284,
+      "name": "Trent Alexander-Arnold",
+      "team": "Liverpool",
+      "position": "DF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 2935,
+      "name": "Andrew Robertson",
+      "team": "Liverpool",
+      "position": "DF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 617,
+      "name": "Ruben Dias",
+      "team": "Manchester City",
+      "position": "DF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 627,
+      "name": "Kyle Walker",
+      "team": "Manchester City",
+      "position": "DF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 280,
+      "name": "Diogo Jota",
+      "team": "Liverpool",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 632,
+      "name": "Ilkay Gundogan",
+      "team": "Manchester City",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 19370,
+      "name": "Phil Foden",
+      "team": "Manchester City",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 19211,
+      "name": "Bukayo Saka",
+      "team": "Arsenal",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 47380,
+      "name": "Gabriel Jesus",
+      "team": "Arsenal",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 1460,
+      "name": "Declan Rice",
+      "team": "Arsenal",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 18933,
+      "name": "James Maddison",
+      "team": "Tottenham",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 152865,
+      "name": "Alexander Isak",
+      "team": "Newcastle",
+      "position": "FW",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 162082,
+      "name": "Jude Bellingham",
+      "team": "Real Madrid",
+      "position": "MF",
+      "tokenSupply": 1000
+    },
+    {
+      "apiFootballId": 874,
+      "name": "Casemiro",
+      "team": "Manchester United",
+      "position": "MF",
+      "tokenSupply": 1000
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base dark mode styling */
+:root {
+  color-scheme: dark;
+}
+
+/* Ensure consistent font rendering */
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Web-specific scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #132D5E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #244680;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2E5292;
+}
+
+/* Override React Native Web tab bar padding */
+.r-padding-1uu6nss {
+  padding: 2px !important;
+}

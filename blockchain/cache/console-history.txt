@@ -1,0 +1,3 @@
+.exit
+Set-Location -Path 'C:\Users\hapaw\Desktop\2026\Projects\AI_Athlete_Invest\blockchain'; npx hardhat run --network baseSepolia -e "const {ethers} = require('ethers'); console.log('test');"
+cd C:\Users\hapaw\Desktop\2026\Projects\AI_Athlete_Invest\blockchain; node -e "const {ethers} = require('hardhat'); async function main() { const vault = await ethers.getContractAt('ProSpectVault', '0x86d44597b7D433501a4af42aA0BE17be9FEC2FaC'); const wallet = '0x88291d4F1e9e87F1Ad51ED50D56A5a34BAC33C36'; for(let i=1; i<=5; i++) { const bal = await vault.balanceOf(wallet, i); console.log('Token', i, ':', bal.toString()); } } main();"
