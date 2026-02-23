@@ -1,0 +1,39 @@
+# ==========================================================================
+# CRE WORKFLOW SETTINGS FILE
+# ==========================================================================
+# StockBaller Athlete Price Oracle - Chainlink CRE Workflow
+# Fetches live football stats and updates athlete token prices on Base Sepolia
+#
+# Usage:
+#   cre workflow simulate my-workflow -T stockballer
+#   cre workflow deploy my-workflow -T stockballer
+
+# ==========================================================================
+# StockBaller Settings (Main workflow)
+stockballer:
+  user-workflow:
+    workflow-name: "stockballer-athlete-oracle"
+  workflow-artifacts:
+    workflow-path: "./stockballer-main.ts"
+    config-path: "./config.stockballer.json"
+    secrets-path: "../secrets.yaml"
+
+# ==========================================================================
+# Original template settings (for reference/testing)
+staging-settings:
+  user-workflow:
+    workflow-name: "my-workflow-staging"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.staging.json"
+    secrets-path: ""
+    
+
+# ==========================================================================
+production-settings:
+  user-workflow:
+    workflow-name: "my-workflow-production"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.production.json"
+    secrets-path: ""

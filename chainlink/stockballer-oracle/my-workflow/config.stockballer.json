@@ -1,0 +1,55 @@
+{
+  "schedule": "0 * * * *",
+  "apiFootballBaseUrl": "https://v3.football.api-sports.io",
+  "vaultAddress": "0xYOUR_PROSPECTVAULT_ADDRESS",
+  "chainSelectorName": "ethereum-testnet-sepolia",
+  "gasLimit": "500000",
+  "athletes": [
+    {
+      "tokenId": 1,
+      "apiFootballId": 276,
+      "name": "Neymar Jr",
+      "age": 32,
+      "position": "Attacker"
+    },
+    {
+      "tokenId": 2,
+      "apiFootballId": 874,
+      "name": "Kylian Mbappe",
+      "age": 26,
+      "position": "Attacker"
+    },
+    {
+      "tokenId": 3,
+      "apiFootballId": 1100,
+      "name": "Lamine Yamal",
+      "age": 16,
+      "position": "Attacker"
+    },
+    {
+      "tokenId": 4,
+      "apiFootballId": 154,
+      "name": "Jude Bellingham",
+      "age": 21,
+      "position": "Midfielder"
+    },
+    {
+      "tokenId": 5,
+      "apiFootballId": 306,
+      "name": "Memphis Depay",
+      "age": 30,
+      "position": "Attacker"
+    }
+  ],
+  "priceFormula": {
+    "ipoPrice": 100000000,
+    "minPrice": 1000000,
+    "maxPrice": 10000000000,
+    "yieldPerGoal": 250000,
+    "yieldPerAssist": 120000,
+    "yieldPerMatch": 20000,
+    "penaltyYellowCard": 150000,
+    "penaltyRedCard": 1500000,
+    "penaltyMissedPenalty": 500000
+  }
+}
