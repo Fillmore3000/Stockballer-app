@@ -48,3 +48,7 @@ blockchain/.env
 # generated native folders
 /ios
 /android
+
+# Private business documents
+planning_marketing/
+investor_materials/
