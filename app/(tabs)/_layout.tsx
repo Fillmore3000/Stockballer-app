@@ -65,6 +65,13 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
+        name="predict"
+        options={{
+          title: 'Predict',
+          tabBarIcon: getTabBarIcon('flash-outline', 'flash'),
+        }}
+      />
+      <Tabs.Screen
         name="portfolio"
         options={{
           title: 'Portfolio',

@@ -13,7 +13,7 @@
 # 1. AI predicts match score before kickoff
 # 2. User places bet backing the prediction
 # 3. After match, settles with actual result
-# 4. If AI was correct, user wins 100 pound bonus!
+# 4. If AI was correct, user wins £100 bonus!
 #
 # Usage: .\demo-match.ps1
 # Run multiple times to simulate multiple games (stats accumulate)
@@ -32,9 +32,9 @@ $DEMO_WALLET = "0x977Ad55cB75Ad56ED26b34585d397EAE50223B1B"
 # Colors for output
 function Write-Header($text) {
     Write-Host ""
-    Write-Host ("=" * 70) -ForegroundColor Cyan
+    Write-Host "=" * 70 -ForegroundColor Cyan
     Write-Host "  $text" -ForegroundColor Yellow
-    Write-Host ("=" * 70) -ForegroundColor Cyan
+    Write-Host "=" * 70 -ForegroundColor Cyan
 }
 
 function Write-Event($minute, $emoji, $text) {
@@ -45,9 +45,9 @@ function Write-Event($minute, $emoji, $text) {
 function Write-PriceTable($athletes) {
     Write-Host ""
     Write-Host "  ATHLETE PRICES (from database)" -ForegroundColor Cyan
-    Write-Host ("  " + ("-" * 60)) -ForegroundColor DarkGray
+    Write-Host "  " + ("-" * 60) -ForegroundColor DarkGray
     Write-Host ("  {0,-20} {1,12} {2,8} {3,8}" -f "Player", "Price", "Goals", "Matches") -ForegroundColor DarkGray
-    Write-Host ("  " + ("-" * 60)) -ForegroundColor DarkGray
+    Write-Host "  " + ("-" * 60) -ForegroundColor DarkGray
     
     foreach ($a in $athletes) {
         $priceColor = if ($a.currentPrice -gt 100) { "Green" } elseif ($a.currentPrice -lt 100) { "Red" } else { "White" }
@@ -58,7 +58,7 @@ function Write-PriceTable($athletes) {
         Write-Host (" {0,8}" -f $goals) -NoNewline -ForegroundColor Yellow
         Write-Host (" {0,8}" -f $matches) -ForegroundColor DarkGray
     }
-    Write-Host ("  " + ("-" * 60)) -ForegroundColor DarkGray
+    Write-Host "  " + ("-" * 60) -ForegroundColor DarkGray
 }
 
 function Invoke-DemoApi($endpoint, $method = "GET") {
@@ -85,12 +85,12 @@ Write-Host ""
 Write-Host "  _____ _             _    ____        _ _           " -ForegroundColor Yellow
 Write-Host " / ____| |           | |  |  _ \      | | |          " -ForegroundColor Yellow
 Write-Host "| (___ | |_ ___   ___| | _| |_) | __ _| | | ___ _ __ " -ForegroundColor Yellow
-Write-Host " \___ \| __/ _ \ / __| |/ /  _ < / _  | | |/ _ \ '__|" -ForegroundColor Yellow
-Write-Host " ____) | || (_) | (__|   <| |_) | (_| | | |  __/ |   " -ForegroundColor Yellow
+Write-Host " \___ \| __/ _ \ / __| |/ /  _ < / _` | | |/ _ \ '__|" -ForegroundColor Yellow
+Write-Host " ____) | || (_) | (__|   <| |_) | (|_| | | |  __/ |   " -ForegroundColor Yellow
 Write-Host "|_____/ \__\___/ \___|_|\_\____/ \__,_|_|_|\___|_|   " -ForegroundColor Yellow
 Write-Host ""
 Write-Host "  CHAINLINK CRE DEMO - Match Day + Prediction Market" -ForegroundColor Cyan
-Write-Host "  Features: Token Prices + AI Score Prediction + 100 Pound Bonus" -ForegroundColor DarkGray
+Write-Host "  Features: Token Prices + AI Score Prediction + £100 Bonus" -ForegroundColor DarkGray
 Write-Host ""
 
 # ==============================================================================
@@ -107,10 +107,6 @@ Write-Host "  [CRE-AI] Generating AI prediction using GPT-4..." -ForegroundColor
 Start-Sleep -Milliseconds 800
 
 # Generate AI prediction
-$predictedScore = "5-1"
-$confidence = 75
-$reasoning = "Real Madrid dominant at home, Mbappe in top form"
-
 try {
     $predBody = @{
         homeTeam = "Real Madrid"
@@ -118,25 +114,25 @@ try {
     } | ConvertTo-Json
 
     $aiPred = Invoke-RestMethod -Uri "$PREDICTION_API/demo/predict" -Method Post -Body $predBody -ContentType "application/json"
-    if ($aiPred.predictedScore) {
-        $predictedScore = $aiPred.predictedScore
-        $confidence = $aiPred.confidence
-        $reasoning = $aiPred.reasoning
-    }
+    $predictedScore = $aiPred.predictedScore
+    $confidence = $aiPred.confidence
+    $reasoning = $aiPred.reasoning
 } catch {
-    Write-Host "  [INFO] Using demo prediction" -ForegroundColor DarkGray
+    $predictedScore = "5-1"
+    $confidence = 75
+    $reasoning = "Real Madrid dominant at home, Mbappe in top form"
 }
 
 Write-Host ""
-Write-Host "  +------------------------------------------------------------+" -ForegroundColor Green
-Write-Host "  |           AI PREDICTION (Chainlink + GPT-4)                |" -ForegroundColor Green
-Write-Host "  +------------------------------------------------------------+" -ForegroundColor Green
-Write-Host "  |                                                            |" -ForegroundColor Green
-Write-Host ("  |     Real Madrid   " + $predictedScore.PadRight(5) + "   Liverpool                   |") -ForegroundColor White
-Write-Host "  |                                                            |" -ForegroundColor Green
-Write-Host ("  |     Confidence: $confidence%                                       |") -ForegroundColor Yellow
-Write-Host "  |                                                            |" -ForegroundColor Green
-Write-Host "  +------------------------------------------------------------+" -ForegroundColor Green
+Write-Host "  ╔══════════════════════════════════════════════════════════╗" -ForegroundColor Green
+Write-Host "  ║           🤖 AI PREDICTION (Chainlink + GPT-4)           ║" -ForegroundColor Green
+Write-Host "  ╠══════════════════════════════════════════════════════════╣" -ForegroundColor Green
+Write-Host "  ║                                                          ║" -ForegroundColor Green
+Write-Host ("  ║     Real Madrid   " + $predictedScore.PadRight(5) + "   Liverpool               ║") -ForegroundColor White
+Write-Host "  ║                                                          ║" -ForegroundColor Green
+Write-Host ("  ║     Confidence: $confidence%                                   ║") -ForegroundColor Yellow
+Write-Host "  ║                                                          ║" -ForegroundColor Green
+Write-Host "  ╚══════════════════════════════════════════════════════════╝" -ForegroundColor Green
 Write-Host ""
 
 # Parse predicted score
@@ -165,13 +161,13 @@ try {
     $submitResult = Invoke-RestMethod -Uri "$PREDICTION_API/submit" -Method Post -Body $submitBody -ContentType "application/json"
     
     if ($submitResult.txHash) {
-        Write-Host "  [OK] Prediction submitted on-chain!" -ForegroundColor Green
-        Write-Host "  [TX] $($submitResult.txHash)" -ForegroundColor DarkGray
+        Write-Host "  ✅ Prediction submitted on-chain!" -ForegroundColor Green
+        Write-Host "  📋 Tx: $($submitResult.txHash)" -ForegroundColor DarkGray
     } else {
-        Write-Host "  [OK] Prediction submitted (demo mode)" -ForegroundColor Green
+        Write-Host "  ✅ Prediction submitted (demo mode)" -ForegroundColor Green
     }
 } catch {
-    Write-Host "  [WARN] Prediction submission failed - continuing demo" -ForegroundColor Yellow
+    Write-Host "  ⚠️  Prediction submission failed - continuing demo" -ForegroundColor Yellow
 }
 
 Write-Host ""
@@ -186,10 +182,10 @@ try {
     } | ConvertTo-Json
 
     $betResult = Invoke-RestMethod -Uri "$PREDICTION_API/bet" -Method Post -Body $betBody -ContentType "application/json"
-    Write-Host "  [OK] Bet placed: `$50 on $predictedScore" -ForegroundColor Green
-    Write-Host "  [INFO] If AI is correct, win 100 pound bonus!" -ForegroundColor Yellow
+    Write-Host "  ✅ Bet placed: `$50 on $predictedScore" -ForegroundColor Green
+    Write-Host "  🎯 If AI is correct, win £100 bonus!" -ForegroundColor Yellow
 } catch {
-    Write-Host "  [WARN] Bet placement in demo mode" -ForegroundColor Yellow
+    Write-Host "  ⚠️  Bet placement in demo mode" -ForegroundColor Yellow
 }
 
 Write-Host ""
@@ -228,17 +224,17 @@ Write-Header "STEP 3: MATCH EVENTS"
 Write-Host ""
 
 $events = @(
-    @{ minute = 12; token = 17; type = "goal";   emoji = "[GOAL]"; text = "GOAL! Kylian Mbappe scores a brilliant header!" },
-    @{ minute = 12; token = 19; type = "assist"; emoji = "[AST]"; text = "ASSIST by Jude Bellingham with a perfect cross!" },
-    @{ minute = 23; token = 2;  type = "yellow"; emoji = "[YEL]"; text = "YELLOW CARD for Erling Haaland - late challenge" },
-    @{ minute = 34; token = 21; type = "goal";   emoji = "[GOAL]"; text = "GOAL! Lamine Yamal with a stunning solo goal!" },
-    @{ minute = 34; token = 17; type = "assist"; emoji = "[AST]"; text = "ASSIST by Mbappe - great vision!" },
-    @{ minute = 45; token = 1;  type = "goal";   emoji = "[GOAL]"; text = "GOAL! Mohamed Salah curls one into the top corner!" },
-    @{ minute = 45; token = 21; type = "assist"; emoji = "[AST]"; text = "ASSIST by Yamal - brilliant through ball" },
-    @{ minute = 67; token = 17; type = "goal";   emoji = "[GOAL]"; text = "GOAL! Mbappe again - 2 goals now!" },
-    @{ minute = 78; token = 19; type = "goal";   emoji = "[GOAL]"; text = "GOAL! Bellingham volleys it home!" },
-    @{ minute = 78; token = 1;  type = "assist"; emoji = "[AST]"; text = "ASSIST by Salah - chipped ball over defense" },
-    @{ minute = 90; token = 17; type = "goal";   emoji = "[GOAL]"; text = "HAT-TRICK! Mbappe completes the hat-trick!" }
+    @{ minute = 12; token = 17; type = "goal";   emoji = "⚽"; text = "GOAL! Kylian Mbappe scores a brilliant header!" },
+    @{ minute = 12; token = 19; type = "assist"; emoji = "🅰️"; text = "ASSIST by Jude Bellingham with a perfect cross!" },
+    @{ minute = 23; token = 2;  type = "yellow"; emoji = "🟨"; text = "YELLOW CARD for Erling Haaland - late challenge" },
+    @{ minute = 34; token = 21; type = "goal";   emoji = "⚽"; text = "GOAL! Lamine Yamal with a stunning solo goal!" },
+    @{ minute = 34; token = 17; type = "assist"; emoji = "🅰️"; text = "ASSIST by Mbappe - great vision!" },
+    @{ minute = 45; token = 1;  type = "goal";   emoji = "⚽"; text = "GOAL! Mohamed Salah curls one into the top corner!" },
+    @{ minute = 45; token = 21; type = "assist"; emoji = "🅰️"; text = "ASSIST by Yamal - brilliant through ball" },
+    @{ minute = 67; token = 17; type = "goal";   emoji = "⚽"; text = "GOAL! Mbappe again - 2 goals now!" },
+    @{ minute = 78; token = 19; type = "goal";   emoji = "⚽"; text = "GOAL! Bellingham volleys it home!" },
+    @{ minute = 78; token = 1;  type = "assist"; emoji = "🅰️"; text = "ASSIST by Salah - chipped ball over defense" },
+    @{ minute = 90; token = 17; type = "goal";   emoji = "⚽"; text = "HAT-TRICK! Mbappe completes the hat-trick!" }
 )
 
 foreach ($e in $events) {
@@ -248,7 +244,7 @@ foreach ($e in $events) {
 }
 
 Write-Host ""
-Write-Host "  FULL TIME! Real Madrid $predHomeScore - $predAwayScore Liverpool" -ForegroundColor Green
+Write-Host "  FULL TIME! Real Madrid 5 - 1 Liverpool" -ForegroundColor Green
 Write-Host ""
 
 Write-Host "  Press ENTER to calculate prices and SAVE to database..." -ForegroundColor Yellow
@@ -277,8 +273,8 @@ Start-Sleep -Milliseconds 400
 $result = Invoke-DemoApi "match/end" "POST"
 
 Write-Host ""
-Write-Host "  [OK] PRICES SAVED TO DATABASE!" -ForegroundColor Green
-Write-Host "  [TIP] Refresh the app to see updated prices!" -ForegroundColor Yellow
+Write-Host "  ✅ PRICES SAVED TO DATABASE!" -ForegroundColor Green
+Write-Host "  💡 Refresh the app to see updated prices!" -ForegroundColor Yellow
 Write-Host ""
 
 # Step 5: Show Results
@@ -289,7 +285,7 @@ Write-PriceTable $athletes
 
 Write-Host ""
 Write-Host "  PRICE CHANGE BREAKDOWN" -ForegroundColor Cyan
-Write-Host ("  " + ("-" * 60)) -ForegroundColor DarkGray
+Write-Host "  " + ("-" * 60) -ForegroundColor DarkGray
 
 foreach ($a in $result.results) {
     $change = $a.newPrice - $a.oldPrice
@@ -305,16 +301,16 @@ foreach ($a in $result.results) {
     $b = $a.breakdown
     if ($b) {
         $statsText = "    "
-        if ($b.goals -gt 0) { $statsText += "Goals:$($b.goals) " }
-        if ($b.assists -gt 0) { $statsText += "Assists:$($b.assists) " }
-        if ($b.matches -gt 0) { $statsText += "Matches:$($b.matches) " }
-        if ($b.yellowCards -gt 0) { $statsText += "YellowCards:$($b.yellowCards) " }
-        if ($b.redCards -gt 0) { $statsText += "RedCards:$($b.redCards) " }
+        if ($b.goals -gt 0) { $statsText += "⚽$($b.goals) " }
+        if ($b.assists -gt 0) { $statsText += "🅰️$($b.assists) " }
+        if ($b.matches -gt 0) { $statsText += "🏟️$($b.matches) " }
+        if ($b.yellowCards -gt 0) { $statsText += "🟨$($b.yellowCards) " }
+        if ($b.redCards -gt 0) { $statsText += "🟥$($b.redCards) " }
         Write-Host $statsText -ForegroundColor DarkGray
     }
 }
 
-Write-Host ("  " + ("-" * 60)) -ForegroundColor DarkGray
+Write-Host "  " + ("-" * 60) -ForegroundColor DarkGray
 
 # ==============================================================================
 # PART 3: PREDICTION MARKET - Settlement
@@ -323,18 +319,16 @@ Write-Host ("  " + ("-" * 60)) -ForegroundColor DarkGray
 Write-Host ""
 Write-Header "STEP 6: PREDICTION MARKET SETTLEMENT"
 Write-Host ""
-Write-Host "  [CRE] Match ended: Real Madrid $predHomeScore - $predAwayScore Liverpool" -ForegroundColor White
+Write-Host "  [CRE] Match ended: Real Madrid 5 - 1 Liverpool" -ForegroundColor White
 Write-Host "  [CRE] AI Predicted: $predictedScore" -ForegroundColor Cyan
 Write-Host ""
 
-# Settle using the AI predicted score (so AI is always correct for demo)
-$actualHome = $predHomeScore
-$actualAway = $predAwayScore
+# Settle the prediction
+$actualHome = 5
+$actualAway = 1
 
 Write-Host "  [CRE] Settling prediction on-chain..." -ForegroundColor Cyan
 Start-Sleep -Milliseconds 500
-
-$settleResult = $null
 
 try {
     $settleBody = @{
@@ -346,67 +340,67 @@ try {
     
     if ($settleResult.aiWasCorrect) {
         Write-Host ""
-        Write-Host "  +------------------------------------------------------------+" -ForegroundColor Yellow
-        Write-Host "  |                  AI WAS CORRECT!                           |" -ForegroundColor Yellow
-        Write-Host "  +------------------------------------------------------------+" -ForegroundColor Yellow
-        Write-Host "  |                                                            |" -ForegroundColor Yellow
-        Write-Host "  |     Predicted: $predictedScore     Actual: $actualHome-$actualAway                          |" -ForegroundColor Green
-        Write-Host "  |                                                            |" -ForegroundColor Yellow
-        Write-Host "  |     YOU WIN 100 POUND BONUS!                               |" -ForegroundColor Green
-        Write-Host "  |                                                            |" -ForegroundColor Yellow
-        Write-Host "  +------------------------------------------------------------+" -ForegroundColor Yellow
+        Write-Host "  ╔══════════════════════════════════════════════════════════╗" -ForegroundColor Yellow
+        Write-Host "  ║                  🎉 AI WAS CORRECT! 🎉                   ║" -ForegroundColor Yellow
+        Write-Host "  ╠══════════════════════════════════════════════════════════╣" -ForegroundColor Yellow
+        Write-Host "  ║                                                          ║" -ForegroundColor Yellow
+        Write-Host "  ║     Predicted: $predictedScore     Actual: $actualHome-$actualAway                  ║" -ForegroundColor Green
+        Write-Host "  ║                                                          ║" -ForegroundColor Yellow
+        Write-Host "  ║     🏆 YOU WIN £100 BONUS!                               ║" -ForegroundColor Green
+        Write-Host "  ║                                                          ║" -ForegroundColor Yellow
+        Write-Host "  ╚══════════════════════════════════════════════════════════╝" -ForegroundColor Yellow
         Write-Host ""
-        Write-Host "  [OK] Bonus distributed to $($settleResult.winnersCount) winner(s)!" -ForegroundColor Green
+        Write-Host "  ✅ Bonus distributed to $($settleResult.winnersCount) winner(s)!" -ForegroundColor Green
     } else {
         Write-Host ""
-        Write-Host "  +------------------------------------------------------------+" -ForegroundColor Red
-        Write-Host "  |                  AI WAS INCORRECT                          |" -ForegroundColor Red
-        Write-Host "  +------------------------------------------------------------+" -ForegroundColor Red
-        Write-Host "  |                                                            |" -ForegroundColor Red
-        Write-Host "  |     Predicted: $predictedScore     Actual: $actualHome-$actualAway                          |" -ForegroundColor White
-        Write-Host "  |                                                            |" -ForegroundColor Red
-        Write-Host "  |     Better luck next time!                                 |" -ForegroundColor White
-        Write-Host "  |                                                            |" -ForegroundColor Red
-        Write-Host "  +------------------------------------------------------------+" -ForegroundColor Red
+        Write-Host "  ╔══════════════════════════════════════════════════════════╗" -ForegroundColor Red
+        Write-Host "  ║                  ❌ AI WAS INCORRECT                     ║" -ForegroundColor Red
+        Write-Host "  ╠══════════════════════════════════════════════════════════╣" -ForegroundColor Red
+        Write-Host "  ║                                                          ║" -ForegroundColor Red
+        Write-Host "  ║     Predicted: $predictedScore     Actual: $actualHome-$actualAway                  ║" -ForegroundColor White
+        Write-Host "  ║                                                          ║" -ForegroundColor Red
+        Write-Host "  ║     Better luck next time!                               ║" -ForegroundColor White
+        Write-Host "  ║                                                          ║" -ForegroundColor Red
+        Write-Host "  ╚══════════════════════════════════════════════════════════╝" -ForegroundColor Red
     }
 
     if ($settleResult.txHash) {
         Write-Host ""
-        Write-Host "  [TX] Settlement: $($settleResult.txHash)" -ForegroundColor DarkGray
+        Write-Host "  📋 Settlement Tx: $($settleResult.txHash)" -ForegroundColor DarkGray
     }
 } catch {
-    Write-Host "  [WARN] Settlement in demo mode" -ForegroundColor Yellow
+    Write-Host "  ⚠️  Settlement in demo mode" -ForegroundColor Yellow
 }
 
 Write-Host ""
 Write-Header "DEMO COMPLETE!"
 Write-Host ""
 Write-Host "  SUMMARY:" -ForegroundColor Cyan
-Write-Host "  ============================================================" -ForegroundColor DarkGray
+Write-Host "  ════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
 Write-Host ""
-Write-Host "  TOKEN PRICES: Updated based on match performance" -ForegroundColor Green
+Write-Host "  📈 TOKEN PRICES: Updated based on match performance" -ForegroundColor Green
 Write-Host "     - Mbappe (hat-trick): +15% value increase" -ForegroundColor White
 Write-Host "     - Bellingham (goal + assist): +8% value increase" -ForegroundColor White
 Write-Host "     - Salah (goal + assist): +5% value increase" -ForegroundColor White
 Write-Host ""
-Write-Host "  PREDICTION MARKET: AI predicted $predictedScore" -ForegroundColor Green
-if ($settleResult -and $settleResult.aiWasCorrect) {
-    Write-Host "     - Result: CORRECT! You won 100 pound bonus!" -ForegroundColor Yellow
+Write-Host "  🎯 PREDICTION MARKET: AI predicted $predictedScore" -ForegroundColor Green
+if ($settleResult.aiWasCorrect) {
+    Write-Host "     - Result: CORRECT! You won £100 bonus!" -ForegroundColor Yellow
 } else {
     Write-Host "     - Result: Incorrect. No bonus this time." -ForegroundColor White
 }
 Write-Host ""
-Write-Host "  ============================================================" -ForegroundColor DarkGray
+Write-Host "  ════════════════════════════════════════════════════════════" -ForegroundColor DarkGray
 Write-Host ""
 Write-Host "  This demonstrates Chainlink CRE Workflows for:" -ForegroundColor White
-Write-Host "    - Real-time athlete price updates (CRE + Price Feeds)" -ForegroundColor DarkGray
-Write-Host "    - AI-powered predictions (CRE + Chainlink Functions + GPT-4)" -ForegroundColor DarkGray
-Write-Host "    - Decentralized prediction markets with 100 pound bonuses" -ForegroundColor DarkGray
+Write-Host "    • Real-time athlete price updates (CRE + Price Feeds)" -ForegroundColor DarkGray
+Write-Host "    • AI-powered predictions (CRE + Chainlink Functions + GPT-4)" -ForegroundColor DarkGray
+Write-Host "    • Decentralized prediction markets with £100 bonuses" -ForegroundColor DarkGray
 Write-Host ""
 Write-Host "  Hackathon Categories:" -ForegroundColor Cyan
-Write-Host "    [x] DeFi and Tokenization" -ForegroundColor Green
-Write-Host "    [x] CRE and AI" -ForegroundColor Green
-Write-Host "    [x] Prediction Markets" -ForegroundColor Green
+Write-Host "    ✓ DeFi & Tokenization" -ForegroundColor Green
+Write-Host "    ✓ CRE & AI" -ForegroundColor Green
+Write-Host "    ✓ Prediction Markets" -ForegroundColor Green
 Write-Host ""
 Write-Host "  Learn more at: stockballer.app" -ForegroundColor Cyan
 Write-Host ""

@@ -2,4 +2,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export type { MockUSDC } from "./MockUSDC";
+export type { PredictionMarket } from "./PredictionMarket";
 export type { ProSpectVault } from "./ProSpectVault";

@@ -2,4 +2,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export { MockUSDC__factory } from "./MockUSDC__factory";
+export { PredictionMarket__factory } from "./PredictionMarket__factory";
 export { ProSpectVault__factory } from "./ProSpectVault__factory";

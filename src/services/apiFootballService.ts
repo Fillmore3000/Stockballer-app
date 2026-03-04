@@ -323,7 +323,7 @@ const createFallbackPlayer = (target: TargetPlayer): NormalizedPlayer => {
 
 /**
  * Fetch all target players with rate limiting
- * Uses caching to avoid excessive API calls
+ * LIVE MODE - Requires API key, no silent fallbacks
  */
 export const fetchAllTargetPlayers = async (forceRefresh = false): Promise<NormalizedPlayer[]> => {
   // Check cache first
@@ -335,16 +335,9 @@ export const fetchAllTargetPlayers = async (forceRefresh = false): Promise<Norma
   const targetPlayers = targetPlayersData.players as TargetPlayer[];
   const players: NormalizedPlayer[] = [];
 
-  // If no API key, return all fallback players immediately
+  // Require API key for live data
   if (!hasApiKey()) {
-    console.warn('API-Football API key not configured - using fallback data');
-    for (const target of targetPlayers) {
-      const fallback = createFallbackPlayer(target);
-      players.push(fallback);
-      playerCache.set(target.apiFootballId, fallback);
-    }
-    cacheTimestamp = Date.now();
-    return players;
+    throw new Error('API-Football API key not configured. Set EXPO_PUBLIC_SPORTMONKS_API_KEY in .env');
   }
 
   for (const target of targetPlayers) {
@@ -361,21 +354,15 @@ export const fetchAllTargetPlayers = async (forceRefresh = false): Promise<Norma
         players.push(normalized);
         playerCache.set(playerId, normalized);
       } else {
-        // Use fallback data when API returns nothing
-        console.warn(`No data for ${target.name} (ID: ${playerId}) - using fallback`);
-        const fallback = createFallbackPlayer(target);
-        players.push(fallback);
-        playerCache.set(playerId, fallback);
+        // Log warning but continue - player may not have data for current season
+        console.warn(`No data for ${target.name} (ID: ${playerId}) - skipping`);
       }
 
       // Rate limiting - wait between requests
       await sleep(API_FOOTBALL_CONFIG.RATE_LIMIT_MS);
     } catch (error) {
       console.error(`Error fetching ${target.name}:`, error);
-      // Use fallback on error
-      const fallback = createFallbackPlayer(target);
-      players.push(fallback);
-      playerCache.set(playerId, fallback);
+      // Continue with other players, but log the error
     }
   }
 

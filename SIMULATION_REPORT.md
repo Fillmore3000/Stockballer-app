@@ -2,7 +2,7 @@
 
 ## Base Case - 2024/25 Season
 
-**Generated:** 2026-02-23T15:24:48.924Z
+**Generated:** 2026-03-03T16:01:35.866Z
 
 ---
 
@@ -11,12 +11,12 @@
 | Metric | Value |
 |--------|-------|
 | Simulation Period | 38 weeks (2024-08-17 to 2025-05-03) |
-| Total Trading Volume | $3,484,290.95 |
-| Platform Fees Collected | $19829.20 |
-| Average Token Volatility | 3.3% |
-| Maximum Drawdown | 35.4% |
-| User Profitability Rate | 100.0% |
-| Risk Assessment | **MEDIUM** |
+| Total Trading Volume | $3,198,956.69 |
+| Platform Fees Collected | $11842.33 |
+| Average Token Volatility | 3.0% |
+| Maximum Drawdown | 59.5% |
+| User Profitability Rate | 84.8% |
+| Risk Assessment | **HIGH** |
 
 ---
 
@@ -24,21 +24,21 @@
 
 | Rank | Player | Start Price | End Price | Return | Max Drawdown | Volatility |
 |------|--------|-------------|-----------|--------|--------------|------------|
-| 1 | Bukayo Saka | $105.45 | $500.00 | +374.2% | 3.7% | 3.7% |
-| 2 | Erling Haaland | $107.14 | $500.00 | +366.7% | 0.0% | 3.3% |
-| 3 | Mohamed Salah | $108.20 | $500.00 | +362.1% | 23.7% | 5.3% |
-| 4 | Son Heung-min | $104.79 | $361.81 | +245.3% | 1.4% | 2.6% |
-| 5 | Ollie Watkins | $104.87 | $314.14 | +199.6% | 1.6% | 2.8% |
-| 6 | Gabriel Martinelli | $104.80 | $304.71 | +190.8% | 1.9% | 3.0% |
-| 7 | Gabriel Jesus | $100.10 | $281.72 | +181.4% | 21.3% | 4.5% |
-| 8 | Darwin Nunez | $106.85 | $292.61 | +173.9% | 2.4% | 2.6% |
-| 9 | Kevin De Bruyne | $104.20 | $268.27 | +157.5% | 0.0% | 2.3% |
-| 10 | Jarrod Bowen | $103.05 | $248.73 | +141.4% | 3.1% | 2.4% |
-| 11 | Marcus Rashford | $106.25 | $243.37 | +129.1% | 30.7% | 4.7% |
-| 12 | Trent Alexander-Arnold | $103.57 | $211.57 | +104.3% | 0.0% | 1.4% |
-| 13 | William Saliba | $102.48 | $202.85 | +97.9% | 2.2% | 1.5% |
-| 14 | Virgil van Dijk | $109.67 | $212.27 | +93.6% | 0.1% | 1.3% |
-| 15 | Phil Foden | $104.58 | $198.73 | +90.0% | 28.1% | 4.2% |
+| 1 | Gabriel Martinelli | $103.21 | $340.90 | +230.3% | 2.3% | 3.0% |
+| 2 | Erling Haaland | $100.32 | $283.09 | +182.2% | 0.8% | 1.9% |
+| 3 | Cole Palmer | $106.59 | $231.72 | +117.4% | 1.5% | 2.8% |
+| 4 | Ollie Watkins | $108.60 | $231.37 | +113.0% | 3.4% | 2.8% |
+| 5 | Bukayo Saka | $102.15 | $215.78 | +111.2% | 1.0% | 1.8% |
+| 6 | Son Heung-min | $100.01 | $183.92 | +83.9% | 2.4% | 1.7% |
+| 7 | Bruno Fernandes | $100.33 | $171.23 | +70.7% | 3.5% | 1.7% |
+| 8 | Martin Odegaard | $100.55 | $168.22 | +67.3% | 0.8% | 1.3% |
+| 9 | Declan Rice | $100.13 | $164.26 | +64.0% | 0.7% | 1.6% |
+| 10 | Phil Foden | $100.34 | $149.57 | +49.1% | 0.7% | 1.5% |
+| 11 | Trent Alexander-Arnold | $100.58 | $146.99 | +46.1% | 0.9% | 1.3% |
+| 12 | Ruben Dias | $100.03 | $138.47 | +38.4% | 1.4% | 1.1% |
+| 13 | Kevin De Bruyne | $100.20 | $107.27 | +7.1% | 1.4% | 0.4% |
+| 14 | Marcus Rashford | $85.00 | $64.79 | -23.8% | 42.2% | 5.7% |
+| 15 | Gabriel Jesus | $100.71 | $67.12 | -33.4% | 40.8% | 5.9% |
 
 ---
 
@@ -46,10 +46,10 @@
 
 | Type | Count | Avg Return | Profitability | Best | Worst | Avg Trades |
 |------|-------|------------|---------------|------|-------|------------|
-| BANDWAGON | 350 | +161.4% | 100.0% | +219.1% | +83.3% | 4.7 |
-| HODLER | 300 | +82.5% | 100.0% | +133.2% | +20.7% | 6.5 |
-| PANIC | 200 | +65.2% | 100.0% | +169.4% | +1.6% | 9.1 |
-| VALUE | 150 | +24.8% | 100.0% | +29.1% | +12.8% | 9.4 |
+| BANDWAGON | 350 | +84.8% | 100.0% | +138.5% | +43.2% | 5.0 |
+| HODLER | 300 | +48.2% | 100.0% | +92.8% | +4.5% | 5.6 |
+| PANIC | 200 | +37.0% | 99.0% | +101.7% | -3.8% | 8.0 |
+| VALUE | 150 | -9.8% | 0.0% | +0.0% | -15.2% | 3.1 |
 
 ---
 
@@ -57,31 +57,31 @@
 
 | Week | Event | Impact |
 |------|-------|--------|
-| 2 | Erling Haaland surged 11.0% | Positive market sentiment |
-| 2 | Mohamed Salah surged 10.9% | Positive market sentiment |
-| 3 | Erling Haaland surged 10.9% | Positive market sentiment |
-| 3 | Ollie Watkins surged 10.2% | Positive market sentiment |
-| 5 | Erling Haaland surged 11.2% | Positive market sentiment |
-| 5 | Mohamed Salah surged 10.2% | Positive market sentiment |
-| 6 | Mohamed Salah surged 10.4% | Positive market sentiment |
-| 9 | Erling Haaland surged 10.2% | Positive market sentiment |
-| 11 | Cole Palmer dropped 15.0% | Panic selling observed |
-| 14 | Martin Odegaard dropped 15.5% | Panic selling observed |
+| 3 | Ederson dropped 15.0% | Panic selling observed |
+| 4 | Casemiro dropped 15.0% | Panic selling observed |
+| 6 | Rodri dropped 15.0% | Panic selling observed |
+| 7 | Marcus Rashford dropped 15.0% | Panic selling observed |
+| 7 | Gabriel Jesus dropped 15.0% | Panic selling observed |
+| 8 | Rodri dropped 15.0% | Panic selling observed |
+| 9 | Ederson dropped 15.0% | Panic selling observed |
+| 10 | Casemiro dropped 15.0% | Panic selling observed |
+| 12 | Rodri dropped 15.0% | Panic selling observed |
+| 14 | Ederson dropped 15.0% | Panic selling observed |
 
 ---
 
 ## Conclusions
 
-- Average token return: 141.4% over 38 weeks.
-- Maximum system drawdown: 35.4%, indicating high risk.
-- Average volatility: 3.3% weekly standard deviation.
-- Platform collected $19829.20 in trading fees.
+- Average token return: 54.2% over 38 weeks.
+- Maximum system drawdown: 59.5%, indicating high risk.
+- Average volatility: 3.0% weekly standard deviation.
+- Platform collected $11842.33 in trading fees.
 
 ---
 
-## Risk Assessment: MEDIUM
+## Risk Assessment: HIGH
 
-**Recommendation:** The system shows acceptable volatility. Consider implementing circuit breakers for extreme events.
+**Recommendation:** High volatility detected. Review pricing multipliers and consider adding price floors/ceilings.
 
 ---
 

@@ -4,13 +4,14 @@
  * Web3 Only Mode - Uses MetaMask wallet on Base Sepolia
  */
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, ScrollView, RefreshControl, Pressable, Alert, ActivityIndicator } from 'react-native';
+import { View, ScrollView, RefreshControl, Pressable, Alert, ActivityIndicator, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useFocusEffect } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { Text, Card, PlayerImage } from '../../src/components';
 import { useWalletStore } from '../../src/stores';
 import { tradingApi, PortfolioPosition } from '../../src/services/tradingApiService';
+import { BASE_SEPOLIA_CONFIG, CONTRACT_ADDRESSES } from '../../src/config/blockchain';
 
 const formatCurrency = (value: number): string => {
   return `$${value.toFixed(2)}`;
@@ -273,6 +274,10 @@ export default function PortfolioScreen() {
             position={position}
             onPress={() => handlePositionPress(position.playerId)}
             onSell={() => handleSell(position)}
+            onViewExplorer={() => {
+              const explorerUrl = `${BASE_SEPOLIA_CONFIG.blockExplorer}/token/${CONTRACT_ADDRESSES.VAULT}?a=${address}#inventory`;
+              Linking.openURL(explorerUrl);
+            }}
           />
         ))}
 
@@ -287,9 +292,10 @@ interface PositionRowProps {
   position: PortfolioPosition;
   onPress: () => void;
   onSell: () => void;
+  onViewExplorer: () => void;
 }
 
-const PositionRow: React.FC<PositionRowProps> = ({ position, onPress, onSell }) => {
+const PositionRow: React.FC<PositionRowProps> = ({ position, onPress, onSell, onViewExplorer }) => {
   const pnlColor = position.unrealizedPnL >= 0 ? 'text-trading-bullish' : 'text-trading-bearish';
 
   return (
@@ -330,6 +336,17 @@ const PositionRow: React.FC<PositionRowProps> = ({ position, onPress, onSell }) 
               {position.team} • {position.position}
             </Text>
           </View>
+
+          {/* View on Explorer Button */}
+          <Pressable
+            onPress={(e) => {
+              e.stopPropagation();
+              onViewExplorer();
+            }}
+            className="bg-primary-100 px-3 py-1.5 rounded-lg mr-2"
+          >
+            <Ionicons name="open-outline" size={14} color="#0528F3" />
+          </Pressable>
 
           {/* Sell Button */}
           <Pressable

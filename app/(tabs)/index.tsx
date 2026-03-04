@@ -16,7 +16,7 @@ import { useWalletStore } from '../../src/stores/walletStore';
 import { usePortfolioStore } from '../../src/stores/portfolioStore';
 import { useAthletesStore } from '../../src/stores/athletesStore';
 import { requestUSDCFromFaucet } from '../../src/services/web3Service';
-import { Text as ThemedText, WalletButton } from '../../src/components';
+import { Text as ThemedText, WalletButton, PlayerImage } from '../../src/components';
 
 // StockBaller brand colors
 const COLORS = {
@@ -470,10 +470,12 @@ const DashboardView = () => {
                     onPress={() => router.push(`/player/${position.playerId}`)}
                     className="rounded-xl p-4 flex-row items-center" style={{ backgroundColor: COLORS.navyLight }}
                   >
-                    <View className="w-10 h-10 rounded-full items-center justify-center mr-3" style={{ backgroundColor: 'rgba(245, 203, 63, 0.2)' }}>
-                      <Text style={{ color: COLORS.gold }} className="font-bold">
-                        {athlete.name.charAt(0)}
-                      </Text>
+                    <View className="mr-3">
+                      <PlayerImage
+                        photoUrl={(athlete as any).photoUrl || athlete.imageUrl}
+                        name={athlete.name}
+                        size="sm"
+                      />
                     </View>
                     <View className="flex-1">
                       <Text className="text-white font-medium">{athlete.name}</Text>
@@ -518,10 +520,12 @@ const DashboardView = () => {
                 onPress={() => router.push(`/player/${athlete.id}`)}
                 className="rounded-xl p-4 flex-row items-center" style={{ backgroundColor: COLORS.navyLight }}
               >
-                <View className="w-10 h-10 rounded-full items-center justify-center mr-3" style={{ backgroundColor: 'rgba(245, 203, 63, 0.2)' }}>
-                  <Text style={{ color: COLORS.gold }} className="font-bold">
-                    {athlete.name.charAt(0)}
-                  </Text>
+                <View className="mr-3">
+                  <PlayerImage
+                    photoUrl={(athlete as any).photoUrl || athlete.imageUrl}
+                    name={athlete.name}
+                    size="sm"
+                  />
                 </View>
                 <View className="flex-1">
                   <Text className="text-white font-medium">{athlete.name}</Text>

@@ -4,7 +4,7 @@
  * Web3 Only Mode
  */
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, ScrollView, Pressable, Dimensions, ActivityIndicator } from 'react-native';
+import { View, ScrollView, Pressable, Dimensions, ActivityIndicator, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter, useFocusEffect } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -13,6 +13,7 @@ import { Text, Card, Button, PlayerImage, AnimatedPrice } from '../../src/compon
 import { useAthletesStore, useWalletStore } from '../../src/stores';
 import { tradingApi, PortfolioPosition } from '../../src/services/tradingApiService';
 import type { AthleteMarket, YieldRule, YieldEvent, PricePoint, TimeFrame } from '../../src/types';
+import { BASE_SEPOLIA_CONFIG, CONTRACT_ADDRESSES } from '../../src/config/blockchain';
 
 const { width: screenWidth } = Dimensions.get('window');
 
@@ -462,6 +463,18 @@ export default function PlayerDetailScreen() {
                 <Text variant="caption" color="secondary">Total Claimed (All Time)</Text>
                 <Text variant="body" className="font-semibold">${enrichedPosition.totalClaimedYield.toFixed(2)}</Text>
               </View>
+
+              {/* View on Explorer Button */}
+              <Pressable
+                onPress={() => {
+                  const explorerUrl = `${BASE_SEPOLIA_CONFIG.blockExplorer}/token/${CONTRACT_ADDRESSES.VAULT}?a=${address}`;
+                  Linking.openURL(explorerUrl);
+                }}
+                className="mt-4 flex-row items-center justify-center bg-surface-200 py-3 rounded-xl"
+              >
+                <Ionicons name="open-outline" size={16} color="#0528F3" />
+                <Text variant="caption" className="ml-2 text-primary-600 font-semibold">View on BaseScan</Text>
+              </Pressable>
             </Card>
           </View>
         )}

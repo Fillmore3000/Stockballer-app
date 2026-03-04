@@ -26,20 +26,24 @@ export const API_FOOTBALL_CONFIG = {
 };
 
 // Yield payout rules (micro-yield per action)
+// ⚠️ KEEP IN SYNC with api/src/market/market.service.ts (SOURCE OF TRUTH)
 export const YIELD_PAYOUTS = {
   GOAL: 0.25,
   ASSIST: 0.12,
   APPEARANCE: 0.02,  // Per match played
-  YELLOW_CARD: -0.05,
-  RED_CARD: -0.50,
-  CLEAN_SHEET: 0.10, // Bonus for goalkeepers/defenders
+  YELLOW_CARD: -0.15,  // Updated to match market.service.ts
+  RED_CARD: -1.50,     // Updated to match market.service.ts
+  CLEAN_SHEET: 0.10,   // Bonus for goalkeepers/defenders
+  PENALTY_MISSED: -0.50,
+  OWN_GOAL: -0.75,
 };
 
 // Age multiplier for valuation
+// ⚠️ KEEP IN SYNC with api/src/market/market.service.ts (SOURCE OF TRUTH)
 export const AGE_MULTIPLIERS: Record<string, number> = {
-  PRIME: 15,    // Age 23-29
-  YOUNG: 12,    // Age < 23
-  VETERAN: 8,   // Age 30+
+  YOUTH: 15,    // Age < 20 (high potential)
+  PRIME: 12,    // Age 20-27 (prime years)
+  VETERAN: 8,   // Age > 27
 };
 
 // Price bounds
@@ -49,10 +53,11 @@ export const PRICE_BOUNDS = {
 };
 
 // Get age multiplier based on age
+// ⚠️ KEEP IN SYNC with api/src/market/market.service.ts (SOURCE OF TRUTH)
 export const getAgeMultiplier = (age: number): number => {
-  if (age < 23) return AGE_MULTIPLIERS.YOUNG;
-  if (age <= 29) return AGE_MULTIPLIERS.PRIME;
-  return AGE_MULTIPLIERS.VETERAN;
+  if (age < 20) return AGE_MULTIPLIERS.YOUTH;   // High potential
+  if (age <= 27) return AGE_MULTIPLIERS.PRIME;  // Prime years
+  return AGE_MULTIPLIERS.VETERAN;                // Veteran
 };
 
 // Calculate cash yield from stats

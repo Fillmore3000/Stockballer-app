@@ -38,5 +38,7 @@ export type { ReentrancyGuard } from "./@openzeppelin/contracts/utils/Reentrancy
 export { ReentrancyGuard__factory } from "./factories/@openzeppelin/contracts/utils/ReentrancyGuard__factory";
 export type { MockUSDC } from "./contracts/MockUSDC";
 export { MockUSDC__factory } from "./factories/contracts/MockUSDC__factory";
+export type { PredictionMarket } from "./contracts/PredictionMarket";
+export { PredictionMarket__factory } from "./factories/contracts/PredictionMarket__factory";
 export type { ProSpectVault } from "./contracts/ProSpectVault";
 export { ProSpectVault__factory } from "./factories/contracts/ProSpectVault__factory";
