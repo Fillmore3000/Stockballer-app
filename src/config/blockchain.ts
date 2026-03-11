@@ -34,8 +34,9 @@ export const BASE_MAINNET_CONFIG = {
   },
 };
 
-// Active chain config based on environment
-export const CHAIN_CONFIG = isDevelopment ? BASE_SEPOLIA_CONFIG : BASE_MAINNET_CONFIG;
+// Active chain config - Use BASE_SEPOLIA until mainnet deployment
+// TODO: Switch to BASE_MAINNET_CONFIG when ready for production
+export const CHAIN_CONFIG = BASE_SEPOLIA_CONFIG;
 
 // Contract Addresses - Update after deployment
 // Run: npx hardhat run scripts/deploy-mock-usdc.js --network baseSepolia

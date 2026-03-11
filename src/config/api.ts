@@ -7,10 +7,9 @@
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
 // Backend API URL
-// In development: localhost
-// In production: set EXPO_PUBLIC_API_URL to your deployed API
+// Railway production backend
 export const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 
-  (isDevelopment ? 'http://localhost:3001/api' : 'https://api.prospect.io/api');
+  'https://stockballer-api-production.up.railway.app/api';
 
 // API-Football Configuration
 export const API_FOOTBALL_CONFIG = {

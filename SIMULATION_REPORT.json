@@ -39,249 +39,198 @@
     "totalWeeks": 38,
     "startDate": "2024-08-17",
     "endDate": "2025-05-03",
-    "totalTradingVolume": 3198956.690000001,
-    "totalFeesCollected": 11842.332500000035,
-    "platformProfitability": 11842.332500000035,
-    "avgTokenVolatility": 3.003745841417793,
-    "maxDrawdown": 59.47501261988894,
-    "userProfitabilityRate": 84.8
+    "totalTradingVolume": 3612859.169999996,
+    "totalFeesCollected": 15405.738400000018,
+    "platformProfitability": 15405.738400000018,
+    "avgTokenVolatility": 3.941566410177372,
+    "maxDrawdown": 57.78390080692777,
+    "userProfitabilityRate": 79
   },
   "tokenResults": [
+    {
+      "tokenId": 1,
+      "name": "Erling Haaland",
+      "imageId": "p223094",
+      "startPrice": 103.05,
+      "endPrice": 356.24,
+      "highPrice": 356.24,
+      "lowPrice": 100,
+      "totalReturn": 245.69626394953906,
+      "volatility": 2.029040662134414,
+      "maxDrawdown": 1.3208443043984865,
+      "tradingVolume": 314999.456,
+      "goals": 43,
+      "assists": 10,
+      "cleanSheets": 0,
+      "avgRating": 7.7
+    },
     {
       "tokenId": 17,
       "name": "Gabriel Martinelli",
       "imageId": "p444145",
-      "startPrice": 103.21,
-      "endPrice": 340.9,
-      "highPrice": 340.9,
+      "startPrice": 102.87,
+      "endPrice": 337.72,
+      "highPrice": 337.72,
       "lowPrice": 100,
-      "totalReturn": 230.29745179730648,
-      "volatility": 2.981518191524906,
-      "maxDrawdown": 2.2998951415589093,
-      "tradingVolume": 187690.36899999998,
+      "totalReturn": 228.2978516574317,
+      "volatility": 2.9681968893195068,
+      "maxDrawdown": 1.9851974821885623,
+      "tradingVolume": 281494.834,
       "goals": 29,
       "assists": 13,
       "cleanSheets": 0,
       "avgRating": 8.3
     },
     {
-      "tokenId": 1,
-      "name": "Erling Haaland",
-      "imageId": "p223094",
-      "startPrice": 100.32,
-      "endPrice": 283.09,
-      "highPrice": 283.09,
-      "lowPrice": 100,
-      "totalReturn": 182.18700159489634,
-      "volatility": 1.8928776691678255,
-      "maxDrawdown": 0.7771869339098838,
-      "tradingVolume": 165611.35199999996,
-      "goals": 36,
-      "assists": 4,
-      "cleanSheets": 0,
-      "avgRating": 7.5
-    },
-    {
-      "tokenId": 14,
-      "name": "Cole Palmer",
-      "imageId": "p244851",
-      "startPrice": 106.59,
-      "endPrice": 231.72,
-      "highPrice": 234.86,
-      "lowPrice": 100,
-      "totalReturn": 117.39375175907682,
-      "volatility": 2.7804938080311263,
-      "maxDrawdown": 1.5486923145585998,
-      "tradingVolume": 172493.51300000004,
-      "goals": 20,
-      "assists": 12,
-      "cleanSheets": 0,
-      "avgRating": 7.9
-    },
-    {
-      "tokenId": 13,
-      "name": "Ollie Watkins",
-      "imageId": "p178301",
-      "startPrice": 108.6,
-      "endPrice": 231.37,
-      "highPrice": 231.37,
-      "lowPrice": 100,
-      "totalReturn": 113.04788213627994,
-      "volatility": 2.7802267623678927,
-      "maxDrawdown": 3.4096870082182122,
-      "tradingVolume": 169586.84000000005,
-      "goals": 28,
-      "assists": 10,
-      "cleanSheets": 0,
-      "avgRating": 7.2
-    },
-    {
-      "tokenId": 3,
-      "name": "Bukayo Saka",
-      "imageId": "p223340",
-      "startPrice": 102.15,
-      "endPrice": 215.78,
-      "highPrice": 215.78,
-      "lowPrice": 100,
-      "totalReturn": 111.23837493881545,
-      "volatility": 1.8356694087681757,
-      "maxDrawdown": 0.9520089830591305,
-      "tradingVolume": 148250.216,
-      "goals": 8,
-      "assists": 22,
-      "cleanSheets": 0,
-      "avgRating": 7.7
-    },
-    {
-      "tokenId": 6,
-      "name": "Son Heung-min",
-      "imageId": "p85971",
-      "startPrice": 100.01,
-      "endPrice": 183.92,
-      "highPrice": 183.92,
-      "lowPrice": 100,
-      "totalReturn": 83.90160983901607,
-      "volatility": 1.7459055249998003,
-      "maxDrawdown": 2.3998149540276446,
-      "tradingVolume": 133710.58299999998,
-      "goals": 8,
-      "assists": 16,
-      "cleanSheets": 0,
-      "avgRating": 7.5
-    },
-    {
       "tokenId": 5,
       "name": "Bruno Fernandes",
       "imageId": "p141746",
-      "startPrice": 100.33,
-      "endPrice": 171.23,
-      "highPrice": 171.23,
-      "lowPrice": 97.93,
-      "totalReturn": 70.66679956144722,
-      "volatility": 1.688599013307351,
-      "maxDrawdown": 3.486420980672417,
-      "tradingVolume": 134050.22899999996,
-      "goals": 4,
-      "assists": 16,
+      "startPrice": 99.73,
+      "endPrice": 223.78,
+      "highPrice": 223.78,
+      "lowPrice": 99.73,
+      "totalReturn": 124.3858417727865,
+      "volatility": 1.790803432724054,
+      "maxDrawdown": 1.114849595741475,
+      "tradingVolume": 234022.90900000004,
+      "goals": 7,
+      "assists": 27,
       "cleanSheets": 0,
-      "avgRating": 7.7
-    },
-    {
-      "tokenId": 4,
-      "name": "Martin Odegaard",
-      "imageId": "p184029",
-      "startPrice": 100.55,
-      "endPrice": 168.22,
-      "highPrice": 168.22,
-      "lowPrice": 100,
-      "totalReturn": 67.29985082048732,
-      "volatility": 1.282548846275587,
-      "maxDrawdown": 0.8065008859289994,
-      "tradingVolume": 129852.47899999996,
-      "goals": 5,
-      "assists": 15,
-      "cleanSheets": 0,
-      "avgRating": 7.4
-    },
-    {
-      "tokenId": 9,
-      "name": "Declan Rice",
-      "imageId": "p204480",
-      "startPrice": 100.13,
-      "endPrice": 164.26,
-      "highPrice": 165.39,
-      "lowPrice": 100,
-      "totalReturn": 64.04673923898932,
-      "volatility": 1.5736745036369757,
-      "maxDrawdown": 0.6832335691396068,
-      "tradingVolume": 130093.31999999999,
-      "goals": 8,
-      "assists": 9,
-      "cleanSheets": 0,
-      "avgRating": 7.4
-    },
-    {
-      "tokenId": 8,
-      "name": "Phil Foden",
-      "imageId": "p209244",
-      "startPrice": 100.34,
-      "endPrice": 149.57,
-      "highPrice": 150.55,
-      "lowPrice": 99.88,
-      "totalReturn": 49.06318517042056,
-      "volatility": 1.5178855696644067,
-      "maxDrawdown": 0.6509465293922405,
-      "tradingVolume": 120027.48700000002,
-      "goals": 8,
-      "assists": 3,
-      "cleanSheets": 0,
-      "avgRating": 7.3
-    },
-    {
-      "tokenId": 11,
-      "name": "Trent Alexander-Arnold",
-      "imageId": "p169187",
-      "startPrice": 100.58,
-      "endPrice": 146.99,
-      "highPrice": 146.99,
-      "lowPrice": 100,
-      "totalReturn": 46.14237422946909,
-      "volatility": 1.3013047714653954,
-      "maxDrawdown": 0.8744106300900216,
-      "tradingVolume": 119687.97799999997,
-      "goals": 0,
-      "assists": 2,
-      "cleanSheets": 13,
-      "avgRating": 7.3
-    },
-    {
-      "tokenId": 10,
-      "name": "Ruben Dias",
-      "imageId": "p171314",
-      "startPrice": 100.03,
-      "endPrice": 138.47,
-      "highPrice": 138.47,
-      "lowPrice": 100,
-      "totalReturn": 38.42847145856243,
-      "volatility": 1.1374103418924784,
-      "maxDrawdown": 1.3681472203487828,
-      "tradingVolume": 113063.169,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 12,
-      "avgRating": 7.3
-    },
-    {
-      "tokenId": 2,
-      "name": "Kevin De Bruyne",
-      "imageId": "p61366",
-      "startPrice": 100.2,
-      "endPrice": 107.27,
-      "highPrice": 107.79,
-      "lowPrice": 99.63,
-      "totalReturn": 7.055888223552888,
-      "volatility": 0.38921510336485793,
-      "maxDrawdown": 1.4150009895111881,
-      "tradingVolume": 101902.727,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 0,
-      "avgRating": 7.2
+      "avgRating": 7.8
     },
     {
       "tokenId": 7,
       "name": "Marcus Rashford",
       "imageId": "p176297",
       "startPrice": 85,
-      "endPrice": 64.79,
-      "highPrice": 100,
-      "lowPrice": 56.35,
-      "totalReturn": -23.776470588235288,
-      "volatility": 5.655122246392423,
-      "maxDrawdown": 42.211055276381906,
-      "tradingVolume": 80123.53000000001,
-      "goals": 4,
-      "assists": 6,
+      "endPrice": 157.93,
+      "highPrice": 188.39,
+      "lowPrice": 85,
+      "totalReturn": 85.80000000000001,
+      "volatility": 6.919550612767218,
+      "maxDrawdown": 40.16667551356229,
+      "tradingVolume": 186519.83400000003,
+      "goals": 33,
+      "assists": 0,
+      "cleanSheets": 0,
+      "avgRating": 9.3
+    },
+    {
+      "tokenId": 9,
+      "name": "Declan Rice",
+      "imageId": "p204480",
+      "startPrice": 100.64,
+      "endPrice": 171.89,
+      "highPrice": 172.74,
+      "lowPrice": 100,
+      "totalReturn": 70.79689984101746,
+      "volatility": 1.6185181606539047,
+      "maxDrawdown": 0.8691674290942256,
+      "tradingVolume": 195089.592,
+      "goals": 8,
+      "assists": 9,
+      "cleanSheets": 0,
+      "avgRating": 7.6
+    },
+    {
+      "tokenId": 3,
+      "name": "Bukayo Saka",
+      "imageId": "p223340",
+      "startPrice": 100.36,
+      "endPrice": 159.03,
+      "highPrice": 159.03,
+      "lowPrice": 100,
+      "totalReturn": 58.45954563571144,
+      "volatility": 1.8432704919250582,
+      "maxDrawdown": 1.548930654569031,
+      "tradingVolume": 172008.788,
+      "goals": 8,
+      "assists": 7,
+      "cleanSheets": 0,
+      "avgRating": 7.3
+    },
+    {
+      "tokenId": 10,
+      "name": "Ruben Dias",
+      "imageId": "p171314",
+      "startPrice": 100.15,
+      "endPrice": 143.31,
+      "highPrice": 143.31,
+      "lowPrice": 100,
+      "totalReturn": 43.09535696455317,
+      "volatility": 1.2778254576639902,
+      "maxDrawdown": 0.9243568017254573,
+      "tradingVolume": 166501.70900000003,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 12,
+      "avgRating": 7.3
+    },
+    {
+      "tokenId": 13,
+      "name": "Ollie Watkins",
+      "imageId": "p178301",
+      "startPrice": 105.11,
+      "endPrice": 149.98,
+      "highPrice": 155.03,
+      "lowPrice": 100,
+      "totalReturn": 42.68861193035866,
+      "volatility": 1.7502112621924144,
+      "maxDrawdown": 3.3993420628265563,
+      "tradingVolume": 185139.34500000003,
+      "goals": 16,
+      "assists": 1,
+      "cleanSheets": 0,
+      "avgRating": 6.8
+    },
+    {
+      "tokenId": 8,
+      "name": "Phil Foden",
+      "imageId": "p209244",
+      "startPrice": 100.25,
+      "endPrice": 137.58,
+      "highPrice": 150.76,
+      "lowPrice": 99.53,
+      "totalReturn": 37.23690773067333,
+      "volatility": 3.206373243330455,
+      "maxDrawdown": 15.428495622180947,
+      "tradingVolume": 174164.40699999998,
+      "goals": 10,
+      "assists": 5,
+      "cleanSheets": 0,
+      "avgRating": 7.2
+    },
+    {
+      "tokenId": 12,
+      "name": "Ederson",
+      "imageId": "p121160",
+      "startPrice": 101.35,
+      "endPrice": 111.35,
+      "highPrice": 111.93,
+      "lowPrice": 100,
+      "totalReturn": 9.86679822397632,
+      "volatility": 1.1719255343020798,
+      "maxDrawdown": 4.948321595170581,
+      "tradingVolume": 151080.80500000002,
+      "goals": 0,
+      "assists": 4,
+      "cleanSheets": 11,
+      "avgRating": 6.6
+    },
+    {
+      "tokenId": 2,
+      "name": "Kevin De Bruyne",
+      "imageId": "p61366",
+      "startPrice": 100.03,
+      "endPrice": 105.52,
+      "highPrice": 106.08,
+      "lowPrice": 99.36,
+      "totalReturn": 5.488353493951809,
+      "volatility": 0.428513351842534,
+      "maxDrawdown": 0.8241494968854811,
+      "tradingVolume": 146017.14099999997,
+      "goals": 0,
+      "assists": 0,
       "cleanSheets": 0,
       "avgRating": 7.2
     },
@@ -289,69 +238,120 @@
       "tokenId": 16,
       "name": "Gabriel Jesus",
       "imageId": "p205651",
-      "startPrice": 100.71,
-      "endPrice": 67.12,
-      "highPrice": 105.54,
-      "lowPrice": 62.47,
-      "totalReturn": -33.35319233442557,
-      "volatility": 5.854274165172722,
-      "maxDrawdown": 40.809171877960964,
-      "tradingVolume": 92317.146,
+      "startPrice": 103.34,
+      "endPrice": 69.13,
+      "highPrice": 113.58,
+      "lowPrice": 65.13,
+      "totalReturn": -33.1043158505903,
+      "volatility": 5.960460850793163,
+      "maxDrawdown": 42.657157950343375,
+      "tradingVolume": 138346.95200000005,
+      "goals": 10,
+      "assists": 0,
+      "cleanSheets": 0,
+      "avgRating": 7.1
+    },
+    {
+      "tokenId": 14,
+      "name": "Cole Palmer",
+      "imageId": "p244851",
+      "startPrice": 106.24,
+      "endPrice": 70.31,
+      "highPrice": 112.6,
+      "lowPrice": 61.76,
+      "totalReturn": -33.81965361445783,
+      "volatility": 6.590095404333667,
+      "maxDrawdown": 45.150976909413856,
+      "tradingVolume": 115321.944,
+      "goals": 14,
+      "assists": 0,
+      "cleanSheets": 0,
+      "avgRating": 7.3
+    },
+    {
+      "tokenId": 11,
+      "name": "Trent Alexander-Arnold",
+      "imageId": "p169187",
+      "startPrice": 100.78,
+      "endPrice": 65.01,
+      "highPrice": 107.45,
+      "lowPrice": 60.7,
+      "totalReturn": -35.49315340345306,
+      "volatility": 6.51620598464641,
+      "maxDrawdown": 43.50860865518846,
+      "tradingVolume": 120189.052,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 9,
+      "avgRating": 7.7
+    },
+    {
+      "tokenId": 6,
+      "name": "Son Heung-min",
+      "imageId": "p85971",
+      "startPrice": 85,
+      "endPrice": 52.96,
+      "highPrice": 100,
+      "lowPrice": 50.19,
+      "totalReturn": -37.694117647058825,
+      "volatility": 6.998892475301662,
+      "maxDrawdown": 46.87764606265877,
+      "tradingVolume": 96702.69999999998,
       "goals": 0,
       "assists": 0,
       "cleanSheets": 0,
-      "avgRating": 7.8
+      "avgRating": 8.5
     },
     {
       "tokenId": 18,
       "name": "Casemiro",
       "imageId": "p61256",
-      "startPrice": 100.98,
-      "endPrice": 61.72,
-      "highPrice": 103.26,
-      "lowPrice": 57.93,
-      "totalReturn": -38.87898593780947,
-      "volatility": 6.367653508298973,
-      "maxDrawdown": 43.89889599070308,
-      "tradingVolume": 80828.75200000001,
+      "startPrice": 99.63,
+      "endPrice": 55.34,
+      "highPrice": 100.27,
+      "lowPrice": 52.17,
+      "totalReturn": -44.45448158185285,
+      "volatility": 6.259395026526373,
+      "maxDrawdown": 47.97047970479704,
+      "tradingVolume": 105673.97700000001,
       "goals": 0,
       "assists": 0,
       "cleanSheets": 0,
-      "avgRating": 7.8
+      "avgRating": 7.3
     },
     {
-      "tokenId": 12,
-      "name": "Ederson",
-      "imageId": "p121160",
-      "startPrice": 102.24,
-      "endPrice": 48.04,
-      "highPrice": 102.24,
-      "lowPrice": 48.04,
-      "totalReturn": -53.01251956181533,
-      "volatility": 6.652871742217746,
-      "maxDrawdown": 53.01251956181533,
-      "tradingVolume": 74606.37300000002,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 9,
-      "avgRating": 6.7
+      "tokenId": 4,
+      "name": "Martin Odegaard",
+      "imageId": "p184029",
+      "startPrice": 99.9,
+      "endPrice": 52.97,
+      "highPrice": 105.64,
+      "lowPrice": 47.93,
+      "totalReturn": -46.97697697697698,
+      "volatility": 6.8611661091251746,
+      "maxDrawdown": 54.62892843619841,
+      "tradingVolume": 108149.66500000004,
+      "goals": 2,
+      "assists": 10,
+      "cleanSheets": 0,
+      "avgRating": 7.1
     },
     {
       "tokenId": 15,
       "name": "Rodri",
       "imageId": "p220566",
-      "startPrice": 99.05,
-      "endPrice": 43.89,
-      "highPrice": 100,
-      "lowPrice": 40.14,
-      "totalReturn": -55.68904593639575,
-      "volatility": 6.630173968971626,
-      "maxDrawdown": 59.47501261988894,
-      "tradingVolume": 64296.949,
+      "startPrice": 99.92,
+      "endPrice": 50.52,
+      "highPrice": 101.62,
+      "lowPrice": 42.9,
+      "totalReturn": -49.43955164131305,
+      "volatility": 6.757750433610625,
+      "maxDrawdown": 57.78390080692777,
+      "tradingVolume": 92419.48400000003,
       "goals": 0,
       "assists": 0,
       "cleanSheets": 0,
-      "avgRating": 6.8
+      "avgRating": 7.5
     }
   ],
   "agentResults": [
@@ -360,44 +360,44 @@
       "totalAgents": 350,
       "profitableAgents": 350,
       "profitabilityRate": 100,
-      "avgReturn": 84.83892708571443,
-      "medianReturn": 78.22545999999998,
-      "bestReturn": 138.53527999999997,
-      "worstReturn": 43.20536,
-      "avgTradesPerAgent": 4.965714285714285
+      "avgReturn": 87.77889891428575,
+      "medianReturn": 94.41400000000002,
+      "bestReturn": 141.48642,
+      "worstReturn": 8.236619999999993,
+      "avgTradesPerAgent": 9.157142857142857
     },
     {
       "type": "hodler",
       "totalAgents": 300,
-      "profitableAgents": 300,
-      "profitabilityRate": 100,
-      "avgReturn": 48.23363989999999,
-      "medianReturn": 45.79888499999997,
-      "bestReturn": 92.79330999999999,
-      "worstReturn": 4.4904250000000046,
-      "avgTradesPerAgent": 5.583333333333333
+      "profitableAgents": 230,
+      "profitabilityRate": 76.66666666666667,
+      "avgReturn": 43.842321666666685,
+      "medianReturn": 52.167030000000004,
+      "bestReturn": 95.54018500000005,
+      "worstReturn": -22.530870000000018,
+      "avgTradesPerAgent": 3.7866666666666666
     },
     {
       "type": "panic",
       "totalAgents": 200,
-      "profitableAgents": 198,
-      "profitabilityRate": 99,
-      "avgReturn": 37.01500785,
-      "medianReturn": 35.485760000000006,
-      "bestReturn": 101.68848,
-      "worstReturn": -3.8370000000000117,
-      "avgTradesPerAgent": 8.005
+      "profitableAgents": 189,
+      "profitabilityRate": 94.5,
+      "avgReturn": 24.92412225,
+      "medianReturn": 18.888509999999997,
+      "bestReturn": 92.23674000000001,
+      "worstReturn": -7.9359699999999975,
+      "avgTradesPerAgent": 9.015
     },
     {
       "type": "value",
       "totalAgents": 150,
-      "profitableAgents": 0,
-      "profitabilityRate": 0,
-      "avgReturn": -9.76730400000001,
-      "medianReturn": -15.157759999999998,
-      "bestReturn": 0,
-      "worstReturn": -15.157759999999998,
-      "avgTradesPerAgent": 3.06
+      "profitableAgents": 21,
+      "profitabilityRate": 14.000000000000002,
+      "avgReturn": -11.280850133333315,
+      "medianReturn": -16.421535999999996,
+      "bestReturn": 3.9979600000000213,
+      "worstReturn": -17.786128000000005,
+      "avgTradesPerAgent": 6.293333333333333
     }
   ],
   "weeklySnapshots": [
@@ -407,33 +407,33 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 100.32,
-          "change": 0.3199999999999932
+          "price": 103.05,
+          "change": 3.049999999999997
         },
         {
           "tokenId": 2,
-          "price": 100.2,
-          "change": 0.20000000000000281
+          "price": 100.03,
+          "change": 0.030000000000001137
         },
         {
           "tokenId": 3,
-          "price": 102.15,
-          "change": 2.1500000000000057
+          "price": 100.36,
+          "change": 0.35999999999999943
         },
         {
           "tokenId": 4,
-          "price": 100.55,
-          "change": 0.5499999999999972
+          "price": 99.9,
+          "change": -0.09999999999999432
         },
         {
           "tokenId": 5,
-          "price": 100.33,
-          "change": 0.3299999999999983
+          "price": 99.73,
+          "change": -0.269999999999996
         },
         {
           "tokenId": 6,
-          "price": 100.01,
-          "change": 0.010000000000005116
+          "price": 85,
+          "change": -15
         },
         {
           "tokenId": 7,
@@ -442,70 +442,70 @@
         },
         {
           "tokenId": 8,
-          "price": 100.34,
-          "change": 0.3400000000000034
+          "price": 100.25,
+          "change": 0.25
         },
         {
           "tokenId": 9,
-          "price": 100.13,
-          "change": 0.12999999999999545
+          "price": 100.64,
+          "change": 0.6400000000000006
         },
         {
           "tokenId": 10,
-          "price": 100.03,
-          "change": 0.030000000000001137
+          "price": 100.15,
+          "change": 0.15000000000000568
         },
         {
           "tokenId": 11,
-          "price": 100.58,
-          "change": 0.5799999999999983
+          "price": 100.78,
+          "change": 0.7800000000000011
         },
         {
           "tokenId": 12,
-          "price": 102.24,
-          "change": 2.239999999999995
+          "price": 101.35,
+          "change": 1.3499999999999943
         },
         {
           "tokenId": 13,
-          "price": 108.6,
-          "change": 8.599999999999994
+          "price": 105.11,
+          "change": 5.109999999999999
         },
         {
           "tokenId": 14,
-          "price": 106.59,
-          "change": 6.5900000000000025
+          "price": 106.24,
+          "change": 6.239999999999995
         },
         {
           "tokenId": 15,
-          "price": 99.05,
-          "change": -0.950000000000003
+          "price": 99.92,
+          "change": -0.0799999999999983
         },
         {
           "tokenId": 16,
-          "price": 100.71,
-          "change": 0.7099999999999937
+          "price": 103.34,
+          "change": 3.3400000000000034
         },
         {
           "tokenId": 17,
-          "price": 103.21,
-          "change": 3.2099999999999933
+          "price": 102.87,
+          "change": 2.8700000000000045
         },
         {
           "tokenId": 18,
-          "price": 100.98,
-          "change": 0.980000000000004
+          "price": 99.63,
+          "change": -0.37000000000000455
         }
       ],
-      "totalMarketCap": 41505.869999999995,
-      "tradingVolume": 41505.869999999704,
-      "feesCollected": 415.0587000000031,
-      "activeTraders": 326,
-      "buyOrders": 326,
+      "totalMarketCap": 41860.24999999999,
+      "tradingVolume": 41860.250000000065,
+      "feesCollected": 418.60250000000315,
+      "activeTraders": 336,
+      "buyOrders": 336,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": -0.0672384999999963,
+          "avgPnL": -0.06597310000000789,
           "profitableCount": 0,
           "totalCount": 200
         },
@@ -517,7 +517,7 @@
         },
         {
           "type": "bandwagon",
-          "avgPnL": -0.16033240000018623,
+          "avgPnL": -0.16380359999963048,
           "profitableCount": 0,
           "totalCount": 350
         },
@@ -535,33 +535,33 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 103.67,
-          "change": 3.3393141945773612
+          "price": 106.89,
+          "change": 3.7263464337700176
         },
         {
           "tokenId": 2,
-          "price": 100.05,
-          "change": -0.14970059880240089
+          "price": 99.73,
+          "change": -0.29991002699189956
         },
         {
           "tokenId": 3,
-          "price": 104.53,
-          "change": 2.329906999510519
+          "price": 100.15,
+          "change": -0.2092467118373792
         },
         {
           "tokenId": 4,
-          "price": 102.85,
-          "change": 2.287419194430629
+          "price": 102.32,
+          "change": 2.4224224224224096
         },
         {
           "tokenId": 5,
-          "price": 97.93,
-          "change": -2.3921060500348763
+          "price": 100.25,
+          "change": 0.5214078010628658
         },
         {
           "tokenId": 6,
-          "price": 100.73,
-          "change": 0.7199280071992789
+          "price": 89.25,
+          "change": 5
         },
         {
           "tokenId": 7,
@@ -570,71 +570,71 @@
         },
         {
           "tokenId": 8,
-          "price": 99.96,
-          "change": -0.3787123779150983
+          "price": 99.53,
+          "change": -0.7182044887780537
         },
         {
           "tokenId": 9,
-          "price": 102.95,
-          "change": 2.816338759612511
+          "price": 104.64,
+          "change": 3.97456279809221
         },
         {
           "tokenId": 10,
-          "price": 100.35,
-          "change": 0.31990402879135577
+          "price": 100.17,
+          "change": 0.019970044932597124
         },
         {
           "tokenId": 11,
-          "price": 102.59,
-          "change": 1.9984092264863842
+          "price": 100.59,
+          "change": -0.18852947013296065
         },
         {
           "tokenId": 12,
-          "price": 101.56,
-          "change": -0.6651017214397423
+          "price": 100.66,
+          "change": -0.6808090774543638
         },
         {
           "tokenId": 13,
-          "price": 115.57,
-          "change": 6.41804788213628
+          "price": 108.32,
+          "change": 3.0539434877747063
         },
         {
           "tokenId": 14,
-          "price": 107.35,
-          "change": 0.7130124777183515
+          "price": 106.74,
+          "change": 0.47063253012048195
         },
         {
           "tokenId": 15,
-          "price": 98.64,
-          "change": -0.4139323573952515
+          "price": 100.44,
+          "change": 0.5204163330664492
         },
         {
           "tokenId": 16,
-          "price": 101.21,
-          "change": 0.49647502730612647
+          "price": 106.65,
+          "change": 3.203019160054192
         },
         {
           "tokenId": 17,
-          "price": 106.05,
-          "change": 2.751671349675423
+          "price": 105.82,
+          "change": 2.867697093418867
         },
         {
           "tokenId": 18,
-          "price": 102.26,
-          "change": 1.2675777381659745
+          "price": 100.03,
+          "change": 0.40148549633645053
         }
       ],
-      "totalMarketCap": 86098.08,
-      "tradingVolume": 42699.77999999993,
-      "feesCollected": 426.99780000000294,
-      "activeTraders": 433,
-      "buyOrders": 321,
+      "totalMarketCap": 81961.41,
+      "tradingVolume": 39769.39000000001,
+      "feesCollected": 397.6939000000005,
+      "activeTraders": 434,
+      "buyOrders": 312,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": -0.01836314999999331,
-          "profitableCount": 35,
+          "avgPnL": -0.03661214999993945,
+          "profitableCount": 28,
           "totalCount": 200
         },
         {
@@ -645,8 +645,8 @@
         },
         {
           "type": "bandwagon",
-          "avgPnL": 0.6211998857139861,
-          "profitableCount": 244,
+          "avgPnL": -0.23502977142861708,
+          "profitableCount": 10,
           "totalCount": 350
         },
         {
@@ -663,106 +663,106 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 107.49,
-          "change": 3.6847689784894313
+          "price": 111.68,
+          "change": 4.4812423987276695
         },
         {
           "tokenId": 2,
-          "price": 100.32,
-          "change": 0.26986506746626293
+          "price": 100.14,
+          "change": 0.4111099969918746
         },
         {
           "tokenId": 3,
-          "price": 106.96,
-          "change": 2.3246914761312474
+          "price": 100.3,
+          "change": 0.1497753369944997
         },
         {
           "tokenId": 4,
-          "price": 102.6,
-          "change": -0.24307243558580457
+          "price": 102.56,
+          "change": 0.23455824863175245
         },
         {
           "tokenId": 5,
-          "price": 101.54,
-          "change": 3.6863065454916772
+          "price": 103.92,
+          "change": 3.6608478802992535
         },
         {
           "tokenId": 6,
-          "price": 100.17,
-          "change": -0.5559416261292587
+          "price": 90.3,
+          "change": 1.176470588235291
         },
         {
           "tokenId": 7,
-          "price": 89.02,
-          "change": -0.25770308123249747
+          "price": 94.63,
+          "change": 6.028011204481787
         },
         {
           "tokenId": 8,
-          "price": 99.88,
-          "change": -0.08003201280512034
+          "price": 100.02,
+          "change": 0.49231387521349834
         },
         {
           "tokenId": 9,
-          "price": 103.12,
-          "change": 0.16512870325400844
+          "price": 104.85,
+          "change": 0.20068807339448944
         },
         {
           "tokenId": 10,
-          "price": 102.34,
-          "change": 1.983059292476342
+          "price": 102.9,
+          "change": 2.7253668763102765
         },
         {
           "tokenId": 11,
-          "price": 105,
-          "change": 2.3491568378984273
+          "price": 103.24,
+          "change": 2.6344567054379078
         },
         {
           "tokenId": 12,
-          "price": 86.33,
-          "change": -14.99606144151241
+          "price": 102.67,
+          "change": 1.9968209815219602
         },
         {
           "tokenId": 13,
-          "price": 118.22,
-          "change": 2.292982607943243
+          "price": 107.77,
+          "change": -0.5077548005908394
         },
         {
           "tokenId": 14,
-          "price": 107.7,
-          "change": 0.3260363297624672
+          "price": 106.39,
+          "change": -0.3278995690462754
         },
         {
           "tokenId": 15,
-          "price": 98.46,
-          "change": -0.18248175182482443
+          "price": 100.19,
+          "change": -0.24890481879729193
         },
         {
           "tokenId": 16,
-          "price": 102.28,
-          "change": 1.0572077857919253
+          "price": 106.62,
+          "change": -0.028129395218003877
         },
         {
           "tokenId": 17,
-          "price": 106.57,
-          "change": 0.4903347477604866
+          "price": 106.97,
+          "change": 1.086751086751092
         },
         {
           "tokenId": 18,
-          "price": 103.26,
-          "change": 0.9778994719342852
+          "price": 100.27,
+          "change": 0.23992802159351684
         }
       ],
-      "totalMarketCap": 105871.27,
-      "tradingVolume": 19480.679999999997,
-      "feesCollected": 194.80680000000004,
-      "activeTraders": 467,
-      "buyOrders": 128,
-      "sellOrders": 4,
+      "totalMarketCap": 120602.79999999997,
+      "tradingVolume": 38020.36999999999,
+      "feesCollected": 380.2037000000017,
+      "activeTraders": 474,
+      "buyOrders": 321,
+      "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 0.01613044999999147,
-          "profitableCount": 63,
+          "avgPnL": 0.0743068499999481,
+          "profitableCount": 55,
           "totalCount": 200
         },
         {
@@ -773,8 +773,8 @@
         },
         {
           "type": "bandwagon",
-          "avgPnL": 1.3282490285717472,
-          "profitableCount": 322,
+          "avgPnL": -0.22418502857153724,
+          "profitableCount": 31,
           "totalCount": 350
         },
         {
@@ -791,118 +791,118 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 115.09,
-          "change": 7.070425155828458
+          "price": 119.71,
+          "change": 7.1901862464183255
         },
         {
           "tokenId": 2,
-          "price": 100.46,
-          "change": 0.13955342902711382
+          "price": 99.84,
+          "change": -0.29958058717794805
         },
         {
           "tokenId": 3,
-          "price": 107.81,
-          "change": 0.7946896035901352
+          "price": 100.48,
+          "change": 0.1794616151545432
         },
         {
           "tokenId": 4,
-          "price": 105.8,
-          "change": 3.1189083820662797
+          "price": 105.64,
+          "change": 3.0031201248049904
         },
         {
           "tokenId": 5,
-          "price": 105.13,
-          "change": 3.535552491628904
+          "price": 106.78,
+          "change": 2.7521170130869894
         },
         {
           "tokenId": 6,
-          "price": 100.66,
-          "change": 0.4891684136967105
+          "price": 91.7,
+          "change": 1.5503875968992311
         },
         {
           "tokenId": 7,
-          "price": 89.53,
-          "change": 0.5729049651763707
+          "price": 99.85,
+          "change": 5.516221071541794
         },
         {
           "tokenId": 8,
-          "price": 104.13,
-          "change": 4.255106127352824
+          "price": 103.9,
+          "change": 3.879224155168976
         },
         {
           "tokenId": 9,
-          "price": 106.03,
-          "change": 2.8219550038789722
+          "price": 107.29,
+          "change": 2.327134000953755
         },
         {
           "tokenId": 10,
-          "price": 101.97,
-          "change": -0.361539964823143
+          "price": 103.09,
+          "change": 0.18464528668610078
         },
         {
           "tokenId": 11,
-          "price": 104.58,
-          "change": -0.40000000000000163
+          "price": 103.88,
+          "change": 0.619914761720264
         },
         {
           "tokenId": 12,
-          "price": 90.65,
-          "change": 5.00405421058729
+          "price": 102.82,
+          "change": 0.14609915262490647
         },
         {
           "tokenId": 13,
-          "price": 125.98,
-          "change": 6.564033158518022
+          "price": 108.16,
+          "change": 0.36188178528347464
         },
         {
           "tokenId": 14,
-          "price": 114.49,
-          "change": 6.304549675023205
+          "price": 112.6,
+          "change": 5.83701475702603
         },
         {
           "tokenId": 15,
-          "price": 98.46,
-          "change": 0
+          "price": 100.86,
+          "change": 0.6687294141131866
         },
         {
           "tokenId": 16,
-          "price": 103.59,
-          "change": 1.280797809933518
+          "price": 106.87,
+          "change": 0.23447758394297505
         },
         {
           "tokenId": 17,
-          "price": 112.92,
-          "change": 5.958524913202598
+          "price": 113.25,
+          "change": 5.870804898569693
         },
         {
           "tokenId": 18,
-          "price": 87.77,
-          "change": -15.000968429207834
+          "price": 85.23,
+          "change": -14.999501346364807
         }
       ],
-      "totalMarketCap": 276938.12,
-      "tradingVolume": 169908.00999999949,
-      "feesCollected": 1699.0801000000229,
-      "activeTraders": 799,
-      "buyOrders": 603,
-      "sellOrders": 13,
+      "totalMarketCap": 302135.93,
+      "tradingVolume": 181037.88999999766,
+      "feesCollected": 1810.3789000000127,
+      "activeTraders": 801,
+      "buyOrders": 608,
+      "sellOrders": 12,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 0.3369078000000627,
-          "profitableCount": 94,
+          "avgPnL": 0.3075277999998889,
+          "profitableCount": 90,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": -0.2165327999999704,
+          "avgPnL": -0.23084300000024313,
           "profitableCount": 0,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 3.401507314285505,
-          "profitableCount": 327,
+          "avgPnL": 1.497344799999894,
+          "profitableCount": 337,
           "totalCount": 350
         },
         {
@@ -919,118 +919,118 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 115.09,
-          "change": 0
+          "price": 123.08,
+          "change": 2.815136580068503
         },
         {
           "tokenId": 2,
-          "price": 100.21,
-          "change": -0.24885526577742384
+          "price": 99.8,
+          "change": -0.040064102564108826
         },
         {
           "tokenId": 3,
-          "price": 108.78,
-          "change": 0.8997310082552628
+          "price": 100.97,
+          "change": 0.48765923566878466
         },
         {
           "tokenId": 4,
-          "price": 106.61,
-          "change": 0.7655954631379984
+          "price": 89.79,
+          "change": -15.003786444528583
         },
         {
           "tokenId": 5,
-          "price": 105.82,
-          "change": 0.6563302577760846
+          "price": 107.34,
+          "change": 0.5244427795467337
         },
         {
           "tokenId": 6,
-          "price": 100.93,
-          "change": 0.26822968408504894
+          "price": 92.72,
+          "change": 1.1123227917121004
         },
         {
           "tokenId": 7,
-          "price": 92.59,
-          "change": 3.417848765776837
+          "price": 104.67,
+          "change": 4.827240861291945
         },
         {
           "tokenId": 8,
-          "price": 104.47,
-          "change": 0.3265149332565096
+          "price": 106.58,
+          "change": 2.5794032723772786
         },
         {
           "tokenId": 9,
-          "price": 109.71,
-          "change": 3.470715835140991
+          "price": 111.15,
+          "change": 3.597725789915182
         },
         {
           "tokenId": 10,
-          "price": 103.79,
-          "change": 1.7848386780425687
+          "price": 104.84,
+          "change": 1.697545833737511
         },
         {
           "tokenId": 11,
-          "price": 105.15,
-          "change": 0.5450372920252509
+          "price": 104.27,
+          "change": 0.375433192144783
         },
         {
           "tokenId": 12,
-          "price": 92.15,
-          "change": 1.654715940430226
+          "price": 106.14,
+          "change": 3.2289437852557947
         },
         {
           "tokenId": 13,
-          "price": 124.86,
-          "change": -0.8890300047626642
+          "price": 107.93,
+          "change": -0.2126479289940734
         },
         {
           "tokenId": 14,
-          "price": 119.62,
-          "change": 4.480740676041584
+          "price": 95.71,
+          "change": -15.000000000000002
         },
         {
           "tokenId": 15,
-          "price": 98.37,
-          "change": -0.09140767824496161
+          "price": 101.62,
+          "change": 0.7535197303192595
         },
         {
           "tokenId": 16,
-          "price": 104.95,
-          "change": 1.3128680374553523
+          "price": 106.81,
+          "change": -0.05614297744923952
         },
         {
           "tokenId": 17,
-          "price": 117.16,
-          "change": 3.7548707049238352
+          "price": 117.81,
+          "change": 4.0264900662251675
         },
         {
           "tokenId": 18,
-          "price": 92.16,
-          "change": 5.001709012190955
+          "price": 89.49,
+          "change": 4.9982400563181875
         }
       ],
-      "totalMarketCap": 310961.22,
-      "tradingVolume": 31752.37999999997,
-      "feesCollected": 317.52380000000227,
-      "activeTraders": 815,
-      "buyOrders": 288,
-      "sellOrders": 0,
+      "totalMarketCap": 278167.93,
+      "tradingVolume": 38740.319999999796,
+      "feesCollected": 387.403200000003,
+      "activeTraders": 820,
+      "buyOrders": 59,
+      "sellOrders": 278,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 0.5952468999999837,
-          "profitableCount": 111,
+          "avgPnL": 0.16516300000004094,
+          "profitableCount": 93,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 0.1230072000003247,
-          "profitableCount": 115,
+          "avgPnL": -0.707409666666581,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 3.058237599999802,
-          "profitableCount": 328,
+          "avgPnL": 0.288708457142809,
+          "profitableCount": 168,
           "totalCount": 350
         },
         {
@@ -1047,123 +1047,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 115.45,
-          "change": 0.3127986792944647
+          "price": 131.44,
+          "change": 6.792330191745206
         },
         {
           "tokenId": 2,
-          "price": 100.16,
-          "change": -0.049895220037917534
+          "price": 99.36,
+          "change": -0.44088176352705183
         },
         {
           "tokenId": 3,
-          "price": 115.74,
-          "change": 6.398234969663536
+          "price": 107.02,
+          "change": 5.991878775874019
         },
         {
           "tokenId": 4,
-          "price": 110.99,
-          "change": 4.108432604821307
+          "price": 94.28,
+          "change": 5.0005568548836115
         },
         {
           "tokenId": 5,
-          "price": 106.86,
-          "change": 0.9828009828009888
+          "price": 111.01,
+          "change": 3.4190422955095974
         },
         {
           "tokenId": 6,
-          "price": 107.51,
-          "change": 6.519369860299215
+          "price": 94.48,
+          "change": 1.8981880931837847
         },
         {
           "tokenId": 7,
-          "price": 92.96,
-          "change": 0.39961118911328475
+          "price": 109.36,
+          "change": 4.480749020731822
         },
         {
           "tokenId": 8,
-          "price": 104.04,
-          "change": -0.41160141667463634
+          "price": 106.16,
+          "change": -0.39407018202289523
         },
         {
           "tokenId": 9,
-          "price": 110.38,
-          "change": 0.6107009388387583
+          "price": 111.75,
+          "change": 0.5398110661268505
         },
         {
           "tokenId": 10,
-          "price": 103.05,
-          "change": -0.7129781289141623
+          "price": 104.66,
+          "change": -0.171690194582227
         },
         {
           "tokenId": 11,
-          "price": 107.15,
-          "change": 1.9020446980504042
+          "price": 106.62,
+          "change": 2.253764265848287
         },
         {
           "tokenId": 12,
-          "price": 94.03,
-          "change": 2.040151926207266
+          "price": 107.22,
+          "change": 1.017524024872808
         },
         {
           "tokenId": 13,
-          "price": 131.96,
-          "change": 5.686368732980945
+          "price": 110.97,
+          "change": 2.8166404150838433
         },
         {
           "tokenId": 14,
-          "price": 122.38,
-          "change": 2.307306470489877
+          "price": 100.5,
+          "change": 5.004701703061338
         },
         {
           "tokenId": 15,
-          "price": 83.61,
-          "change": -15.00457456541629
+          "price": 86.38,
+          "change": -14.997047825231263
         },
         {
           "tokenId": 16,
-          "price": 105.29,
-          "change": 0.3239637922820423
+          "price": 110.11,
+          "change": 3.0895983522142094
         },
         {
           "tokenId": 17,
-          "price": 117.78,
-          "change": 0.5291908501194986
+          "price": 118.26,
+          "change": 0.38197097020626675
         },
         {
           "tokenId": 18,
-          "price": 92.72,
-          "change": 0.6076388888888914
+          "price": 90.17,
+          "change": 0.7598614370320783
         }
       ],
-      "totalMarketCap": 423279.3,
-      "tradingVolume": 154179.2400000004,
-      "feesCollected": 1123.7424,
-      "activeTraders": 925,
-      "buyOrders": 355,
-      "sellOrders": 21,
+      "totalMarketCap": 325270.54,
+      "tradingVolume": 43267.68000000004,
+      "feesCollected": 432.67679999999774,
+      "activeTraders": 833,
+      "buyOrders": 287,
+      "sellOrders": 22,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 0.7532554499999833,
-          "profitableCount": 124,
+          "avgPnL": 0.4066453500000648,
+          "profitableCount": 117,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 0.6967671999998061,
-          "profitableCount": 211,
+          "avgPnL": 0.22595033333365105,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 5.109517885714354,
-          "profitableCount": 331,
+          "avgPnL": 2.2119818857141356,
+          "profitableCount": 287,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -0.11147999999986495,
+          "avgPnL": 0,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -1175,124 +1175,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 119.09,
-          "change": 3.1528800346470334
+          "price": 139.38,
+          "change": 6.040779062690199
         },
         {
           "tokenId": 2,
-          "price": 100.57,
-          "change": 0.4093450479233193
+          "price": 100.24,
+          "change": 0.8856682769726202
         },
         {
           "tokenId": 3,
-          "price": 116.16,
-          "change": 0.36288232244686514
+          "price": 107.15,
+          "change": 0.12147262193983337
         },
         {
           "tokenId": 4,
-          "price": 111.57,
-          "change": 0.5225696008649413
+          "price": 94.77,
+          "change": 0.5197284683920184
         },
         {
           "tokenId": 5,
-          "price": 109.65,
-          "change": 2.610892756878164
+          "price": 117.55,
+          "change": 5.891361138636151
         },
         {
           "tokenId": 6,
-          "price": 111.1,
-          "change": 3.3392242582085285
+          "price": 80.31,
+          "change": -14.99788314987299
         },
         {
           "tokenId": 7,
-          "price": 79.02,
-          "change": -14.995697074010325
+          "price": 92.96,
+          "change": -14.996342355523048
         },
         {
           "tokenId": 8,
-          "price": 104.47,
-          "change": 0.4133025759323266
+          "price": 106.01,
+          "change": -0.1412961567445285
         },
         {
           "tokenId": 9,
-          "price": 112.98,
-          "change": 2.3554991846349056
+          "price": 114.54,
+          "change": 2.4966442953020187
         },
         {
           "tokenId": 10,
-          "price": 103.3,
-          "change": 0.24260067928190202
+          "price": 105.17,
+          "change": 0.48729218421556003
         },
         {
           "tokenId": 11,
-          "price": 106.55,
-          "change": -0.5599626691553975
+          "price": 107.45,
+          "change": 0.7784655786906756
         },
         {
           "tokenId": 12,
-          "price": 95.49,
-          "change": 1.5526959481016631
+          "price": 109.33,
+          "change": 1.967916433501212
         },
         {
           "tokenId": 13,
-          "price": 135.05,
-          "change": 2.3416186723249495
+          "price": 110.86,
+          "change": -0.09912588988014728
         },
         {
           "tokenId": 14,
-          "price": 123.06,
-          "change": 0.5556463474423982
+          "price": 100.96,
+          "change": 0.4577114427860634
         },
         {
           "tokenId": 15,
-          "price": 87.79,
-          "change": 4.9994019854084515
+          "price": 90.7,
+          "change": 5.00115767538783
         },
         {
           "tokenId": 16,
-          "price": 89.5,
-          "change": -14.996675847658853
+          "price": 93.59,
+          "change": -15.003178639542272
         },
         {
           "tokenId": 17,
-          "price": 127.68,
-          "change": 8.405501782985231
+          "price": 128.31,
+          "change": 8.498224251648907
         },
         {
           "tokenId": 18,
-          "price": 93.69,
-          "change": 1.0461604831751499
+          "price": 90.86,
+          "change": 0.7652212487523541
         }
       ],
-      "totalMarketCap": 444351.37,
-      "tradingVolume": 44655.63000000004,
-      "feesCollected": 270.0984000000006,
-      "activeTraders": 930,
-      "buyOrders": 163,
-      "sellOrders": 54,
+      "totalMarketCap": 301016.57,
+      "tradingVolume": 47728.50999999978,
+      "feesCollected": 477.28509999999415,
+      "activeTraders": 838,
+      "buyOrders": 69,
+      "sellOrders": 376,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 0.5384689000000208,
-          "profitableCount": 116,
+          "avgPnL": -0.04679630000000543,
+          "profitableCount": 92,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 1.1131938666665406,
-          "profitableCount": 300,
+          "avgPnL": 1.4994236666663254,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 6.814720571428574,
-          "profitableCount": 343,
+          "avgPnL": -0.7263962857143497,
+          "profitableCount": 122,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": 0.4458533333334526,
-          "profitableCount": 100,
+          "avgPnL": 0,
+          "profitableCount": 0,
           "totalCount": 150
         }
       ]
@@ -1303,123 +1303,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 122.93,
-          "change": 3.2244520950541635
+          "price": 144.38,
+          "change": 3.587315253264457
         },
         {
           "tokenId": 2,
-          "price": 100.39,
-          "change": -0.17897981505418376
+          "price": 100.78,
+          "change": 0.5387071029529192
         },
         {
           "tokenId": 3,
-          "price": 117.07,
-          "change": 0.7834022038567465
+          "price": 107.04,
+          "change": -0.10265982267848757
         },
         {
           "tokenId": 4,
-          "price": 113.79,
-          "change": 1.9897821995160108
+          "price": 94.88,
+          "change": 0.11607048644085621
         },
         {
           "tokenId": 5,
-          "price": 113.2,
-          "change": 3.237574099407202
+          "price": 121.54,
+          "change": 3.3943002977456476
         },
         {
           "tokenId": 6,
-          "price": 113.35,
-          "change": 2.025202520252025
+          "price": 77.9,
+          "change": -3.000871622462952
         },
         {
           "tokenId": 7,
-          "price": 82.97,
-          "change": 4.998734497595549
+          "price": 97.61,
+          "change": 5.002151462994843
         },
         {
           "tokenId": 8,
-          "price": 105.23,
-          "change": 0.7274815736575142
+          "price": 106.72,
+          "change": 0.6697481369682046
         },
         {
           "tokenId": 9,
-          "price": 116.26,
-          "change": 2.903168702425209
+          "price": 118.59,
+          "change": 3.5358826610790963
         },
         {
           "tokenId": 10,
-          "price": 102.78,
-          "change": -0.5033881897386215
+          "price": 105.4,
+          "change": 0.21869354378625463
         },
         {
           "tokenId": 11,
-          "price": 107.03,
-          "change": 0.45049272641952515
+          "price": 91.33,
+          "change": -15.002326663564453
         },
         {
           "tokenId": 12,
-          "price": 95.08,
-          "change": -0.42936433134359264
+          "price": 108.66,
+          "change": -0.6128235616939557
         },
         {
           "tokenId": 13,
-          "price": 133.77,
-          "change": -0.9477971121806745
+          "price": 109.67,
+          "change": -1.0734259426303425
         },
         {
           "tokenId": 14,
-          "price": 128.03,
-          "change": 4.038680318543799
+          "price": 104.46,
+          "change": 3.466719492868463
         },
         {
           "tokenId": 15,
-          "price": 74.62,
-          "change": -15.001708622849982
+          "price": 77.1,
+          "change": -14.994487320837935
         },
         {
           "tokenId": 16,
-          "price": 93.98,
-          "change": 5.005586592178775
+          "price": 98.27,
+          "change": 5.000534245111649
         },
         {
           "tokenId": 17,
-          "price": 135.39,
-          "change": 6.03853383458645
+          "price": 136.31,
+          "change": 6.234899851921128
         },
         {
           "tokenId": 18,
-          "price": 94.83,
-          "change": 1.216778738392572
+          "price": 91.14,
+          "change": 0.3081664098613264
         }
       ],
-      "totalMarketCap": 544003.65,
-      "tradingVolume": 218606.5600000008,
-      "feesCollected": 1066.765600000003,
-      "activeTraders": 935,
-      "buyOrders": 548,
-      "sellOrders": 0,
+      "totalMarketCap": 485054.5399999999,
+      "tradingVolume": 242232.99999999919,
+      "feesCollected": 1919.882200000004,
+      "activeTraders": 941,
+      "buyOrders": 674,
+      "sellOrders": 89,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 1.0184240499999875,
-          "profitableCount": 125,
+          "avgPnL": -0.05877719999998589,
+          "profitableCount": 89,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 1.5065468166668439,
-          "profitableCount": 300,
+          "avgPnL": 2.481296599999769,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 7.8198213714285885,
-          "profitableCount": 345,
+          "avgPnL": 0.8206162857143909,
+          "profitableCount": 225,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -1.310146666666642,
+          "avgPnL": -0.10280000000011569,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -1431,124 +1431,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 122.75,
-          "change": -0.14642479459855756
+          "price": 150.76,
+          "change": 4.418894583737357
         },
         {
           "tokenId": 2,
-          "price": 100.85,
-          "change": 0.4582129694192586
+          "price": 101.06,
+          "change": 0.27783290335384114
         },
         {
           "tokenId": 3,
-          "price": 120.34,
-          "change": 2.7932006491842576
+          "price": 106.96,
+          "change": -0.07473841554560211
         },
         {
           "tokenId": 4,
-          "price": 113.7,
-          "change": -0.07909306617453503
+          "price": 94.45,
+          "change": -0.45320404721753016
         },
         {
           "tokenId": 5,
-          "price": 115.44,
-          "change": 1.9787985865724338
+          "price": 124.58,
+          "change": 2.5012341615928846
         },
         {
           "tokenId": 6,
-          "price": 113.94,
-          "change": 0.5205116894574358
+          "price": 75.56,
+          "change": -3.0038510911424945
         },
         {
           "tokenId": 7,
-          "price": 86.41,
-          "change": 4.146076895263345
+          "price": 102.25,
+          "change": 4.7536113103165665
         },
         {
           "tokenId": 8,
-          "price": 105.97,
-          "change": 0.70322151477715
+          "price": 107.07,
+          "change": 0.3279610194902496
         },
         {
           "tokenId": 9,
-          "price": 117.06,
-          "change": 0.6881128505074807
+          "price": 119.85,
+          "change": 1.062484189223367
         },
         {
           "tokenId": 10,
-          "price": 102.72,
-          "change": -0.05837711617046339
+          "price": 106.09,
+          "change": 0.654648956356734
         },
         {
           "tokenId": 11,
-          "price": 107.17,
-          "change": 0.13080444735121047
+          "price": 95.9,
+          "change": 5.003832256651711
         },
         {
           "tokenId": 12,
-          "price": 80.82,
-          "change": -14.997896508203624
+          "price": 107.94,
+          "change": -0.6626173384870226
         },
         {
           "tokenId": 13,
-          "price": 136.76,
-          "change": 2.2351797862001797
+          "price": 109.64,
+          "change": -0.027354791647671323
         },
         {
           "tokenId": 14,
-          "price": 129.97,
-          "change": 1.5152698586268827
+          "price": 88.79,
+          "change": -15.000957304231274
         },
         {
           "tokenId": 15,
-          "price": 78.35,
-          "change": 4.9986598767086425
+          "price": 80.96,
+          "change": 5.006485084306096
         },
         {
           "tokenId": 16,
-          "price": 94.58,
-          "change": 0.638433709299845
+          "price": 98.31,
+          "change": 0.04070418235474331
         },
         {
           "tokenId": 17,
-          "price": 135.38,
-          "change": -0.007386069872214274
+          "price": 137.36,
+          "change": 0.7703029858411059
         },
         {
           "tokenId": 18,
-          "price": 96.29,
-          "change": 1.5395971738901277
+          "price": 91.65,
+          "change": 0.5595786701777542
         }
       ],
-      "totalMarketCap": 560184.61,
-      "tradingVolume": 131609.39,
-      "feesCollected": 138.49339999999995,
-      "activeTraders": 944,
-      "buyOrders": 219,
-      "sellOrders": 20,
+      "totalMarketCap": 496755.25,
+      "tradingVolume": 35069.22999999987,
+      "feesCollected": 96.5895,
+      "activeTraders": 943,
+      "buyOrders": 198,
+      "sellOrders": 11,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 0.9827852000000575,
-          "profitableCount": 127,
+          "avgPnL": 0.10942094999992379,
+          "profitableCount": 90,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 1.9933368166667262,
-          "profitableCount": 300,
+          "avgPnL": 1.8463649333330068,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 8.915606685714215,
-          "profitableCount": 346,
+          "avgPnL": 3.0000358285716175,
+          "profitableCount": 284,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -0.8128133333334153,
-          "profitableCount": 0,
+          "avgPnL": 0.41186666666679234,
+          "profitableCount": 100,
           "totalCount": 150
         }
       ]
@@ -1559,124 +1559,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 126.84,
-          "change": 3.331975560081469
+          "price": 154.78,
+          "change": 2.6664897850888902
         },
         {
           "tokenId": 2,
-          "price": 101.06,
-          "change": 0.20823004462073177
+          "price": 100.5,
+          "change": -0.5541262616267586
         },
         {
           "tokenId": 3,
-          "price": 123.97,
-          "change": 3.0164533820840913
+          "price": 107.43,
+          "change": 0.43941660433808255
         },
         {
           "tokenId": 4,
-          "price": 116.68,
-          "change": 2.620932277924366
+          "price": 96.72,
+          "change": 2.4033880359978785
         },
         {
           "tokenId": 5,
-          "price": 118.7,
-          "change": 2.8239778239778284
+          "price": 132.17,
+          "change": 6.092470701557224
         },
         {
           "tokenId": 6,
-          "price": 114.01,
-          "change": 0.06143584342637124
+          "price": 79.34,
+          "change": 5.002646903123347
         },
         {
           "tokenId": 7,
-          "price": 89.09,
-          "change": 3.1014928827682064
+          "price": 110.39,
+          "change": 7.960880195599023
         },
         {
           "tokenId": 8,
-          "price": 105.9,
-          "change": -0.06605643106538943
+          "price": 110.21,
+          "change": 2.9326608760623896
         },
         {
           "tokenId": 9,
-          "price": 117.23,
-          "change": 0.14522467110883452
+          "price": 120.01,
+          "change": 0.13350020859408496
         },
         {
           "tokenId": 10,
-          "price": 102.37,
-          "change": -0.34073208722740883
+          "price": 105.72,
+          "change": -0.3487604863794934
         },
         {
           "tokenId": 11,
-          "price": 112.58,
-          "change": 5.048054492861805
+          "price": 98.78,
+          "change": 3.003128258602706
         },
         {
           "tokenId": 12,
-          "price": 84.86,
-          "change": 4.9987626825043385
+          "price": 107.19,
+          "change": -0.6948304613674264
         },
         {
           "tokenId": 13,
-          "price": 146.08,
-          "change": 6.814858145656641
+          "price": 113.61,
+          "change": 3.620941262313023
         },
         {
           "tokenId": 14,
-          "price": 131.39,
-          "change": 1.092559821497259
+          "price": 93.23,
+          "change": 5.000563126478204
         },
         {
           "tokenId": 15,
-          "price": 78.15,
-          "change": -0.25526483726865173
+          "price": 80.72,
+          "change": -0.29644268774702925
         },
         {
           "tokenId": 16,
-          "price": 94.97,
-          "change": 0.4123493338972305
+          "price": 101.79,
+          "change": 3.5398230088495617
         },
         {
           "tokenId": 17,
-          "price": 141.01,
-          "change": 4.158664499926131
+          "price": 143.36,
+          "change": 4.36808386721025
         },
         {
           "tokenId": 18,
-          "price": 81.85,
-          "change": -14.996365146951929
+          "price": 77.9,
+          "change": -15.002727768685215
         }
       ],
-      "totalMarketCap": 560306.88,
-      "tradingVolume": 48967.79999999983,
-      "feesCollected": 290.395499999999,
-      "activeTraders": 945,
-      "buyOrders": 89,
-      "sellOrders": 240,
+      "totalMarketCap": 606595.3200000001,
+      "tradingVolume": 141008.73999999993,
+      "feesCollected": 1016.6845999999991,
+      "activeTraders": 948,
+      "buyOrders": 323,
+      "sellOrders": 23,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 1.6552953999999998,
-          "profitableCount": 135,
+          "avgPnL": 0.4439356999999632,
+          "profitableCount": 98,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 3.287218483333277,
-          "profitableCount": 300,
+          "avgPnL": 3.3541549333333256,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 10.614300457143008,
-          "profitableCount": 343,
+          "avgPnL": 5.413039200000049,
+          "profitableCount": 306,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -0.8394800000000942,
-          "profitableCount": 0,
+          "avgPnL": 0.27600000000011277,
+          "profitableCount": 100,
           "totalCount": 150
         }
       ]
@@ -1687,124 +1687,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 131.27,
-          "change": 3.492589088615584
+          "price": 162.29,
+          "change": 4.852048068225863
         },
         {
           "tokenId": 2,
-          "price": 101.04,
-          "change": -0.019790223629523075
+          "price": 100.45,
+          "change": -0.04975124378109169
         },
         {
           "tokenId": 3,
-          "price": 126.52,
-          "change": 2.056949261918204
+          "price": 107.42,
+          "change": -0.00930838685656252
         },
         {
           "tokenId": 4,
-          "price": 116.22,
-          "change": -0.394240658210497
+          "price": 95.84,
+          "change": -0.9098428453267116
         },
         {
           "tokenId": 5,
-          "price": 121.79,
-          "change": 2.603201347935976
+          "price": 134.82,
+          "change": 2.004993568888557
         },
         {
           "tokenId": 6,
-          "price": 116.13,
-          "change": 1.8594860099991142
+          "price": 67.44,
+          "change": -14.998739601714147
         },
         {
           "tokenId": 7,
-          "price": 89.04,
-          "change": -0.05612302166348317
+          "price": 115.72,
+          "change": 4.82833589999094
         },
         {
           "tokenId": 8,
-          "price": 105.51,
-          "change": -0.36827195467422147
+          "price": 109.96,
+          "change": -0.22683966972144087
         },
         {
           "tokenId": 9,
-          "price": 121.33,
-          "change": 3.497398276891576
+          "price": 124.96,
+          "change": 4.124656278643437
         },
         {
           "tokenId": 10,
-          "price": 102.48,
-          "change": 0.10745335547523634
+          "price": 105.29,
+          "change": -0.4067347710934474
         },
         {
           "tokenId": 11,
-          "price": 112.93,
-          "change": 0.31089003375378266
+          "price": 98.98,
+          "change": 0.20247013565499375
         },
         {
           "tokenId": 12,
-          "price": 84.5,
-          "change": -0.4242281404666503
+          "price": 106.88,
+          "change": -0.2892060826569664
         },
         {
           "tokenId": 13,
-          "price": 154.62,
-          "change": 5.846111719605689
+          "price": 117.22,
+          "change": 3.177537188627761
         },
         {
           "tokenId": 14,
-          "price": 131.86,
-          "change": 0.35771367683996297
+          "price": 95.89,
+          "change": 2.85315885444599
         },
         {
           "tokenId": 15,
-          "price": 78.18,
-          "change": 0.03838771593090356
+          "price": 81.22,
+          "change": 0.6194251734390486
         },
         {
           "tokenId": 16,
-          "price": 95.76,
-          "change": 0.8318416342002803
+          "price": 101.93,
+          "change": 0.13753806857255188
         },
         {
           "tokenId": 17,
-          "price": 143.05,
-          "change": 1.4467059073824697
+          "price": 144.57,
+          "change": 0.8440290178571286
         },
         {
           "tokenId": 18,
-          "price": 85.94,
-          "change": 4.996945632254128
+          "price": 81.8,
+          "change": 5.0064184852374725
         }
       ],
-      "totalMarketCap": 585184.9600000001,
-      "tradingVolume": 33820.97000000002,
-      "feesCollected": 111.29749999999996,
-      "activeTraders": 947,
-      "buyOrders": 140,
-      "sellOrders": 0,
+      "totalMarketCap": 697943.41,
+      "tradingVolume": 114725.25999999965,
+      "feesCollected": 752.0167000000021,
+      "activeTraders": 948,
+      "buyOrders": 263,
+      "sellOrders": 3,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 2.256041300000061,
-          "profitableCount": 137,
+          "avgPnL": 0.9113945999999601,
+          "profitableCount": 104,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 4.347980150000057,
-          "profitableCount": 300,
+          "avgPnL": 4.4024699333331005,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 14.066283714285511,
-          "profitableCount": 347,
+          "avgPnL": 8.337836628571562,
+          "profitableCount": 331,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -0.8354800000000977,
-          "profitableCount": 0,
+          "avgPnL": 0.7727466666667169,
+          "profitableCount": 100,
           "totalCount": 150
         }
       ]
@@ -1815,123 +1815,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 135.38,
-          "change": 3.130951474061084
+          "price": 167.32,
+          "change": 3.0993899808983927
         },
         {
           "tokenId": 2,
-          "price": 100.27,
-          "change": -0.7620744259699229
+          "price": 100.46,
+          "change": 0.0099552015928232
         },
         {
           "tokenId": 3,
-          "price": 127.84,
-          "change": 1.043313310148599
+          "price": 108.29,
+          "change": 0.8099050456153458
         },
         {
           "tokenId": 4,
-          "price": 117.05,
-          "change": 0.714162794699706
+          "price": 95.47,
+          "change": -0.38606010016694964
         },
         {
           "tokenId": 5,
-          "price": 121.94,
-          "change": 0.12316282124968508
+          "price": 137.53,
+          "change": 2.0100875241062215
         },
         {
           "tokenId": 6,
-          "price": 116.3,
-          "change": 0.14638766899164876
+          "price": 71.04,
+          "change": 5.338078291814959
         },
         {
           "tokenId": 7,
-          "price": 88.42,
-          "change": -0.6963162623540032
+          "price": 122.7,
+          "change": 6.0318008987210545
         },
         {
           "tokenId": 8,
-          "price": 107.46,
-          "change": 1.8481660506113056
+          "price": 111.77,
+          "change": 1.6460531102219012
         },
         {
           "tokenId": 9,
-          "price": 126.55,
-          "change": 4.302315997692244
+          "price": 130.06,
+          "change": 4.081306017925743
         },
         {
           "tokenId": 10,
-          "price": 103.34,
-          "change": 0.8391881342701009
+          "price": 105.28,
+          "change": -0.009497578117584875
         },
         {
           "tokenId": 11,
-          "price": 112.69,
-          "change": -0.21252103072700707
+          "price": 99.97,
+          "change": 1.0002020610224236
         },
         {
           "tokenId": 12,
-          "price": 83.88,
-          "change": -0.7337278106508929
+          "price": 106.17,
+          "change": -0.664296407185623
         },
         {
           "tokenId": 13,
-          "price": 156.68,
-          "change": 1.3322985383520904
+          "price": 116.46,
+          "change": -0.6483535232895454
         },
         {
           "tokenId": 14,
-          "price": 144.65,
-          "change": 9.699681480357949
+          "price": 81.51,
+          "change": -14.996349984357071
         },
         {
           "tokenId": 15,
-          "price": 66.45,
-          "change": -15.00383729854183
+          "price": 69.04,
+          "change": -14.99630632849051
         },
         {
           "tokenId": 16,
-          "price": 96.25,
-          "change": 0.5116959064327431
+          "price": 104.9,
+          "change": 2.913764348082016
         },
         {
           "tokenId": 17,
-          "price": 139.76,
-          "change": -2.2998951415589093
+          "price": 141.7,
+          "change": -1.9851974821885623
         },
         {
           "tokenId": 18,
-          "price": 86.75,
-          "change": 0.9425180358389601
+          "price": 82.07,
+          "change": 0.33007334963324697
         }
       ],
-      "totalMarketCap": 672167.2100000001,
-      "tradingVolume": 194526.56999999983,
-      "feesCollected": 851.3740999999999,
-      "activeTraders": 948,
-      "buyOrders": 554,
-      "sellOrders": 0,
+      "totalMarketCap": 748991.94,
+      "tradingVolume": 199510.2199999991,
+      "feesCollected": 626.1843999999987,
+      "activeTraders": 949,
+      "buyOrders": 563,
+      "sellOrders": 8,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 3.01839600000003,
-          "profitableCount": 148,
+          "avgPnL": 1.1724614499999917,
+          "profitableCount": 109,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 5.922836316666757,
-          "profitableCount": 300,
+          "avgPnL": 3.400266099999817,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 15.066066285714305,
-          "profitableCount": 347,
+          "avgPnL": 10.465982285714086,
+          "profitableCount": 333,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -2.399480000000094,
+          "avgPnL": -0.3352533333331485,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -1943,123 +1943,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 135.16,
-          "change": -0.16250553996158879
+          "price": 177.76,
+          "change": 6.23954099928281
         },
         {
           "tokenId": 2,
-          "price": 100.08,
-          "change": -0.18948838137029794
+          "price": 100.32,
+          "change": -0.13935894883535793
         },
         {
           "tokenId": 3,
-          "price": 131.5,
-          "change": 2.8629536921151413
+          "price": 108.19,
+          "change": -0.09234463015976409
         },
         {
           "tokenId": 4,
-          "price": 117.68,
-          "change": 0.538231524989329
+          "price": 95.9,
+          "change": 0.4504032680423241
         },
         {
           "tokenId": 5,
-          "price": 127.23,
-          "change": 4.338199114318522
+          "price": 145.68,
+          "change": 5.9259797862284636
         },
         {
           "tokenId": 6,
-          "price": 117.4,
-          "change": 0.9458297506448913
+          "price": 60.38,
+          "change": -15.005630630630634
         },
         {
           "tokenId": 7,
-          "price": 88.15,
-          "change": -0.30536077810449674
+          "price": 128.84,
+          "change": 5.004074979625102
         },
         {
           "tokenId": 8,
-          "price": 107.56,
-          "change": 0.09305788200261356
+          "price": 111.81,
+          "change": 0.03578777847365684
         },
         {
           "tokenId": 9,
-          "price": 126.31,
-          "change": -0.1896483603318806
+          "price": 131.14,
+          "change": 0.8303859757035092
         },
         {
           "tokenId": 10,
-          "price": 104.8,
-          "change": 1.4128120766402106
+          "price": 106.83,
+          "change": 1.472264437689967
         },
         {
           "tokenId": 11,
-          "price": 113.79,
-          "change": 0.9761292040110112
+          "price": 101.39,
+          "change": 1.4204261278383532
         },
         {
           "tokenId": 12,
-          "price": 83.49,
-          "change": -0.4649499284692425
+          "price": 105.88,
+          "change": -0.2731468399736331
         },
         {
           "tokenId": 13,
-          "price": 160.4,
-          "change": 2.374266019913198
+          "price": 120.22,
+          "change": 3.2285763352223986
         },
         {
           "tokenId": 14,
-          "price": 155.31,
-          "change": 7.369512616660903
+          "price": 79.06,
+          "change": -3.005766163660904
         },
         {
           "tokenId": 15,
-          "price": 70.01,
-          "change": 5.357411587659898
+          "price": 72.72,
+          "change": 5.330243337195817
         },
         {
           "tokenId": 16,
-          "price": 97.14,
-          "change": 0.9246753246753253
+          "price": 107.71,
+          "change": 2.6787416587225814
         },
         {
           "tokenId": 17,
-          "price": 144.13,
-          "change": 3.1267887807670327
+          "price": 145.75,
+          "change": 2.858151023288646
         },
         {
           "tokenId": 18,
-          "price": 87.34,
-          "change": 0.6801152737752201
+          "price": 82.22,
+          "change": 0.1827708054100228
         }
       ],
-      "totalMarketCap": 697284.4200000002,
-      "tradingVolume": 24117.80999999999,
-      "feesCollected": 61.810399999999994,
+      "totalMarketCap": 765780.36,
+      "tradingVolume": 101206.33000000031,
+      "feesCollected": 56.00630000000002,
       "activeTraders": 949,
-      "buyOrders": 90,
+      "buyOrders": 223,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 3.9564154499999407,
-          "profitableCount": 154,
+          "avgPnL": 2.0098782999999796,
+          "profitableCount": 116,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 7.621487983333372,
-          "profitableCount": 300,
+          "avgPnL": 4.853962766666586,
+          "profitableCount": 209,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 16.921158114285525,
-          "profitableCount": 348,
+          "avgPnL": 14.788708000000064,
+          "profitableCount": 340,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -1.9248133333331863,
+          "avgPnL": -1.2459200000000783,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2071,123 +2071,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 143.61,
-          "change": 6.251849659662636
+          "price": 191.73,
+          "change": 7.858910891089109
         },
         {
           "tokenId": 2,
-          "price": 100.3,
-          "change": 0.2198241406874489
+          "price": 100.91,
+          "change": 0.588118022328552
         },
         {
           "tokenId": 3,
-          "price": 134.42,
-          "change": 2.2205323193916255
+          "price": 110.25,
+          "change": 1.904057676310197
         },
         {
           "tokenId": 4,
-          "price": 120.39,
-          "change": 2.302855200543842
+          "price": 81.52,
+          "change": -14.994786235662158
         },
         {
           "tokenId": 5,
-          "price": 131.49,
-          "change": 3.3482669181796787
+          "price": 149.66,
+          "change": 2.732015376166934
         },
         {
           "tokenId": 6,
-          "price": 120.32,
-          "change": 2.4872231686541633
+          "price": 58.8,
+          "change": -2.616760516727402
         },
         {
           "tokenId": 7,
-          "price": 90.36,
-          "change": 2.507090187180934
+          "price": 140.02,
+          "change": 8.677429369760949
         },
         {
           "tokenId": 8,
-          "price": 111.19,
-          "change": 3.3748605429527663
+          "price": 114.68,
+          "change": 2.5668544852875455
         },
         {
           "tokenId": 9,
-          "price": 126.41,
-          "change": 0.07917029530519698
+          "price": 131.16,
+          "change": 0.015250876925431017
         },
         {
           "tokenId": 10,
-          "price": 105.46,
-          "change": 0.629770992366409
+          "price": 107.86,
+          "change": 0.9641486473836949
         },
         {
           "tokenId": 11,
-          "price": 113.96,
-          "change": 0.14939801388521617
+          "price": 102.44,
+          "change": 1.035605089259293
         },
         {
           "tokenId": 12,
-          "price": 70.97,
-          "change": -14.99580788118337
+          "price": 105.23,
+          "change": -0.6139025311673513
         },
         {
           "tokenId": 13,
-          "price": 163.58,
-          "change": 1.9825436408977597
+          "price": 123.65,
+          "change": 2.853102645150563
         },
         {
           "tokenId": 14,
-          "price": 169.94,
-          "change": 9.419869937544263
+          "price": 83.01,
+          "change": 4.99620541360992
         },
         {
           "tokenId": 15,
-          "price": 59.51,
-          "change": -14.997857448935875
+          "price": 61.81,
+          "change": -15.002750275027498
         },
         {
           "tokenId": 16,
-          "price": 98.3,
-          "change": 1.1941527691990905
+          "price": 107.72,
+          "change": 0.009284189026093322
         },
         {
           "tokenId": 17,
-          "price": 154.48,
-          "change": 7.181017137306594
+          "price": 156.13,
+          "change": 7.121783876500855
         },
         {
           "tokenId": 18,
-          "price": 88.02,
-          "change": 0.7785665216395611
+          "price": 82.91,
+          "change": 0.8392118705910943
         }
       ],
-      "totalMarketCap": 720522.9600000001,
-      "tradingVolume": 98995.81000000022,
-      "feesCollected": 73.7709,
-      "activeTraders": 950,
-      "buyOrders": 208,
-      "sellOrders": 16,
+      "totalMarketCap": 790146.71,
+      "tradingVolume": 105314.66000000028,
+      "feesCollected": 119.67470000000002,
+      "activeTraders": 949,
+      "buyOrders": 211,
+      "sellOrders": 36,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 5.526990000000069,
-          "profitableCount": 159,
+          "avgPnL": 2.937128650000045,
+          "profitableCount": 119,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 10.963587983333241,
-          "profitableCount": 300,
+          "avgPnL": 7.95405276666661,
+          "profitableCount": 217,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 20.635723828571418,
-          "profitableCount": 350,
+          "avgPnL": 21.517944914285884,
+          "profitableCount": 347,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.3248133333332044,
+          "avgPnL": -2.819253333333418,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2199,123 +2199,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 148.6,
-          "change": 3.474688392173233
+          "price": 197.87,
+          "change": 3.2024200698899574
         },
         {
           "tokenId": 2,
-          "price": 99.63,
-          "change": -0.6679960119641094
+          "price": 100.46,
+          "change": -0.4459419284510979
         },
         {
           "tokenId": 3,
-          "price": 134.41,
-          "change": -0.007439369141490035
+          "price": 110.54,
+          "change": 0.2630385487528401
         },
         {
           "tokenId": 4,
-          "price": 123.99,
-          "change": 2.9902815848492352
+          "price": 85.6,
+          "change": 5.004906771344453
         },
         {
           "tokenId": 5,
-          "price": 130.93,
-          "change": -0.4258879002205508
+          "price": 153.71,
+          "change": 2.706133903514641
         },
         {
           "tokenId": 6,
-          "price": 123.16,
-          "change": 2.360372340425535
+          "price": 61.99,
+          "change": 5.425170068027219
         },
         {
           "tokenId": 7,
-          "price": 90.5,
-          "change": 0.15493581230633088
+          "price": 148.07,
+          "change": 5.749178688758736
         },
         {
           "tokenId": 8,
-          "price": 115.09,
-          "change": 3.5075096681356293
+          "price": 117.91,
+          "change": 2.8165329612835626
         },
         {
           "tokenId": 9,
-          "price": 126.36,
-          "change": -0.03955383276639282
+          "price": 130.67,
+          "change": -0.3735895089966522
         },
         {
           "tokenId": 10,
-          "price": 105.74,
-          "change": 0.26550350843921977
+          "price": 107.38,
+          "change": -0.44502132393844246
         },
         {
           "tokenId": 11,
-          "price": 116.65,
-          "change": 2.360477360477371
+          "price": 105.12,
+          "change": 2.6161655603280036
         },
         {
           "tokenId": 12,
-          "price": 74.52,
-          "change": 5.002113569113706
+          "price": 104.92,
+          "change": -0.29459279673097244
         },
         {
           "tokenId": 13,
-          "price": 171.67,
-          "change": 4.94559237070545
+          "price": 127.33,
+          "change": 2.97614233724221
         },
         {
           "tokenId": 14,
-          "price": 170.82,
-          "change": 0.5178298222902173
+          "price": 83.09,
+          "change": 0.09637393085170255
         },
         {
           "tokenId": 15,
-          "price": 57.96,
-          "change": -2.6046042681902155
+          "price": 60.18,
+          "change": -2.6371137356414858
         },
         {
           "tokenId": 16,
-          "price": 98.83,
-          "change": 0.5391658189216695
+          "price": 107.91,
+          "change": 0.17638321574452073
         },
         {
           "tokenId": 17,
-          "price": 156.28,
-          "change": 1.165199378560339
+          "price": 157.22,
+          "change": 0.6981361685774696
         },
         {
           "tokenId": 18,
-          "price": 88.94,
-          "change": 1.0452169961372435
+          "price": 83.37,
+          "change": 0.5548184778675769
         }
       ],
-      "totalMarketCap": 741227.6800000002,
-      "tradingVolume": 93934.41000000016,
-      "feesCollected": 63.077299999999966,
-      "activeTraders": 950,
+      "totalMarketCap": 812035.37,
+      "tradingVolume": 98464.76000000029,
+      "feesCollected": 72.91199999999999,
+      "activeTraders": 949,
       "buyOrders": 213,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 6.417542350000054,
-          "profitableCount": 163,
+          "avgPnL": 3.5415011500000446,
+          "profitableCount": 124,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 12.266379649999932,
-          "profitableCount": 300,
+          "avgPnL": 8.860574433333431,
+          "profitableCount": 217,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 24.227756971428562,
-          "profitableCount": 350,
+          "avgPnL": 24.864615199999797,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.5314799999998647,
+          "avgPnL": -2.5499200000000566,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2327,123 +2327,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 152.45,
-          "change": 2.590847913862715
+          "price": 201.77,
+          "change": 1.9709910547329081
         },
         {
           "tokenId": 2,
-          "price": 99.68,
-          "change": 0.050185687042067016
+          "price": 101.03,
+          "change": 0.5673900059725338
         },
         {
           "tokenId": 3,
-          "price": 136.98,
-          "change": 1.9120601145748033
+          "price": 110.02,
+          "change": -0.4704179482540349
         },
         {
           "tokenId": 4,
-          "price": 127.97,
-          "change": 3.209936285184292
+          "price": 85.71,
+          "change": 0.1285046728971956
         },
         {
           "tokenId": 5,
-          "price": 130.51,
-          "change": -0.320782097303915
+          "price": 156.99,
+          "change": 2.1338884913148144
         },
         {
           "tokenId": 6,
-          "price": 122.93,
-          "change": -0.18674894446247953
+          "price": 62.59,
+          "change": 0.9678980480722721
         },
         {
           "tokenId": 7,
-          "price": 90.67,
-          "change": 0.1878453038674052
+          "price": 156.28,
+          "change": 5.544674815965427
         },
         {
           "tokenId": 8,
-          "price": 115.06,
-          "change": -0.026066556607873086
+          "price": 117.35,
+          "change": -0.4749385124247327
         },
         {
           "tokenId": 9,
-          "price": 126.57,
-          "change": 0.1661918328584946
+          "price": 130.31,
+          "change": -0.275503175939378
         },
         {
           "tokenId": 10,
-          "price": 106.6,
-          "change": 0.8133156799697366
+          "price": 108.04,
+          "change": 0.6146395976904553
         },
         {
           "tokenId": 11,
-          "price": 115.65,
-          "change": -0.8572653236176597
+          "price": 89.35,
+          "change": -15.001902587519034
         },
         {
           "tokenId": 12,
-          "price": 74.06,
-          "change": -0.6172839506172756
+          "price": 106.93,
+          "change": 1.9157453297750715
         },
         {
           "tokenId": 13,
-          "price": 171.04,
-          "change": -0.36698316537542697
+          "price": 127.7,
+          "change": 0.2905835231288813
         },
         {
           "tokenId": 14,
-          "price": 180.01,
-          "change": 5.379932092260859
+          "price": 70.63,
+          "change": -14.995787700084254
         },
         {
           "tokenId": 15,
-          "price": 61.11,
-          "change": 5.43478260869565
+          "price": 63.44,
+          "change": 5.417082087072114
         },
         {
           "tokenId": 16,
-          "price": 99.49,
-          "change": 0.6678134169786467
+          "price": 107.16,
+          "change": -0.6950236308034473
         },
         {
           "tokenId": 17,
-          "price": 165.47,
-          "change": 5.8804709495776795
+          "price": 165.87,
+          "change": 5.501844549039566
         },
         {
           "tokenId": 18,
-          "price": 90.05,
-          "change": 1.2480323813807055
+          "price": 83.86,
+          "change": 0.5877413937867276
         }
       ],
-      "totalMarketCap": 799967.6100000001,
-      "tradingVolume": 71947.23000000023,
-      "feesCollected": 407.8679999999985,
-      "activeTraders": 950,
-      "buyOrders": 370,
-      "sellOrders": 0,
+      "totalMarketCap": 885165.09,
+      "tradingVolume": 172011.29999999955,
+      "feesCollected": 638.9012999999997,
+      "activeTraders": 949,
+      "buyOrders": 507,
+      "sellOrders": 27,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 7.359535849999975,
-          "profitableCount": 168,
+          "avgPnL": 3.9605323000000454,
+          "profitableCount": 125,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 13.961080483333285,
-          "profitableCount": 300,
+          "avgPnL": 9.35076074999995,
+          "profitableCount": 215,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 25.566654114285935,
-          "profitableCount": 350,
+          "avgPnL": 28.46706805714293,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.111479999999865,
+          "avgPnL": -2.015123200000053,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2455,123 +2455,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 157.11,
-          "change": 3.0567399147261565
+          "price": 210.71,
+          "change": 4.430787530356345
         },
         {
           "tokenId": 2,
-          "price": 100.28,
-          "change": 0.6019261637239107
+          "price": 101.42,
+          "change": 0.38602395328120415
         },
         {
           "tokenId": 3,
-          "price": 144.41,
-          "change": 5.4241495108775055
+          "price": 113.22,
+          "change": 2.9085620796218894
         },
         {
           "tokenId": 4,
-          "price": 128.14,
-          "change": 0.13284363522699655
+          "price": 85.73,
+          "change": 0.02333450005834819
         },
         {
           "tokenId": 5,
-          "price": 131.94,
-          "change": 1.0957014788138895
+          "price": 157.19,
+          "change": 0.12739664946811174
         },
         {
           "tokenId": 6,
-          "price": 127.3,
-          "change": 3.554868624420394
+          "price": 63.61,
+          "change": 1.6296532992490749
         },
         {
           "tokenId": 7,
-          "price": 95.19,
-          "change": 4.985110841513175
+          "price": 167.54,
+          "change": 7.205016636805728
         },
         {
           "tokenId": 8,
-          "price": 117.53,
-          "change": 2.1467060664001383
+          "price": 119.25,
+          "change": 1.6190881976991953
         },
         {
           "tokenId": 9,
-          "price": 126.64,
-          "change": 0.055305364620374026
+          "price": 130.02,
+          "change": -0.22254623589900396
         },
         {
           "tokenId": 10,
-          "price": 107.35,
-          "change": 0.7035647279549719
+          "price": 108.4,
+          "change": 0.3332099222510176
         },
         {
           "tokenId": 11,
-          "price": 115.63,
-          "change": -0.017293558149598123
+          "price": 86.67,
+          "change": -2.999440402909897
         },
         {
           "tokenId": 12,
-          "price": 73.59,
-          "change": -0.6346205779098013
+          "price": 106.04,
+          "change": -0.8323202094828397
         },
         {
           "tokenId": 13,
-          "price": 168.79,
-          "change": -1.3154817586529466
+          "price": 126.25,
+          "change": -1.135473766640566
         },
         {
           "tokenId": 14,
-          "price": 182.65,
-          "change": 1.4665851897116908
+          "price": 74.16,
+          "change": 4.997876256548211
         },
         {
           "tokenId": 15,
-          "price": 61.34,
-          "change": 0.37637047946326946
+          "price": 63.94,
+          "change": 0.7881462799495587
         },
         {
           "tokenId": 16,
-          "price": 100.23,
-          "change": 0.7437933460649403
+          "price": 110.98,
+          "change": 3.564762971257939
         },
         {
           "tokenId": 17,
-          "price": 174.45,
-          "change": 5.426965613102067
+          "price": 175.21,
+          "change": 5.6309157774160505
         },
         {
           "tokenId": 18,
-          "price": 91.27,
-          "change": 1.3548028872848406
+          "price": 84.58,
+          "change": 0.858573813498687
         }
       ],
-      "totalMarketCap": 815964.0200000001,
-      "tradingVolume": 16548.999999999996,
-      "feesCollected": 38.57520000000001,
-      "activeTraders": 950,
-      "buyOrders": 63,
+      "totalMarketCap": 923959.64,
+      "tradingVolume": 14215.669999999993,
+      "feesCollected": 61.037800000000026,
+      "activeTraders": 949,
+      "buyOrders": 77,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 8.615453249999996,
-          "profitableCount": 169,
+          "avgPnL": 4.9052750999999715,
+          "profitableCount": 134,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 15.153498816666616,
-          "profitableCount": 300,
+          "avgPnL": 12.179027416666827,
+          "profitableCount": 219,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 26.8260655428571,
-          "profitableCount": 350,
+          "avgPnL": 34.08989925714291,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.0808133333332264,
+          "avgPnL": -1.4910309333332226,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2583,123 +2583,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 161.7,
-          "change": 2.92151995417222
+          "price": 215.08,
+          "change": 2.0739404869251596
         },
         {
           "tokenId": 2,
-          "price": 100.42,
-          "change": 0.13960909453530174
+          "price": 101.48,
+          "change": 0.059159929008087433
         },
         {
           "tokenId": 3,
-          "price": 144.18,
-          "change": -0.15926874870160637
+          "price": 113.76,
+          "change": 0.4769475357710707
         },
         {
           "tokenId": 4,
-          "price": 131.51,
-          "change": 2.6299360074918097
+          "price": 87.58,
+          "change": 2.1579377114195664
         },
         {
           "tokenId": 5,
-          "price": 136.28,
-          "change": 3.2893739578596355
+          "price": 162.02,
+          "change": 3.07271454927159
         },
         {
           "tokenId": 6,
-          "price": 127.5,
-          "change": 0.15710919088766917
+          "price": 54.27,
+          "change": -14.683225907876116
         },
         {
           "tokenId": 7,
-          "price": 95.52,
-          "change": 0.3466750709108082
+          "price": 175.33,
+          "change": 4.6496359078429155
         },
         {
           "tokenId": 8,
-          "price": 117.28,
-          "change": -0.21271164808984938
+          "price": 119.12,
+          "change": -0.10901467505240708
         },
         {
           "tokenId": 9,
-          "price": 126.8,
-          "change": 0.12634238787112806
+          "price": 130.49,
+          "change": 0.3614828487924926
         },
         {
           "tokenId": 10,
-          "price": 107.06,
-          "change": -0.27014438751745884
+          "price": 108.7,
+          "change": 0.27675276752767264
         },
         {
           "tokenId": 11,
-          "price": 116.48,
-          "change": 0.7351033468823044
+          "price": 91,
+          "change": 4.995961693781006
         },
         {
           "tokenId": 12,
-          "price": 62.55,
-          "change": -15.002038320423978
+          "price": 107.66,
+          "change": 1.5277253866465395
         },
         {
           "tokenId": 13,
-          "price": 166.61,
-          "change": -1.2915457076840917
+          "price": 124.93,
+          "change": -1.0455445544554403
         },
         {
           "tokenId": 14,
-          "price": 180.8,
-          "change": -1.0128661374212944
+          "price": 73.47,
+          "change": -0.9304207119741069
         },
         {
           "tokenId": 15,
-          "price": 60.96,
-          "change": -0.6194978806651492
+          "price": 64.2,
+          "change": 0.4066312167657259
         },
         {
           "tokenId": 16,
-          "price": 100.95,
-          "change": 0.7183478000598611
+          "price": 110.61,
+          "change": -0.3333934042169801
         },
         {
           "tokenId": 17,
-          "price": 173.91,
-          "change": -0.3095442820292302
+          "price": 175.27,
+          "change": 0.03424462074082659
         },
         {
           "tokenId": 18,
-          "price": 91.83,
-          "change": 0.6135641503232193
+          "price": 84.86,
+          "change": 0.3310475289666601
         }
       ],
-      "totalMarketCap": 881547.0099999999,
-      "tradingVolume": 100740.81,
-      "feesCollected": 687.1493999999997,
-      "activeTraders": 950,
-      "buyOrders": 191,
-      "sellOrders": 23,
+      "totalMarketCap": 928613.5599999999,
+      "tradingVolume": 87785.31999999973,
+      "feesCollected": 40.433299999999996,
+      "activeTraders": 949,
+      "buyOrders": 198,
+      "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 8.804926050000017,
-          "profitableCount": 170,
+          "avgPnL": 5.369478449999906,
+          "profitableCount": 135,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 15.275937150000141,
-          "profitableCount": 300,
+          "avgPnL": 12.826885750000203,
+          "profitableCount": 219,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 26.72653697142832,
-          "profitableCount": 350,
+          "avgPnL": 36.88375639999988,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.2148799999999027,
+          "avgPnL": -2.7089842666665938,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2711,123 +2711,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 167.02,
-          "change": 3.2900432900433034
+          "price": 226.26,
+          "change": 5.198065835968001
         },
         {
           "tokenId": 2,
-          "price": 100.78,
-          "change": 0.35849432383987195
+          "price": 102.09,
+          "change": 0.6011036657469446
         },
         {
           "tokenId": 3,
-          "price": 148.3,
-          "change": 2.857539187127205
+          "price": 114.36,
+          "change": 0.5274261603375476
         },
         {
           "tokenId": 4,
-          "price": 133.99,
-          "change": 1.8857881529921818
+          "price": 74.44,
+          "change": -15.003425439598084
         },
         {
           "tokenId": 5,
-          "price": 136.69,
-          "change": 0.3008511887290847
+          "price": 164.76,
+          "change": 1.6911492408344528
         },
         {
           "tokenId": 6,
-          "price": 130.83,
-          "change": 2.6117647058823628
+          "price": 57.24,
+          "change": 5.472636815920396
         },
         {
           "tokenId": 7,
-          "price": 97.51,
-          "change": 2.083333333333343
+          "price": 188.39,
+          "change": 7.448810813893784
         },
         {
           "tokenId": 8,
-          "price": 121.89,
-          "change": 3.9307639836289217
+          "price": 122.83,
+          "change": 3.114506380120881
         },
         {
           "tokenId": 9,
-          "price": 129.8,
-          "change": 2.3659305993690967
+          "price": 133.31,
+          "change": 2.161085140623797
         },
         {
           "tokenId": 10,
-          "price": 110.43,
-          "change": 3.1477676069493783
+          "price": 111.95,
+          "change": 2.9898804047838086
         },
         {
           "tokenId": 11,
-          "price": 119.45,
-          "change": 2.549793956043955
+          "price": 77.35,
+          "change": -15.000000000000005
         },
         {
           "tokenId": 12,
-          "price": 60.9,
-          "change": -2.6378896882493983
+          "price": 107.1,
+          "change": -0.5201560468140463
         },
         {
           "tokenId": 13,
-          "price": 170.46,
-          "change": 2.3107856671268197
+          "price": 128.11,
+          "change": 2.545425438245423
         },
         {
           "tokenId": 14,
-          "price": 186.08,
-          "change": 2.920353982300885
+          "price": 76.39,
+          "change": 3.9744113243500774
         },
         {
           "tokenId": 15,
-          "price": 61.07,
-          "change": 0.18044619422572086
+          "price": 64.93,
+          "change": 1.137071651090349
         },
         {
           "tokenId": 16,
-          "price": 102.13,
-          "change": 1.1688954928182196
+          "price": 110.37,
+          "change": -0.21697857336587548
         },
         {
           "tokenId": 17,
-          "price": 180.72,
-          "change": 3.915818526824221
+          "price": 182.05,
+          "change": 3.868317453072403
         },
         {
           "tokenId": 18,
-          "price": 78.06,
-          "change": -14.99509964064031
+          "price": 72.13,
+          "change": -15.0011784115013
         }
       ],
-      "totalMarketCap": 900796.33,
-      "tradingVolume": 98155.43000000001,
-      "feesCollected": 62.24240000000001,
-      "activeTraders": 950,
-      "buyOrders": 181,
-      "sellOrders": 32,
+      "totalMarketCap": 1029103.8499999999,
+      "tradingVolume": 113085.95000000003,
+      "feesCollected": 828.9450000000006,
+      "activeTraders": 964,
+      "buyOrders": 197,
+      "sellOrders": 25,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 10.359836350000046,
-          "profitableCount": 176,
+          "avgPnL": 6.60767719999999,
+          "profitableCount": 144,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 17.27389048333314,
-          "profitableCount": 300,
+          "avgPnL": 15.473702416666809,
+          "profitableCount": 228,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 29.687529542857146,
+          "avgPnL": 43.259219257142945,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.4202133333333764,
+          "avgPnL": -3.826775266666755,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -2839,124 +2839,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 171.13,
-          "change": 2.4607831397437345
+          "price": 231.67,
+          "change": 2.391054539025898
         },
         {
           "tokenId": 2,
-          "price": 101.51,
-          "change": 0.7243500694582298
+          "price": 103,
+          "change": 0.891370359486724
         },
         {
           "tokenId": 3,
-          "price": 151.7,
-          "change": 2.292650033715426
+          "price": 114.55,
+          "change": 0.16614200769499626
         },
         {
           "tokenId": 4,
-          "price": 135.04,
-          "change": 0.7836405701917926
+          "price": 72.21,
+          "change": -2.9957012358946855
         },
         {
           "tokenId": 5,
-          "price": 139.84,
-          "change": 2.3044846001902157
+          "price": 168.62,
+          "change": 2.342801650886146
         },
         {
           "tokenId": 6,
-          "price": 133.1,
-          "change": 1.7350760528930531
+          "price": 58.04,
+          "change": 1.397624039133468
         },
         {
           "tokenId": 7,
-          "price": 82.88,
-          "change": -15.003589375448682
+          "price": 158.72,
+          "change": -15.749243590424115
         },
         {
           "tokenId": 8,
-          "price": 121.9,
-          "change": 0.008204118467474868
+          "price": 123.17,
+          "change": 0.27680534071481183
         },
         {
           "tokenId": 9,
-          "price": 129.58,
-          "change": -0.16949152542372792
+          "price": 133.49,
+          "change": 0.13502362913510377
         },
         {
           "tokenId": 10,
-          "price": 110.27,
-          "change": -0.14488816444807642
+          "price": 112.01,
+          "change": 0.05359535506922937
         },
         {
           "tokenId": 11,
-          "price": 119.99,
-          "change": 0.4520719966513119
+          "price": 81.22,
+          "change": 5.003232062055598
         },
         {
           "tokenId": 12,
-          "price": 64.2,
-          "change": 5.418719211822667
+          "price": 108.08,
+          "change": 0.9150326797385657
         },
         {
           "tokenId": 13,
-          "price": 168.41,
-          "change": -1.202628182564831
+          "price": 128.51,
+          "change": 0.31223167590350265
         },
         {
           "tokenId": 14,
-          "price": 191.47,
-          "change": 2.8966036113499496
+          "price": 78.92,
+          "change": 3.311951826155257
         },
         {
           "tokenId": 15,
-          "price": 60.87,
-          "change": -0.32749304077288827
+          "price": 65.2,
+          "change": 0.4158324349299184
         },
         {
           "tokenId": 16,
-          "price": 102.51,
-          "change": 0.3720748066190245
+          "price": 113.58,
+          "change": 2.9083990214732203
         },
         {
           "tokenId": 17,
-          "price": 197.41,
-          "change": 9.235281097830898
+          "price": 197.43,
+          "change": 8.448228508651466
         },
         {
           "tokenId": 18,
-          "price": 81.96,
-          "change": 4.996156802459635
+          "price": 75.74,
+          "change": 5.004852349923748
         }
       ],
-      "totalMarketCap": 935583.4400000001,
-      "tradingVolume": 79015.0000000001,
-      "feesCollected": 324.3618,
-      "activeTraders": 950,
-      "buyOrders": 362,
-      "sellOrders": 46,
+      "totalMarketCap": 1071236.79,
+      "tradingVolume": 202688.92000000013,
+      "feesCollected": 1278.3423999999986,
+      "activeTraders": 979,
+      "buyOrders": 490,
+      "sellOrders": 292,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 11.073585000000026,
-          "profitableCount": 172,
+          "avgPnL": 7.1141514500000085,
+          "profitableCount": 150,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 18.237096799999836,
-          "profitableCount": 300,
+          "avgPnL": 16.895121399999994,
+          "profitableCount": 225,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 31.396965542857174,
-          "profitableCount": 350,
+          "avgPnL": 39.714212628571566,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.0068800000000375,
-          "profitableCount": 0,
+          "avgPnL": -2.6212583600001014,
+          "profitableCount": 14,
           "totalCount": 150
         }
       ]
@@ -2967,124 +2967,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 169.8,
-          "change": -0.7771869339098838
+          "price": 228.61,
+          "change": -1.3208443043984865
         },
         {
           "tokenId": 2,
-          "price": 101.76,
-          "change": 0.2462811545660526
+          "price": 103.21,
+          "change": 0.20388349514562498
         },
         {
           "tokenId": 3,
-          "price": 161.02,
-          "change": 6.143704680290061
+          "price": 119.2,
+          "change": 4.059362723701446
         },
         {
           "tokenId": 4,
-          "price": 136.48,
-          "change": 1.0663507109004722
+          "price": 75.82,
+          "change": 4.999307575128098
         },
         {
           "tokenId": 5,
-          "price": 145.04,
-          "change": 3.718535469107543
+          "price": 177.71,
+          "change": 5.390819594354171
         },
         {
           "tokenId": 6,
-          "price": 136.38,
-          "change": 2.464312546957176
+          "price": 59.19,
+          "change": 1.9813921433494117
         },
         {
           "tokenId": 7,
-          "price": 87.02,
-          "change": 4.995173745173746
+          "price": 165.68,
+          "change": 4.385080645161295
         },
         {
           "tokenId": 8,
-          "price": 125.52,
-          "change": 2.969647251845767
+          "price": 126.77,
+          "change": 2.9227896403344924
         },
         {
           "tokenId": 9,
-          "price": 133.24,
-          "change": 2.824509955240003
+          "price": 137.37,
+          "change": 2.906584762903585
         },
         {
           "tokenId": 10,
-          "price": 113.41,
-          "change": 2.8475559989117625
+          "price": 114.71,
+          "change": 2.4104990625836873
         },
         {
           "tokenId": 11,
-          "price": 120.02,
-          "change": 0.025002083506959864
+          "price": 81.53,
+          "change": 0.3816793893129799
         },
         {
           "tokenId": 12,
-          "price": 63.78,
-          "change": -0.6542056074766381
+          "price": 107.12,
+          "change": -0.8882309400444057
         },
         {
           "tokenId": 13,
-          "price": 173.39,
-          "change": 2.957069057656903
+          "price": 133.35,
+          "change": 3.7662438720722156
         },
         {
           "tokenId": 14,
-          "price": 201.31,
-          "change": 5.139186295503214
+          "price": 67.08,
+          "change": -15.002534211860116
         },
         {
           "tokenId": 15,
-          "price": 51.94,
-          "change": -14.670609495646461
+          "price": 55.61,
+          "change": -14.708588957055218
         },
         {
           "tokenId": 16,
-          "price": 103.45,
-          "change": 0.9169837089064459
+          "price": 112.98,
+          "change": -0.5282620179609036
         },
         {
           "tokenId": 17,
-          "price": 210.62,
-          "change": 6.691656957600936
+          "price": 211.02,
+          "change": 6.883452362862788
         },
         {
           "tokenId": 18,
-          "price": 82.21,
-          "change": 0.30502684236212785
+          "price": 76,
+          "change": 0.34327964087669016
         }
       ],
-      "totalMarketCap": 955494.1900000001,
-      "tradingVolume": 85924.1599999999,
-      "feesCollected": 53.1027,
-      "activeTraders": 950,
-      "buyOrders": 208,
-      "sellOrders": 0,
+      "totalMarketCap": 1077304.5,
+      "tradingVolume": 56639.58999999982,
+      "feesCollected": 67.361,
+      "activeTraders": 979,
+      "buyOrders": 276,
+      "sellOrders": 4,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 13.185026750000043,
-          "profitableCount": 181,
+          "avgPnL": 8.648843449999982,
+          "profitableCount": 157,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 20.620025133333456,
-          "profitableCount": 300,
+          "avgPnL": 17.69492140000016,
+          "profitableCount": 225,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 34.4694934285711,
-          "profitableCount": 350,
+          "avgPnL": 40.839108514285435,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -4.253546666666716,
-          "profitableCount": 0,
+          "avgPnL": -3.9593734000001497,
+          "profitableCount": 29,
           "totalCount": 150
         }
       ]
@@ -3095,123 +3095,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 172.74,
-          "change": 1.731448763250882
+          "price": 233.14,
+          "change": 1.9815406150212032
         },
         {
           "tokenId": 2,
-          "price": 101.95,
-          "change": 0.18671383647798517
+          "price": 103.81,
+          "change": 0.5813390175370686
         },
         {
           "tokenId": 3,
-          "price": 164.49,
-          "change": 2.155011799776424
+          "price": 119.09,
+          "change": -0.09228187919463039
         },
         {
           "tokenId": 4,
-          "price": 137.58,
-          "change": 0.8059788980070507
+          "price": 64.45,
+          "change": -14.996043260353456
         },
         {
           "tokenId": 5,
-          "price": 147.95,
-          "change": 2.006343077771647
+          "price": 180.15,
+          "change": 1.3730234651961046
         },
         {
           "tokenId": 6,
-          "price": 137.83,
-          "change": 1.0632057486435087
+          "price": 60.43,
+          "change": 2.094948471025514
         },
         {
           "tokenId": 7,
-          "price": 87.49,
-          "change": 0.5401057228223384
+          "price": 173.82,
+          "change": 4.913085465958466
         },
         {
           "tokenId": 8,
-          "price": 125.53,
-          "change": 0.007966857871259654
+          "price": 127.28,
+          "change": 0.4023033840814113
         },
         {
           "tokenId": 9,
-          "price": 134.02,
-          "change": 0.5854097868507964
+          "price": 138.6,
+          "change": 0.8953920069884179
         },
         {
           "tokenId": 10,
-          "price": 116.12,
-          "change": 2.389560003527033
+          "price": 117.42,
+          "change": 2.3624792956150364
         },
         {
           "tokenId": 11,
-          "price": 122.89,
-          "change": 2.3912681219796736
+          "price": 69.3,
+          "change": -15.000613271188524
         },
         {
           "tokenId": 12,
-          "price": 63.85,
-          "change": 0.10975227343995027
+          "price": 106.84,
+          "change": -0.2613890963405537
         },
         {
           "tokenId": 13,
-          "price": 173.18,
-          "change": -0.12111425111020217
+          "price": 133.32,
+          "change": -0.022497187851519412
         },
         {
           "tokenId": 14,
-          "price": 207.18,
-          "change": 2.915900849436195
+          "price": 70.67,
+          "change": 5.3518187239117525
         },
         {
           "tokenId": 15,
-          "price": 54.8,
-          "change": 5.506353484790141
+          "price": 58.65,
+          "change": 5.4666426901636385
         },
         {
           "tokenId": 16,
-          "price": 104.69,
-          "change": 1.1986466892218413
+          "price": 113.35,
+          "change": 0.3274915914321033
         },
         {
           "tokenId": 17,
-          "price": 210.45,
-          "change": -0.08071408223341368
+          "price": 209.39,
+          "change": -0.7724386314093563
         },
         {
           "tokenId": 18,
-          "price": 69.88,
-          "change": -14.998175404452013
+          "price": 64.6,
+          "change": -15.000000000000007
         }
       ],
-      "totalMarketCap": 1034460,
-      "tradingVolume": 110693.5200000003,
-      "feesCollected": 667.4510000000013,
-      "activeTraders": 950,
-      "buyOrders": 201,
-      "sellOrders": 1,
+      "totalMarketCap": 1062051.64,
+      "tradingVolume": 86844.56000000003,
+      "feesCollected": 62.094199999999965,
+      "activeTraders": 979,
+      "buyOrders": 394,
+      "sellOrders": 6,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 14.206682249999902,
-          "profitableCount": 183,
+          "avgPnL": 8.975050250000072,
+          "profitableCount": 160,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 21.640693466666537,
-          "profitableCount": 300,
+          "avgPnL": 18.571931400000064,
+          "profitableCount": 226,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 35.16528200000005,
-          "profitableCount": 350,
+          "avgPnL": 42.27673377142842,
+          "profitableCount": 349,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -3.9458042666668005,
+          "avgPnL": -7.809372333333159,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3223,123 +3223,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 181.56,
-          "change": 5.105939562348033
+          "price": 244.14,
+          "change": 4.718195075920048
         },
         {
           "tokenId": 2,
-          "price": 101.88,
-          "change": -0.0686611083864712
+          "price": 103.94,
+          "change": 0.12522878335420043
         },
         {
           "tokenId": 3,
-          "price": 169.15,
-          "change": 2.832998966502521
+          "price": 119.85,
+          "change": 0.6381728104794616
         },
         {
           "tokenId": 4,
-          "price": 141.48,
-          "change": 2.8347143480156833
+          "price": 67.91,
+          "change": 5.368502715283156
         },
         {
           "tokenId": 5,
-          "price": 149.68,
-          "change": 1.169313957418059
+          "price": 183.14,
+          "change": 1.659728004440733
         },
         {
           "tokenId": 6,
-          "price": 141.88,
-          "change": 2.938402379743149
+          "price": 61.36,
+          "change": 1.5389707099122947
         },
         {
           "tokenId": 7,
-          "price": 87.78,
-          "change": 0.33146645330895674
+          "price": 181.73,
+          "change": 4.550684616269702
         },
         {
           "tokenId": 8,
-          "price": 126.01,
-          "change": 0.3823787142515765
+          "price": 127.44,
+          "change": 0.1257071024512858
         },
         {
           "tokenId": 9,
-          "price": 134.67,
-          "change": 0.48500223847185286
+          "price": 138.94,
+          "change": 0.24531024531024778
         },
         {
           "tokenId": 10,
-          "price": 117.02,
-          "change": 0.7750602824664067
+          "price": 118.37,
+          "change": 0.8090614886731415
         },
         {
           "tokenId": 11,
-          "price": 122.41,
-          "change": -0.39059321344291964
+          "price": 67.43,
+          "change": -2.698412698412685
         },
         {
           "tokenId": 12,
-          "price": 63.67,
-          "change": -0.2819107282693809
+          "price": 105.32,
+          "change": -1.4226881317858575
         },
         {
           "tokenId": 13,
-          "price": 183.92,
-          "change": 6.201639912230038
+          "price": 137.93,
+          "change": 3.4578457845784687
         },
         {
           "tokenId": 14,
-          "price": 207.74,
-          "change": 0.27029636065257373
+          "price": 71.29,
+          "change": 0.8773171076836064
         },
         {
           "tokenId": 15,
-          "price": 46.79,
-          "change": -14.616788321167881
+          "price": 50.06,
+          "change": -14.646206308610395
         },
         {
           "tokenId": 16,
-          "price": 105.54,
-          "change": 0.8119209093514266
+          "price": 113.1,
+          "change": -0.22055580061755625
         },
         {
           "tokenId": 17,
-          "price": 218.56,
-          "change": 3.8536469470183006
+          "price": 216.7,
+          "change": 3.4910931754142998
         },
         {
           "tokenId": 18,
-          "price": 67.99,
-          "change": -2.7046365197481403
+          "price": 62.88,
+          "change": -2.66253869969039
         }
       ],
-      "totalMarketCap": 1054355.0700000003,
-      "tradingVolume": 75666.38000000002,
-      "feesCollected": 39.2489,
-      "activeTraders": 950,
-      "buyOrders": 190,
+      "totalMarketCap": 1083642.9099999997,
+      "tradingVolume": 90401.91000000025,
+      "feesCollected": 68.64700000000002,
+      "activeTraders": 979,
+      "buyOrders": 408,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 15.750982800000019,
-          "profitableCount": 184,
+          "avgPnL": 9.880895050000003,
+          "profitableCount": 158,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 23.806246799999986,
-          "profitableCount": 300,
+          "avgPnL": 20.798993066666547,
+          "profitableCount": 228,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 40.720202000000086,
+          "avgPnL": 46.2682385714284,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -5.262084266666752,
+          "avgPnL": -8.809541666666645,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3351,123 +3351,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 181.2,
-          "change": -0.19828155981494472
+          "price": 243.09,
+          "change": -0.4300811010076116
         },
         {
           "tokenId": 2,
-          "price": 102.58,
-          "change": 0.6870828425598772
+          "price": 104.35,
+          "change": 0.394458341350776
         },
         {
           "tokenId": 3,
-          "price": 169.14,
-          "change": -0.005911912503706371
+          "price": 120.32,
+          "change": 0.3921568627450971
         },
         {
           "tokenId": 4,
-          "price": 140.98,
-          "change": -0.3534068419564603
+          "price": 67.68,
+          "change": -0.3386835517596669
         },
         {
           "tokenId": 5,
-          "price": 154.72,
-          "change": 3.3671833244254357
+          "price": 188.43,
+          "change": 2.8885006006334066
         },
         {
           "tokenId": 6,
-          "price": 146.91,
-          "change": 3.5452495066253182
+          "price": 62.94,
+          "change": 2.5749674054758773
         },
         {
           "tokenId": 7,
-          "price": 74.61,
-          "change": -15.003417634996586
+          "price": 153.21,
+          "change": -15.693611401529733
         },
         {
           "tokenId": 8,
-          "price": 125.87,
-          "change": -0.11110229346877278
+          "price": 127.08,
+          "change": -0.28248587570621425
         },
         {
           "tokenId": 9,
-          "price": 139.32,
-          "change": 3.452884829583431
+          "price": 143.28,
+          "change": 3.1236504966172474
         },
         {
           "tokenId": 10,
-          "price": 117.56,
-          "change": 0.4614595795590551
+          "price": 118.33,
+          "change": -0.03379234603362867
         },
         {
           "tokenId": 11,
-          "price": 124.79,
-          "change": 1.944285597581905
+          "price": 71.03,
+          "change": 5.3388699391961945
         },
         {
           "tokenId": 12,
-          "price": 63.59,
-          "change": -0.12564787183916803
+          "price": 104.99,
+          "change": -0.3133308013672601
         },
         {
           "tokenId": 13,
-          "price": 194.29,
-          "change": 5.638321009134409
+          "price": 141.23,
+          "change": 2.3925179438845667
         },
         {
           "tokenId": 14,
-          "price": 211.37,
-          "change": 1.7473765283527465
+          "price": 71.65,
+          "change": 0.5049796605414496
         },
         {
           "tokenId": 15,
-          "price": 45.63,
-          "change": -2.479162214148315
+          "price": 48.8,
+          "change": -2.5169796244506695
         },
         {
           "tokenId": 16,
-          "price": 89.71,
-          "change": -14.999052491946193
+          "price": 96.14,
+          "change": -14.995579133510164
         },
         {
           "tokenId": 17,
-          "price": 233.01,
-          "change": 6.611456808199116
+          "price": 231.12,
+          "change": 6.654360867558845
         },
         {
           "tokenId": 18,
-          "price": 66.16,
-          "change": -2.691572290042651
+          "price": 61.22,
+          "change": -2.639949109414764
         }
       ],
-      "totalMarketCap": 1089076.3199999998,
-      "tradingVolume": 137403.51000000036,
-      "feesCollected": 352.9186000000003,
-      "activeTraders": 950,
-      "buyOrders": 480,
-      "sellOrders": 59,
+      "totalMarketCap": 1079071.9300000002,
+      "tradingVolume": 176977.06999999966,
+      "feesCollected": 364.6629000000009,
+      "activeTraders": 979,
+      "buyOrders": 616,
+      "sellOrders": 150,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 16.700231249999934,
-          "profitableCount": 187,
+          "avgPnL": 10.321082599999999,
+          "profitableCount": 159,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 24.48046088333326,
-          "profitableCount": 300,
+          "avgPnL": 20.7590685333334,
+          "profitableCount": 229,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 45.591773428571535,
+          "avgPnL": 45.85685525714296,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -5.644577600000121,
+          "avgPnL": -8.515952333333136,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3479,123 +3479,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 191.37,
-          "change": 5.612582781456963
+          "price": 253.83,
+          "change": 4.418116746883874
         },
         {
           "tokenId": 2,
-          "price": 102.57,
-          "change": -0.009748488984212435
+          "price": 103.6,
+          "change": -0.7187350263536176
         },
         {
           "tokenId": 3,
-          "price": 175.03,
-          "change": 3.4823223365259635
+          "price": 124.28,
+          "change": 3.2912234042553257
         },
         {
           "tokenId": 4,
-          "price": 141.29,
-          "change": 0.21988934600652735
+          "price": 67.98,
+          "change": 0.44326241134751354
         },
         {
           "tokenId": 5,
-          "price": 157.78,
-          "change": 1.977766287487075
+          "price": 192.54,
+          "change": 2.18118134055086
         },
         {
           "tokenId": 6,
-          "price": 152.7,
-          "change": 3.9411884827445323
+          "price": 64.11,
+          "change": 1.8589132507149695
         },
         {
           "tokenId": 7,
-          "price": 72.37,
-          "change": -3.0022785149443707
+          "price": 147.82,
+          "change": -3.5180471248613108
         },
         {
           "tokenId": 8,
-          "price": 129.97,
-          "change": 3.2573289902280083
+          "price": 130.98,
+          "change": 3.0689329556185014
         },
         {
           "tokenId": 9,
-          "price": 138.86,
-          "change": -0.3301751363766721
+          "price": 143.05,
+          "change": -0.16052484645448756
         },
         {
           "tokenId": 10,
-          "price": 120.33,
-          "change": 2.356243620279003
+          "price": 120.44,
+          "change": 1.7831488210935516
         },
         {
           "tokenId": 11,
-          "price": 127.18,
-          "change": 1.9152175655100572
+          "price": 72.75,
+          "change": 2.4215120371673926
         },
         {
           "tokenId": 12,
-          "price": 63,
-          "change": -0.9278188394401689
+          "price": 104.55,
+          "change": -0.4190875321459165
         },
         {
           "tokenId": 13,
-          "price": 205.3,
-          "change": 5.66678676205673
+          "price": 145.28,
+          "change": 2.867662677901304
         },
         {
           "tokenId": 14,
-          "price": 214.67,
-          "change": 1.5612433174054894
+          "price": 72.1,
+          "change": 0.6280530355896561
         },
         {
           "tokenId": 15,
-          "price": 44.5,
-          "change": -2.476440937979405
+          "price": 47.58,
+          "change": -2.499999999999998
         },
         {
           "tokenId": 16,
-          "price": 94.2,
-          "change": 5.005016163192519
+          "price": 100.95,
+          "change": 5.003120449344708
         },
         {
           "tokenId": 17,
-          "price": 230.88,
-          "change": -0.9141238573451764
+          "price": 229.05,
+          "change": -0.895638629283486
         },
         {
           "tokenId": 18,
-          "price": 69.7,
-          "change": 5.350665054413552
+          "price": 64.53,
+          "change": 5.406729826853973
         }
       ],
-      "totalMarketCap": 1121812.7999999998,
-      "tradingVolume": 74435.01999999999,
-      "feesCollected": 42.075100000000006,
-      "activeTraders": 950,
-      "buyOrders": 207,
-      "sellOrders": 5,
+      "totalMarketCap": 1099304.3199999998,
+      "tradingVolume": 80117.39000000014,
+      "feesCollected": 42.603600000000014,
+      "activeTraders": 979,
+      "buyOrders": 390,
+      "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 18.4573087,
-          "profitableCount": 188,
+          "avgPnL": 11.375099450000016,
+          "profitableCount": 162,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 26.991202550000025,
-          "profitableCount": 300,
+          "avgPnL": 21.38326853333349,
+          "profitableCount": 228,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 50.84971057142875,
+          "avgPnL": 48.474491085714135,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -5.453830933333484,
+          "avgPnL": -7.783241666666672,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3607,123 +3607,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 195.54,
-          "change": 2.1790249255369116
+          "price": 259.58,
+          "change": 2.265295670330525
         },
         {
           "tokenId": 2,
-          "price": 102.78,
-          "change": 0.20473822755192353
+          "price": 103.49,
+          "change": -0.10617760617760565
         },
         {
           "tokenId": 3,
-          "price": 173.94,
-          "change": -0.6227503856481765
+          "price": 124.35,
+          "change": 0.05632442870936046
         },
         {
           "tokenId": 4,
-          "price": 144.86,
-          "change": 2.5267180975299186
+          "price": 57.97,
+          "change": -14.724919093851138
         },
         {
           "tokenId": 5,
-          "price": 157.28,
-          "change": -0.3168969451134491
+          "price": 190.4,
+          "change": -1.1114573595097053
         },
         {
           "tokenId": 6,
-          "price": 159.74,
-          "change": 4.610347085789143
+          "price": 65.34,
+          "change": 1.9185774450163844
         },
         {
           "tokenId": 7,
-          "price": 70.2,
-          "change": -2.998480033162915
+          "price": 143.39,
+          "change": -2.9968881071573583
         },
         {
           "tokenId": 8,
-          "price": 131.46,
-          "change": 1.1464184042471408
+          "price": 132.14,
+          "change": 0.8856313941059679
         },
         {
           "tokenId": 9,
-          "price": 139.27,
-          "change": 0.29526141437418735
+          "price": 144.09,
+          "change": 0.7270185249912562
         },
         {
           "tokenId": 10,
-          "price": 123.49,
-          "change": 2.626111526635084
+          "price": 122.99,
+          "change": 2.117236798405843
         },
         {
           "tokenId": 11,
-          "price": 130.76,
-          "change": 2.8149080044031956
+          "price": 74.51,
+          "change": 2.4192439862543025
         },
         {
           "tokenId": 12,
-          "price": 63.01,
-          "change": 0.015873015873012715
+          "price": 104.37,
+          "change": -0.17216642754662134
         },
         {
           "tokenId": 13,
-          "price": 209.93,
-          "change": 2.2552362396492915
+          "price": 144.92,
+          "change": -0.24779735682820322
         },
         {
           "tokenId": 14,
-          "price": 214.83,
-          "change": 0.07453300414591002
+          "price": 72.66,
+          "change": 0.7766990291262168
         },
         {
           "tokenId": 15,
-          "price": 46.98,
-          "change": 5.573033707865162
+          "price": 50.22,
+          "change": 5.548549810844895
         },
         {
           "tokenId": 16,
-          "price": 95.42,
-          "change": 1.2951167728237778
+          "price": 101.84,
+          "change": 0.8816245666171377
         },
         {
           "tokenId": 17,
-          "price": 231.15,
-          "change": 0.11694386694387138
+          "price": 227.92,
+          "change": -0.49334206505130923
         },
         {
           "tokenId": 18,
-          "price": 70.95,
-          "change": 1.7934002869440457
+          "price": 65.02,
+          "change": 0.759336742600333
         }
       ],
-      "totalMarketCap": 1196191.57,
-      "tradingVolume": 111798.66,
-      "feesCollected": 584.0349999999993,
-      "activeTraders": 950,
-      "buyOrders": 207,
-      "sellOrders": 0,
+      "totalMarketCap": 1104270.96,
+      "tradingVolume": 91128.8599999998,
+      "feesCollected": 45.4323,
+      "activeTraders": 979,
+      "buyOrders": 393,
+      "sellOrders": 2,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 19.558471199999985,
-          "profitableCount": 190,
+          "avgPnL": 11.599564050000003,
+          "profitableCount": 163,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 27.891042549999973,
-          "profitableCount": 300,
+          "avgPnL": 21.65440353333338,
+          "profitableCount": 226,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 53.55137342857132,
+          "avgPnL": 49.81612400000001,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -5.045569600000036,
+          "avgPnL": -8.260822880000214,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3735,123 +3735,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 200.03,
-          "change": 2.296205379973412
+          "price": 265.21,
+          "change": 2.16888820402188
         },
         {
           "tokenId": 2,
-          "price": 103.16,
-          "change": 0.3697217357462497
+          "price": 104.11,
+          "change": 0.5990916996811331
         },
         {
           "tokenId": 3,
-          "price": 183.11,
-          "change": 5.271932850408196
+          "price": 131.63,
+          "change": 5.854443104141537
         },
         {
           "tokenId": 4,
-          "price": 144.76,
-          "change": -0.06903216899076538
+          "price": 56.47,
+          "change": -2.5875452820424356
         },
         {
           "tokenId": 5,
-          "price": 156.73,
-          "change": -0.3496948118006176
+          "price": 190.77,
+          "change": 0.19432773109243937
         },
         {
           "tokenId": 6,
-          "price": 167.27,
-          "change": 4.713910103918868
+          "price": 66.27,
+          "change": 1.4233241505968666
         },
         {
           "tokenId": 7,
-          "price": 73.71,
-          "change": 4.999999999999987
+          "price": 150.56,
+          "change": 5.000348699351431
         },
         {
           "tokenId": 8,
-          "price": 130.72,
-          "change": -0.5629088696181417
+          "price": 131.46,
+          "change": -0.5146057212047664
         },
         {
           "tokenId": 9,
-          "price": 144.2,
-          "change": 3.5398865513032085
+          "price": 149.88,
+          "change": 4.01832188215698
         },
         {
           "tokenId": 10,
-          "price": 126.27,
-          "change": 2.2511944286986814
+          "price": 129.82,
+          "change": 5.553297016017561
         },
         {
           "tokenId": 11,
-          "price": 130.89,
-          "change": 0.09941878250229082
+          "price": 75.61,
+          "change": 1.4763119044423492
         },
         {
           "tokenId": 12,
-          "price": 63.05,
-          "change": 0.06348198698619131
+          "price": 103.92,
+          "change": -0.43115837884449826
         },
         {
           "tokenId": 13,
-          "price": 208.62,
-          "change": -0.6240175296527425
+          "price": 144.47,
+          "change": -0.3105161468396278
         },
         {
           "tokenId": 14,
-          "price": 219.05,
-          "change": 1.9643438998277702
+          "price": 61.76,
+          "change": -15.001376273052571
         },
         {
           "tokenId": 15,
-          "price": 40.14,
-          "change": -14.55938697318007
+          "price": 42.9,
+          "change": -14.575866188769416
         },
         {
           "tokenId": 16,
-          "price": 95.97,
-          "change": 0.5763990777614726
+          "price": 102.41,
+          "change": 0.5597014925373067
         },
         {
           "tokenId": 17,
-          "price": 237.48,
-          "change": 2.738481505515892
+          "price": 232.71,
+          "change": 2.1016146016146107
         },
         {
           "tokenId": 18,
-          "price": 71.81,
-          "change": 1.2121212121212113
+          "price": 65.6,
+          "change": 0.8920332205475213
         }
       ],
-      "totalMarketCap": 1212178.75,
-      "tradingVolume": 65031.87000000016,
-      "feesCollected": 30.262900000000005,
-      "activeTraders": 950,
-      "buyOrders": 187,
-      "sellOrders": 0,
+      "totalMarketCap": 1129545.88,
+      "tradingVolume": 85379.32000000007,
+      "feesCollected": 267.6647000000012,
+      "activeTraders": 979,
+      "buyOrders": 379,
+      "sellOrders": 3,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 21.210815300000036,
-          "profitableCount": 192,
+          "avgPnL": 12.993132500000023,
+          "profitableCount": 170,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 29.57034088333339,
-          "profitableCount": 300,
+          "avgPnL": 22.3383352000001,
+          "profitableCount": 223,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 55.19825851428579,
+          "avgPnL": 51.724831657142886,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -5.489822933333343,
+          "avgPnL": -9.793636213333375,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3863,123 +3863,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 204.52,
-          "change": 2.2446633005049286
+          "price": 269.86,
+          "change": 1.7533275517514553
         },
         {
           "tokenId": 2,
-          "price": 104.01,
-          "change": 0.8239627762698802
+          "price": 104.22,
+          "change": 0.10565747766785077
         },
         {
           "tokenId": 3,
-          "price": 182.03,
-          "change": -0.5898094041832845
+          "price": 131.89,
+          "change": 0.19752336093594994
         },
         {
           "tokenId": 4,
-          "price": 149.64,
-          "change": 3.371096988118262
+          "price": 59.55,
+          "change": 5.454223481494596
         },
         {
           "tokenId": 5,
-          "price": 160.91,
-          "change": 2.6670069546353647
+          "price": 195.81,
+          "change": 2.641924830948258
         },
         {
           "tokenId": 6,
-          "price": 171.35,
-          "change": 2.43917020386201
+          "price": 56.52,
+          "change": -14.712539610683558
         },
         {
           "tokenId": 7,
-          "price": 62.65,
-          "change": -15.004748338081667
+          "price": 127.33,
+          "change": -15.429064824654626
         },
         {
           "tokenId": 8,
-          "price": 135.82,
-          "change": 3.9014687882496895
+          "price": 136.64,
+          "change": 3.940362087326927
         },
         {
           "tokenId": 9,
-          "price": 145.74,
-          "change": 1.0679611650485579
+          "price": 151.15,
+          "change": 0.8473445423005139
         },
         {
           "tokenId": 10,
-          "price": 126.41,
-          "change": 0.11087352498614127
+          "price": 129.1,
+          "change": -0.5546140810352788
         },
         {
           "tokenId": 11,
-          "price": 132.06,
-          "change": 0.8938803575521552
+          "price": 76.75,
+          "change": 1.5077370718158982
         },
         {
           "tokenId": 12,
-          "price": 63.35,
-          "change": 0.47581284694687437
+          "price": 104.25,
+          "change": 0.3175519630484972
         },
         {
           "tokenId": 13,
-          "price": 205.23,
-          "change": -1.624964049467939
+          "price": 142.92,
+          "change": -1.072887104589196
         },
         {
           "tokenId": 14,
-          "price": 218.06,
-          "change": -0.451951609221643
+          "price": 65.1,
+          "change": 5.408031088082896
         },
         {
           "tokenId": 15,
-          "price": 42.4,
-          "change": 5.630293971101141
+          "price": 45.3,
+          "change": 5.5944055944055915
         },
         {
           "tokenId": 16,
-          "price": 81.57,
-          "change": -15.004688965301662
+          "price": 87.05,
+          "change": -14.99853529928718
         },
         {
           "tokenId": 17,
-          "price": 252.89,
-          "change": 6.488967491999325
+          "price": 248.57,
+          "change": 6.815349576726391
         },
         {
           "tokenId": 18,
-          "price": 72.01,
-          "change": 0.27851274195794856
+          "price": 65.97,
+          "change": 0.5640243902439095
         }
       ],
-      "totalMarketCap": 1240858.12,
-      "tradingVolume": 153308.97000000026,
-      "feesCollected": 332.3026000000005,
-      "activeTraders": 950,
-      "buyOrders": 483,
-      "sellOrders": 22,
+      "totalMarketCap": 1236636.4500000002,
+      "tradingVolume": 197301.88000000105,
+      "feesCollected": 984.4758999999999,
+      "activeTraders": 1000,
+      "buyOrders": 617,
+      "sellOrders": 20,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 22.54705190000002,
-          "profitableCount": 192,
+          "avgPnL": 14.09545165000004,
+          "profitableCount": 172,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 29.50109491666667,
-          "profitableCount": 300,
+          "avgPnL": 23.450612033333368,
+          "profitableCount": 221,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 56.542481371428245,
+          "avgPnL": 54.531049485714114,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -6.260249599999988,
+          "avgPnL": -10.066411733333444,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -3991,123 +3991,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 215.76,
-          "change": 5.495795032270673
+          "price": 282.45,
+          "change": 4.665382049951818
         },
         {
           "tokenId": 2,
-          "price": 104.58,
-          "change": 0.5480242284395666
+          "price": 105.2,
+          "change": 0.9403185568988717
         },
         {
           "tokenId": 3,
-          "price": 186.22,
-          "change": 2.3018183815854516
+          "price": 135.22,
+          "change": 2.524831298809624
         },
         {
           "tokenId": 4,
-          "price": 153.76,
-          "change": 2.753274525527937
+          "price": 61.2,
+          "change": 2.7707808564231837
         },
         {
           "tokenId": 5,
-          "price": 156.12,
-          "change": -2.9768193400037237
+          "price": 199.13,
+          "change": 1.695521168479645
         },
         {
           "tokenId": 6,
-          "price": 169.94,
-          "change": -0.8228771520280108
+          "price": 59.6,
+          "change": 5.449398443029013
         },
         {
           "tokenId": 7,
-          "price": 61,
-          "change": -2.633679169992017
+          "price": 123.51,
+          "change": -3.0000785360873268
         },
         {
           "tokenId": 8,
-          "price": 139.68,
-          "change": 2.8419967604182106
+          "price": 144.55,
+          "change": 5.7889344262295275
         },
         {
           "tokenId": 9,
-          "price": 153.78,
-          "change": 5.5166735282009
+          "price": 159.46,
+          "change": 5.497849818061529
         },
         {
           "tokenId": 10,
-          "price": 126.51,
-          "change": 0.07910766553279688
+          "price": 128.62,
+          "change": -0.37180480247869074
         },
         {
           "tokenId": 11,
-          "price": 134.86,
-          "change": 2.1202483719521514
+          "price": 78.34,
+          "change": 2.0716612377850208
         },
         {
           "tokenId": 12,
-          "price": 64.81,
-          "change": 2.3046566692975547
+          "price": 105.99,
+          "change": 1.669064748201434
         },
         {
           "tokenId": 13,
-          "price": 209.23,
-          "change": 1.9490327924767334
+          "price": 142.59,
+          "change": -0.23089840470192002
         },
         {
           "tokenId": 14,
-          "price": 216.83,
-          "change": -0.5640649362560716
+          "price": 65.56,
+          "change": 0.7066052227342673
         },
         {
           "tokenId": 15,
-          "price": 42.46,
-          "change": 0.14150943396226953
+          "price": 45.79,
+          "change": 1.081677704194265
         },
         {
           "tokenId": 16,
-          "price": 85.65,
-          "change": 5.001838911364488
+          "price": 91.4,
+          "change": 4.997128087306156
         },
         {
           "tokenId": 17,
-          "price": 267.43,
-          "change": 5.749535371109977
+          "price": 262.8,
+          "change": 5.724745544514631
         },
         {
           "tokenId": 18,
-          "price": 61.21,
-          "change": -14.99791695597834
+          "price": 56.27,
+          "change": -14.703653175685913
         }
       ],
-      "totalMarketCap": 1259384.35,
-      "tradingVolume": 97585.61,
-      "feesCollected": 29.611800000000002,
-      "activeTraders": 950,
-      "buyOrders": 196,
+      "totalMarketCap": 1286711.2999999998,
+      "tradingVolume": 81589.14999999986,
+      "feesCollected": 224.74659999999986,
+      "activeTraders": 1000,
+      "buyOrders": 305,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 24.516211000000045,
-          "profitableCount": 194,
+          "avgPnL": 16.42527930000001,
+          "profitableCount": 178,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 31.856781583333305,
-          "profitableCount": 300,
+          "avgPnL": 26.662380366666756,
+          "profitableCount": 221,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 60.44276708571456,
+          "avgPnL": 59.594976057142915,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -7.508582933333291,
+          "avgPnL": -10.788637519999867,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -4119,123 +4119,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 221.44,
-          "change": 2.63255469039674
+          "price": 287.32,
+          "change": 1.724198973269607
         },
         {
           "tokenId": 2,
-          "price": 104.97,
-          "change": 0.3729202524383253
+          "price": 105.37,
+          "change": 0.16159695817490657
         },
         {
           "tokenId": 3,
-          "price": 190.94,
-          "change": 2.534636451508967
+          "price": 139.38,
+          "change": 3.076467978109745
         },
         {
           "tokenId": 4,
-          "price": 152.97,
-          "change": -0.5137877211238242
+          "price": 52.22,
+          "change": -14.673202614379091
         },
         {
           "tokenId": 5,
-          "price": 155.3,
-          "change": -0.5252369971816507
+          "price": 196.91,
+          "change": -1.114849595741475
         },
         {
           "tokenId": 6,
-          "price": 172.93,
-          "change": 1.759444509827003
+          "price": 60.74,
+          "change": 1.91275167785235
         },
         {
           "tokenId": 7,
-          "price": 59.4,
-          "change": -2.6229508196721336
+          "price": 119.8,
+          "change": -3.0038053598898937
         },
         {
           "tokenId": 8,
-          "price": 145.13,
-          "change": 3.9017754868270247
+          "price": 149.44,
+          "change": 3.3829124870287006
         },
         {
           "tokenId": 9,
-          "price": 157.65,
-          "change": 2.5165821303160385
+          "price": 162.32,
+          "change": 1.7935532421923899
         },
         {
           "tokenId": 10,
-          "price": 130.37,
-          "change": 3.051142202197454
+          "price": 132.23,
+          "change": 2.8067174622920117
         },
         {
           "tokenId": 11,
-          "price": 138.88,
-          "change": 2.980869049384533
+          "price": 81.11,
+          "change": 3.5358692877201885
         },
         {
           "tokenId": 12,
-          "price": 55.28,
-          "change": -14.7045209072674
+          "price": 105.1,
+          "change": -0.8397018586659125
         },
         {
           "tokenId": 13,
-          "price": 208.06,
-          "change": -0.5591932323280541
+          "price": 142.44,
+          "change": -0.10519671786240667
         },
         {
           "tokenId": 14,
-          "price": 224.06,
-          "change": 3.3344094451874686
+          "price": 68.54,
+          "change": 4.545454545454551
         },
         {
           "tokenId": 15,
-          "price": 42.79,
-          "change": 0.7772020725388561
+          "price": 46.68,
+          "change": 1.943655820048047
         },
         {
           "tokenId": 16,
-          "price": 72.8,
-          "change": -15.002918855808531
+          "price": 77.69,
+          "change": -15.000000000000007
         },
         {
           "tokenId": 17,
-          "price": 267.25,
-          "change": -0.06730733275997712
+          "price": 263.2,
+          "change": 0.15220700152206135
         },
         {
           "tokenId": 18,
-          "price": 64.52,
-          "change": 5.407613135108635
+          "price": 59.34,
+          "change": 5.455837924293585
         }
       ],
-      "totalMarketCap": 1324120.41,
-      "tradingVolume": 102811.75000000009,
-      "feesCollected": 599.8565000000003,
-      "activeTraders": 950,
-      "buyOrders": 190,
-      "sellOrders": 5,
+      "totalMarketCap": 1351939.1199999999,
+      "tradingVolume": 69749.67999999998,
+      "feesCollected": 623.0878000000005,
+      "activeTraders": 1000,
+      "buyOrders": 272,
+      "sellOrders": 7,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 26.204921749999993,
-          "profitableCount": 196,
+          "avgPnL": 17.319704449999975,
+          "profitableCount": 180,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 33.1526715833334,
-          "profitableCount": 300,
+          "avgPnL": 26.814158699999822,
+          "profitableCount": 221,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 61.45809279999992,
+          "avgPnL": 61.66673782857145,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -8.582053333333315,
+          "avgPnL": -11.187628346666825,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -4247,123 +4247,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 232.98,
-          "change": 5.2113439306358345
+          "price": 302.52,
+          "change": 5.290268689962407
         },
         {
           "tokenId": 2,
-          "price": 104.93,
-          "change": -0.038106125559676136
+          "price": 105.34,
+          "change": -0.028471101831641962
         },
         {
           "tokenId": 3,
-          "price": 195.58,
-          "change": 2.430082748507392
+          "price": 143.98,
+          "change": 3.3003300330032967
         },
         {
           "tokenId": 4,
-          "price": 155.74,
-          "change": 1.8108125776296071
+          "price": 55.09,
+          "change": 5.495978552278829
         },
         {
           "tokenId": 5,
-          "price": 156.5,
-          "change": 0.7726980038634826
+          "price": 200.73,
+          "change": 1.9399725763038917
         },
         {
           "tokenId": 6,
-          "price": 171.86,
-          "change": -0.6187474700745926
+          "price": 62.05,
+          "change": 2.1567336187026593
         },
         {
           "tokenId": 7,
-          "price": 57.85,
-          "change": -2.609427609427605
+          "price": 116.21,
+          "change": -2.996661101836397
         },
         {
           "tokenId": 8,
-          "price": 145.5,
-          "change": 0.25494384345070253
+          "price": 149.18,
+          "change": -0.17398286937900892
         },
         {
           "tokenId": 9,
-          "price": 156.91,
-          "change": -0.46939422771963785
+          "price": 162.31,
+          "change": -0.006160670280920963
         },
         {
           "tokenId": 10,
-          "price": 133.74,
-          "change": 2.5849505254276326
+          "price": 135.13,
+          "change": 2.1931483022007154
         },
         {
           "tokenId": 11,
-          "price": 141.75,
-          "change": 2.0665322580645196
+          "price": 68.94,
+          "change": -15.004315127604489
         },
         {
           "tokenId": 12,
-          "price": 58.3,
-          "change": 5.463096960926187
+          "price": 103.95,
+          "change": -1.094196003805891
         },
         {
           "tokenId": 13,
-          "price": 212.89,
-          "change": 2.321445736806683
+          "price": 147.05,
+          "change": 3.236450435271001
         },
         {
           "tokenId": 14,
-          "price": 220.59,
-          "change": -1.5486923145585998
+          "price": 68.33,
+          "change": -0.3063904289466121
         },
         {
           "tokenId": 15,
-          "price": 43.25,
-          "change": 1.075017527459689
+          "price": 47.33,
+          "change": 1.3924592973436132
         },
         {
           "tokenId": 16,
-          "price": 70.62,
-          "change": -2.9945054945054848
+          "price": 75.36,
+          "change": -2.999098983138111
         },
         {
           "tokenId": 17,
-          "price": 265.4,
-          "change": -0.6922357343311591
+          "price": 261.38,
+          "change": -0.691489361702125
         },
         {
           "tokenId": 18,
-          "price": 65.44,
-          "change": 1.4259144451332948
+          "price": 59.96,
+          "change": 1.0448264239972993
         }
       ],
-      "totalMarketCap": 1339501.6600000001,
-      "tradingVolume": 85283.95999999986,
-      "feesCollected": 14.7587,
-      "activeTraders": 950,
-      "buyOrders": 181,
-      "sellOrders": 0,
+      "totalMarketCap": 1360646.0900000003,
+      "tradingVolume": 61456.77000000005,
+      "feesCollected": 57.12799999999997,
+      "activeTraders": 1000,
+      "buyOrders": 258,
+      "sellOrders": 1,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 27.314992400000026,
-          "profitableCount": 196,
+          "avgPnL": 18.418874349999964,
+          "profitableCount": 181,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 34.04927991666668,
-          "profitableCount": 300,
+          "avgPnL": 27.603248700000037,
+          "profitableCount": 221,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 64.2450699428568,
+          "avgPnL": 65.8839105142858,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -8.393570666666674,
+          "avgPnL": -12.686029680000066,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -4375,123 +4375,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 239.27,
-          "change": 2.6998025581595075
+          "price": 307.39,
+          "change": 1.6098109215919625
         },
         {
           "tokenId": 2,
-          "price": 105.52,
-          "change": 0.5622796149814059
+          "price": 104.97,
+          "change": -0.3512435921777146
         },
         {
           "tokenId": 3,
-          "price": 195.65,
-          "change": 0.03579098067286694
+          "price": 144.58,
+          "change": 0.41672454507572076
         },
         {
           "tokenId": 4,
-          "price": 157.11,
-          "change": 0.8796712469500478
+          "price": 56.26,
+          "change": 2.1237974223997
         },
         {
           "tokenId": 5,
-          "price": 160.24,
-          "change": 2.3897763578274818
+          "price": 210.83,
+          "change": 5.03163453395109
         },
         {
           "tokenId": 6,
-          "price": 172.35,
-          "change": 0.2851157919236475
+          "price": 63.38,
+          "change": 2.143432715551983
         },
         {
           "tokenId": 7,
-          "price": 56.35,
-          "change": -2.592912705272256
+          "price": 112.72,
+          "change": -3.0031838912313873
         },
         {
           "tokenId": 8,
-          "price": 146.55,
-          "change": 0.7216494845360903
+          "price": 150.18,
+          "change": 0.6703311435849308
         },
         {
           "tokenId": 9,
-          "price": 160.52,
-          "change": 2.300681919571738
+          "price": 166.6,
+          "change": 2.6430903826011902
         },
         {
           "tokenId": 10,
-          "price": 133.68,
-          "change": -0.04486316733961587
+          "price": 135.16,
+          "change": 0.022200843632058858
         },
         {
           "tokenId": 11,
-          "price": 141.6,
-          "change": -0.10582010582010984
+          "price": 72.61,
+          "change": 5.323469683783003
         },
         {
           "tokenId": 12,
-          "price": 59.49,
-          "change": 2.0411663807890306
+          "price": 105.66,
+          "change": 1.6450216450216388
         },
         {
           "tokenId": 13,
-          "price": 223.67,
-          "change": 5.06364789327822
+          "price": 151.39,
+          "change": 2.9513770826249406
         },
         {
           "tokenId": 14,
-          "price": 223.47,
-          "change": 1.3055895552835557
+          "price": 68.52,
+          "change": 0.27806234450460665
         },
         {
           "tokenId": 15,
-          "price": 43.19,
-          "change": -0.13872832369942723
+          "price": 47.34,
+          "change": 0.021128248468212797
         },
         {
           "tokenId": 16,
-          "price": 68.5,
-          "change": -3.001982441234784
+          "price": 73.1,
+          "change": -2.9989384288747414
         },
         {
           "tokenId": 17,
-          "price": 271.59,
-          "change": 2.332328560663149
+          "price": 268.12,
+          "change": 2.5786211645879598
         },
         {
           "tokenId": 18,
-          "price": 66.15,
-          "change": 1.0849633251833863
+          "price": 60.25,
+          "change": 0.4836557705136743
         }
       ],
-      "totalMarketCap": 1387415.67,
-      "tradingVolume": 144759.59999999977,
-      "feesCollected": 244.05589999999992,
-      "activeTraders": 950,
-      "buyOrders": 478,
+      "totalMarketCap": 1401736.01,
+      "tradingVolume": 126776.14000000019,
+      "feesCollected": 246.66669999999993,
+      "activeTraders": 1000,
+      "buyOrders": 564,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 28.633618949999985,
-          "profitableCount": 196,
+          "avgPnL": 19.932060049999993,
+          "profitableCount": 182,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 36.264721750000035,
-          "profitableCount": 300,
+          "avgPnL": 28.77123373333327,
+          "profitableCount": 221,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 69.02945851428574,
+          "avgPnL": 68.12479719999992,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -8.532000000000007,
+          "avgPnL": -12.389929680000078,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -4503,123 +4503,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 251.08,
-          "change": 4.935846533205166
+          "price": 320.29,
+          "change": 4.196623182276598
         },
         {
           "tokenId": 2,
-          "price": 106.5,
-          "change": 0.9287338893100872
+          "price": 105.12,
+          "change": 0.14289797084881936
         },
         {
           "tokenId": 3,
-          "price": 199,
-          "change": 1.712241247124965
+          "price": 148.26,
+          "change": 2.545303638124207
         },
         {
           "tokenId": 4,
-          "price": 160.44,
-          "change": 2.1195340843994552
+          "price": 57.59,
+          "change": 2.3640241734802796
         },
         {
           "tokenId": 5,
-          "price": 163.8,
-          "change": 2.2216674987518736
+          "price": 213.74,
+          "change": 1.380258976426503
         },
         {
           "tokenId": 6,
-          "price": 170.27,
-          "change": -1.2068465332172813
+          "price": 64.03,
+          "change": 1.0255601136005026
         },
         {
           "tokenId": 7,
-          "price": 59.43,
-          "change": 5.465838509316767
+          "price": 118.36,
+          "change": 5.003548616039745
         },
         {
           "tokenId": 8,
-          "price": 147.36,
-          "change": 0.552712384851588
+          "price": 150.76,
+          "change": 0.38620322279929686
         },
         {
           "tokenId": 9,
-          "price": 160.77,
-          "change": 0.15574383254423124
+          "price": 166.51,
+          "change": -0.05402160864345944
         },
         {
           "tokenId": 10,
-          "price": 133.75,
-          "change": 0.0523638539796478
+          "price": 135.8,
+          "change": 0.4735128736312628
         },
         {
           "tokenId": 11,
-          "price": 141.47,
-          "change": -0.09180790960451657
+          "price": 73.26,
+          "change": 0.8951934995179804
         },
         {
           "tokenId": 12,
-          "price": 60.94,
-          "change": 2.4373844343587083
+          "price": 107.58,
+          "change": 1.8171493469619553
         },
         {
           "tokenId": 13,
-          "price": 228.68,
-          "change": 2.2399070058568515
+          "price": 155.03,
+          "change": 2.4043860228548883
         },
         {
           "tokenId": 14,
-          "price": 225.19,
-          "change": 0.7696782565892508
+          "price": 68.5,
+          "change": -0.029188558085224785
         },
         {
           "tokenId": 15,
-          "price": 43.49,
-          "change": 0.6946052326927629
+          "price": 48.1,
+          "change": 1.605407689057875
         },
         {
           "tokenId": 16,
-          "price": 72.15,
-          "change": 5.32846715328468
+          "price": 76.76,
+          "change": 5.006839945280453
         },
         {
           "tokenId": 17,
-          "price": 283.93,
-          "change": 4.543613535108079
+          "price": 280.75,
+          "change": 4.710577353423838
         },
         {
           "tokenId": 18,
-          "price": 66.53,
-          "change": 0.5744520030234247
+          "price": 60.65,
+          "change": 0.663900414937757
         }
       ],
-      "totalMarketCap": 1424753.07,
-      "tradingVolume": 6884.299999999999,
-      "feesCollected": 14.433200000000001,
-      "activeTraders": 950,
-      "buyOrders": 42,
+      "totalMarketCap": 1445018.1099999999,
+      "tradingVolume": 14393.730000000023,
+      "feesCollected": 17.618100000000002,
+      "activeTraders": 1000,
+      "buyOrders": 134,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 30.23288735000003,
-          "profitableCount": 196,
+          "avgPnL": 21.568295899999907,
+          "profitableCount": 186,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 39.30355508333325,
-          "profitableCount": 300,
+          "avgPnL": 31.862163733333116,
+          "profitableCount": 222,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 73.11854994285704,
+          "avgPnL": 73.20607731428572,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -7.559706666666625,
+          "avgPnL": -10.950945680000059,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -4631,123 +4631,123 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 260.77,
-          "change": 3.8593277043173364
+          "price": 329.35,
+          "change": 2.8286865028567867
         },
         {
           "tokenId": 2,
-          "price": 107.33,
-          "change": 0.7793427230046932
+          "price": 105.4,
+          "change": 0.2663622526636236
         },
         {
           "tokenId": 3,
-          "price": 204.83,
-          "change": 2.9296482412060363
+          "price": 154.3,
+          "change": 4.073924187238649
         },
         {
           "tokenId": 4,
-          "price": 163.09,
-          "change": 1.651707803540268
+          "price": 49.16,
+          "change": -14.637957978815777
         },
         {
           "tokenId": 5,
-          "price": 164.02,
-          "change": 0.1343101343101336
+          "price": 212.72,
+          "change": -0.47721530831852255
         },
         {
           "tokenId": 6,
-          "price": 168.78,
-          "change": -0.8750807540964403
+          "price": 65.37,
+          "change": 2.0927690145244466
         },
         {
           "tokenId": 7,
-          "price": 59.8,
-          "change": 0.6225811879522084
+          "price": 124.81,
+          "change": 5.44947617438324
         },
         {
           "tokenId": 8,
-          "price": 147.88,
-          "change": 0.352877307274689
+          "price": 127.5,
+          "change": -15.428495622180947
         },
         {
           "tokenId": 9,
-          "price": 162.59,
-          "change": 1.132051999751193
+          "price": 168.94,
+          "change": 1.459371809500935
         },
         {
           "tokenId": 10,
-          "price": 134.3,
-          "change": 0.4112149532710365
+          "price": 136.89,
+          "change": 0.802650957290114
         },
         {
           "tokenId": 11,
-          "price": 141.51,
-          "change": 0.02827454584010182
+          "price": 73.34,
+          "change": 0.10920010920010687
         },
         {
           "tokenId": 12,
-          "price": 60.62,
-          "change": -0.5251066622907783
+          "price": 106.69,
+          "change": -0.8272913180888646
         },
         {
           "tokenId": 13,
-          "price": 226.9,
-          "change": -0.7783802693720487
+          "price": 154.13,
+          "change": -0.5805328001032095
         },
         {
           "tokenId": 14,
-          "price": 222.91,
-          "change": -1.0124783516141929
+          "price": 68.27,
+          "change": -0.33576642335767004
         },
         {
           "tokenId": 15,
-          "price": 43.62,
-          "change": 0.2989192917912059
+          "price": 49,
+          "change": 1.871101871101868
         },
         {
           "tokenId": 16,
-          "price": 72.49,
-          "change": 0.4712404712404562
+          "price": 76.5,
+          "change": -0.3387180823345559
         },
         {
           "tokenId": 17,
-          "price": 302.36,
-          "change": 6.491036523086678
+          "price": 299.17,
+          "change": 6.560997328584155
         },
         {
           "tokenId": 18,
-          "price": 66.9,
-          "change": 0.5561400871787232
+          "price": 60.68,
+          "change": 0.04946413849958968
         }
       ],
-      "totalMarketCap": 1444826.8399999999,
-      "tradingVolume": 11213.250000000004,
-      "feesCollected": 9.091899999999999,
-      "activeTraders": 950,
-      "buyOrders": 53,
-      "sellOrders": 0,
+      "totalMarketCap": 1437678.83,
+      "tradingVolume": 56502.36999999992,
+      "feesCollected": 346.03859999999895,
+      "activeTraders": 1000,
+      "buyOrders": 102,
+      "sellOrders": 208,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 31.75303139999992,
-          "profitableCount": 197,
+          "avgPnL": 21.253901599999995,
+          "profitableCount": 182,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 41.227588416666734,
-          "profitableCount": 300,
+          "avgPnL": 35.25819873333324,
+          "profitableCount": 224,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 75.33738422857148,
+          "avgPnL": 76.32036302857142,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -7.467968000000074,
+          "avgPnL": -11.164049679999916,
           "profitableCount": 0,
           "totalCount": 150
         }
@@ -4759,124 +4759,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 263.86,
-          "change": 1.184952256778016
+          "price": 337.49,
+          "change": 2.4715348413541784
         },
         {
           "tokenId": 2,
-          "price": 107.17,
-          "change": -0.1490729525761638
+          "price": 105.24,
+          "change": -0.1518026565464998
         },
         {
           "tokenId": 3,
-          "price": 202.95,
-          "change": -0.9178343016159859
+          "price": 153.97,
+          "change": -0.21386908619573072
         },
         {
           "tokenId": 4,
-          "price": 163.67,
-          "change": 0.3556318597093531
+          "price": 47.93,
+          "change": -2.502034174125299
         },
         {
           "tokenId": 5,
-          "price": 164.65,
-          "change": 0.3840995000609654
+          "price": 216.26,
+          "change": 1.6641594584430202
         },
         {
           "tokenId": 6,
-          "price": 172.6,
-          "change": 2.2633013390212073
+          "price": 55.76,
+          "change": -14.700933149762896
         },
         {
           "tokenId": 7,
-          "price": 60.21,
-          "change": 0.6856187290969962
+          "price": 131.89,
+          "change": 5.672622386026748
         },
         {
           "tokenId": 8,
-          "price": 149.1,
-          "change": 0.8249932377603455
+          "price": 133.88,
+          "change": 5.003921568627447
         },
         {
           "tokenId": 9,
-          "price": 163.5,
-          "change": 0.5596900178362731
+          "price": 168.99,
+          "change": 0.029596306380970383
         },
         {
           "tokenId": 10,
-          "price": 134.73,
-          "change": 0.32017870439313356
+          "price": 138.15,
+          "change": 0.9204470742932424
         },
         {
           "tokenId": 11,
-          "price": 141.36,
-          "change": -0.10599957600167993
+          "price": 62.34,
+          "change": -14.998636487592037
         },
         {
           "tokenId": 12,
-          "price": 51.73,
-          "change": -14.66512702078522
+          "price": 108.16,
+          "change": 1.377823601087261
         },
         {
           "tokenId": 13,
-          "price": 228.76,
-          "change": 0.81974438078448
+          "price": 153.39,
+          "change": -0.48011418932070926
         },
         {
           "tokenId": 14,
-          "price": 232.96,
-          "change": 4.508546049975331
+          "price": 70.62,
+          "change": 3.442214735608626
         },
         {
           "tokenId": 15,
-          "price": 43.9,
-          "change": 0.6419073819348949
+          "price": 49.47,
+          "change": 0.9591836734693854
         },
         {
           "tokenId": 16,
-          "price": 73.49,
-          "change": 1.3795006207752794
+          "price": 76.62,
+          "change": 0.15686274509804515
         },
         {
           "tokenId": 17,
-          "price": 297.96,
-          "change": -1.4552189443048136
+          "price": 294.96,
+          "change": -1.407226660427194
         },
         {
           "tokenId": 18,
-          "price": 67.93,
-          "change": 1.5396113602391646
+          "price": 61.14,
+          "change": 0.7580751483190522
         }
       ],
-      "totalMarketCap": 1453385.58,
-      "tradingVolume": 4860.6500000000015,
-      "feesCollected": 8.035300000000001,
-      "activeTraders": 950,
-      "buyOrders": 29,
-      "sellOrders": 0,
+      "totalMarketCap": 1433695.57,
+      "tradingVolume": 64177.28000000003,
+      "feesCollected": 27.921999999999993,
+      "activeTraders": 1000,
+      "buyOrders": 305,
+      "sellOrders": 1,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 32.36189875000009,
-          "profitableCount": 197,
+          "avgPnL": 21.593036099999996,
+          "profitableCount": 184,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 43.04975341666668,
-          "profitableCount": 300,
+          "avgPnL": 35.95532373333338,
+          "profitableCount": 224,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 76.59341280000012,
+          "avgPnL": 77.96196439999996,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -8.348181333333342,
-          "profitableCount": 0,
+          "avgPnL": -13.085719466666468,
+          "profitableCount": 21,
           "totalCount": 150
         }
       ]
@@ -4887,124 +4887,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 276.57,
-          "change": 4.81694838171757
+          "price": 352.11,
+          "change": 4.331980206820944
         },
         {
           "tokenId": 2,
-          "price": 107.57,
-          "change": 0.37323877950918305
+          "price": 106.08,
+          "change": 0.7981755986317023
         },
         {
           "tokenId": 3,
-          "price": 202.88,
-          "change": -0.034491254003445763
+          "price": 153.31,
+          "change": -0.42865493277911054
         },
         {
           "tokenId": 4,
-          "price": 162.35,
-          "change": -0.8065008859289994
+          "price": 50.59,
+          "change": 5.549760066764039
         },
         {
           "tokenId": 5,
-          "price": 167.09,
-          "change": 1.4819313695718177
+          "price": 219.23,
+          "change": 1.3733468972533058
         },
         {
           "tokenId": 6,
-          "price": 175.93,
-          "change": 1.9293163383545844
+          "price": 58.81,
+          "change": 5.469870875179348
         },
         {
           "tokenId": 7,
-          "price": 64.13,
-          "change": 6.510546420860313
+          "price": 142.71,
+          "change": 8.203806202138162
         },
         {
           "tokenId": 8,
-          "price": 150.55,
-          "change": 0.9725016767270402
+          "price": 134.24,
+          "change": 0.2688975201673242
         },
         {
           "tokenId": 9,
-          "price": 163.13,
-          "change": -0.22629969418960522
+          "price": 169.48,
+          "change": 0.28995798567961456
         },
         {
           "tokenId": 10,
-          "price": 134.76,
-          "change": 0.022266755733690448
+          "price": 139.13,
+          "change": 0.709373868982982
         },
         {
           "tokenId": 11,
-          "price": 145.3,
-          "change": 2.787209960384831
+          "price": 60.7,
+          "change": -2.6307346807828047
         },
         {
           "tokenId": 12,
-          "price": 54.58,
-          "change": 5.509375604098206
+          "price": 109.56,
+          "change": 1.2943786982248573
         },
         {
           "tokenId": 13,
-          "price": 225.23,
-          "change": -1.5431019408987592
+          "price": 151.93,
+          "change": -0.9518221526826909
         },
         {
           "tokenId": 14,
-          "price": 231.72,
-          "change": -0.5322802197802237
+          "price": 70.96,
+          "change": 0.4814500141602792
         },
         {
           "tokenId": 15,
-          "price": 44.12,
-          "change": 0.5011389521640065
+          "price": 49.88,
+          "change": 0.8287851222963487
         },
         {
           "tokenId": 16,
-          "price": 62.47,
-          "change": -14.995237447271734
+          "price": 65.13,
+          "change": -14.996084573218491
         },
         {
           "tokenId": 17,
-          "price": 311.75,
-          "change": 4.628138005101363
+          "price": 308.77,
+          "change": 4.681990778410633
         },
         {
           "tokenId": 18,
-          "price": 57.93,
-          "change": -14.721036360959822
+          "price": 52.17,
+          "change": -14.67124631992149
         }
       ],
-      "totalMarketCap": 1475550.82,
-      "tradingVolume": 140055.83999999965,
-      "feesCollected": 180.8106000000002,
-      "activeTraders": 950,
-      "buyOrders": 470,
-      "sellOrders": 2,
+      "totalMarketCap": 1467802.26,
+      "tradingVolume": 133741.38000000044,
+      "feesCollected": 97.36000000000006,
+      "activeTraders": 1000,
+      "buyOrders": 608,
+      "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 33.66470400000005,
-          "profitableCount": 197,
+          "avgPnL": 22.751978150000106,
+          "profitableCount": 186,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 44.55676990000004,
-          "profitableCount": 300,
+          "avgPnL": 38.99214166666688,
+          "profitableCount": 226,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 78.80407565714295,
+          "avgPnL": 83.05660914285693,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -9.863263999999964,
-          "profitableCount": 0,
+          "avgPnL": -13.776531466666839,
+          "profitableCount": 21,
           "totalCount": 150
         }
       ]
@@ -5015,124 +5015,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 279.76,
-          "change": 1.1534150486314487
+          "price": 354.1,
+          "change": 0.5651642952486465
         },
         {
           "tokenId": 2,
-          "price": 107.79,
-          "change": 0.20451798828670922
+          "price": 105.77,
+          "change": -0.2922322775263973
         },
         {
           "tokenId": 3,
-          "price": 206.12,
-          "change": 1.5970031545741372
+          "price": 151.91,
+          "change": -0.9131824408062132
         },
         {
           "tokenId": 4,
-          "price": 165.1,
-          "change": 1.6938712657838004
+          "price": 51.98,
+          "change": 2.747578572840469
         },
         {
           "tokenId": 5,
-          "price": 170.25,
-          "change": 1.891196361242442
+          "price": 223.29,
+          "change": 1.8519363225835892
         },
         {
           "tokenId": 6,
-          "price": 180.07,
-          "change": 2.353208662536228
+          "price": 50.19,
+          "change": -14.657371195374944
         },
         {
           "tokenId": 7,
-          "price": 64.41,
-          "change": 0.4366131295805414
+          "price": 149.58,
+          "change": 4.813958377128445
         },
         {
           "tokenId": 8,
-          "price": 150.18,
-          "change": -0.2457655264031913
+          "price": 134.27,
+          "change": 0.022348033373064013
         },
         {
           "tokenId": 9,
-          "price": 165.39,
-          "change": 1.3853981487157427
+          "price": 172.74,
+          "change": 1.9235308000944178
         },
         {
           "tokenId": 10,
-          "price": 138.05,
-          "change": 2.4413772632828885
+          "price": 142.41,
+          "change": 2.3575073672105233
         },
         {
           "tokenId": 11,
-          "price": 146.54,
-          "change": 0.8534067446661945
+          "price": 63.99,
+          "change": 5.420098846787478
         },
         {
           "tokenId": 12,
-          "price": 56.27,
-          "change": 3.096372297544897
+          "price": 111.93,
+          "change": 2.163198247535601
         },
         {
           "tokenId": 13,
-          "price": 220.96,
-          "change": -1.8958398081960581
+          "price": 149.76,
+          "change": -1.4282893437767497
         },
         {
           "tokenId": 14,
-          "price": 234.86,
-          "change": 1.3550837217331326
+          "price": 70.71,
+          "change": -0.3523111612175874
         },
         {
           "tokenId": 15,
-          "price": 44.05,
-          "change": -0.15865820489573954
+          "price": 50.03,
+          "change": 0.30072173215717435
         },
         {
           "tokenId": 16,
-          "price": 65.84,
-          "change": 5.394589402913406
+          "price": 68.62,
+          "change": 5.358513741747289
         },
         {
           "tokenId": 17,
-          "price": 326.86,
-          "change": 4.846832397754616
+          "price": 322.53,
+          "change": 4.456391488810438
         },
         {
           "tokenId": 18,
-          "price": 61.08,
-          "change": 5.437597099948211
+          "price": 55.04,
+          "change": 5.501245926777837
         }
       ],
-      "totalMarketCap": 1500135.0000000002,
-      "tradingVolume": 6199.08,
-      "feesCollected": 6.7775,
-      "activeTraders": 950,
-      "buyOrders": 44,
+      "totalMarketCap": 1497325.7,
+      "tradingVolume": 55003.29,
+      "feesCollected": 25.284799999999997,
+      "activeTraders": 1000,
+      "buyOrders": 296,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 35.373030250000006,
-          "profitableCount": 198,
+          "avgPnL": 23.836722550000015,
+          "profitableCount": 189,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 46.47799823333326,
-          "profitableCount": 300,
+          "avgPnL": 41.45773666666655,
+          "profitableCount": 229,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 79.77630994285732,
+          "avgPnL": 84.91600708571416,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -8.8960346666668,
-          "profitableCount": 0,
+          "avgPnL": -12.876175466666737,
+          "profitableCount": 21,
           "totalCount": 150
         }
       ]
@@ -5143,124 +5143,124 @@
       "tokenPrices": [
         {
           "tokenId": 1,
-          "price": 283.09,
-          "change": 1.190305976551324
+          "price": 356.24,
+          "change": 0.6043490539395612
         },
         {
           "tokenId": 2,
-          "price": 107.27,
-          "change": -0.48241951943594974
+          "price": 105.52,
+          "change": -0.2363619173678737
         },
         {
           "tokenId": 3,
-          "price": 215.78,
-          "change": 4.686590335726759
+          "price": 159.03,
+          "change": 4.686985715226124
         },
         {
           "tokenId": 4,
-          "price": 168.22,
-          "change": 1.889763779527562
+          "price": 52.97,
+          "change": 1.9045786841092767
         },
         {
           "tokenId": 5,
-          "price": 171.23,
-          "change": 0.5756240822320058
+          "price": 223.78,
+          "change": 0.21944556406467333
         },
         {
           "tokenId": 6,
-          "price": 183.92,
-          "change": 2.1380574221136195
+          "price": 52.96,
+          "change": 5.519027694759919
         },
         {
           "tokenId": 7,
-          "price": 64.79,
-          "change": 0.5899705014749412
+          "price": 157.93,
+          "change": 5.582297098542582
         },
         {
           "tokenId": 8,
-          "price": 149.57,
-          "change": -0.406179251564798
+          "price": 137.58,
+          "change": 2.465182095777167
         },
         {
           "tokenId": 9,
-          "price": 164.26,
-          "change": -0.6832335691396068
+          "price": 171.89,
+          "change": -0.4920690054417174
         },
         {
           "tokenId": 10,
-          "price": 138.47,
-          "change": 0.30423759507423936
+          "price": 143.31,
+          "change": 0.6319780914261679
         },
         {
           "tokenId": 11,
-          "price": 146.99,
-          "change": 0.30708339020063946
+          "price": 65.01,
+          "change": 1.5939990623534974
         },
         {
           "tokenId": 12,
-          "price": 48.04,
-          "change": -14.625910787275643
+          "price": 111.35,
+          "change": -0.5181810059858951
         },
         {
           "tokenId": 13,
-          "price": 231.37,
-          "change": 4.71125995655322
+          "price": 149.98,
+          "change": 0.14690170940170863
         },
         {
           "tokenId": 14,
-          "price": 231.72,
-          "change": -1.3369667035680894
+          "price": 70.31,
+          "change": -0.56569084995049
         },
         {
           "tokenId": 15,
-          "price": 43.89,
-          "change": -0.363223609534612
+          "price": 50.52,
+          "change": 0.9794123525884509
         },
         {
           "tokenId": 16,
-          "price": 67.12,
-          "change": 1.944106925880925
+          "price": 69.13,
+          "change": 0.7432235499854137
         },
         {
           "tokenId": 17,
-          "price": 340.9,
-          "change": 4.295416998103152
+          "price": 337.72,
+          "change": 4.70963941338792
         },
         {
           "tokenId": 18,
-          "price": 61.72,
-          "change": 1.0478061558611667
+          "price": 55.34,
+          "change": 0.5450581395348915
         }
       ],
-      "totalMarketCap": 1517188.36,
-      "tradingVolume": 69872.18000000007,
-      "feesCollected": 9.0148,
-      "activeTraders": 950,
-      "buyOrders": 168,
+      "totalMarketCap": 1533317.09,
+      "tradingVolume": 26935.030000000028,
+      "feesCollected": 25.089899999999997,
+      "activeTraders": 1000,
+      "buyOrders": 179,
       "sellOrders": 0,
       "agentPerformance": [
         {
           "type": "panic",
-          "avgPnL": 37.01500785000003,
-          "profitableCount": 198,
+          "avgPnL": 24.924122250000007,
+          "profitableCount": 189,
           "totalCount": 200
         },
         {
           "type": "hodler",
-          "avgPnL": 48.23363990000014,
-          "profitableCount": 300,
+          "avgPnL": 43.84232166666659,
+          "profitableCount": 230,
           "totalCount": 300
         },
         {
           "type": "bandwagon",
-          "avgPnL": 84.83892708571402,
+          "avgPnL": 87.77889891428576,
           "profitableCount": 350,
           "totalCount": 350
         },
         {
           "type": "value",
-          "avgPnL": -9.767303999999967,
-          "profitableCount": 0,
+          "avgPnL": -11.280850133333225,
+          "profitableCount": 21,
           "totalCount": 150
         }
       ]
@@ -5271,18 +5271,28 @@
     "description": "Full season simulation with standard agent distribution",
     "keyEvents": [
       {
-        "week": 3,
-        "event": "Ederson dropped 15.0%",
-        "impact": "Panic selling observed"
-      },
-      {
         "week": 4,
         "event": "Casemiro dropped 15.0%",
         "impact": "Panic selling observed"
       },
       {
+        "week": 5,
+        "event": "Martin Odegaard dropped 15.0%",
+        "impact": "Panic selling observed"
+      },
+      {
+        "week": 5,
+        "event": "Cole Palmer dropped 15.0%",
+        "impact": "Panic selling observed"
+      },
+      {
         "week": 6,
         "event": "Rodri dropped 15.0%",
+        "impact": "Panic selling observed"
+      },
+      {
+        "week": 7,
+        "event": "Son Heung-min dropped 15.0%",
         "impact": "Panic selling observed"
       },
       {
@@ -5297,35 +5307,25 @@
       },
       {
         "week": 8,
+        "event": "Trent Alexander-Arnold dropped 15.0%",
+        "impact": "Panic selling observed"
+      },
+      {
+        "week": 8,
         "event": "Rodri dropped 15.0%",
         "impact": "Panic selling observed"
       },
       {
         "week": 9,
-        "event": "Ederson dropped 15.0%",
-        "impact": "Panic selling observed"
-      },
-      {
-        "week": 10,
-        "event": "Casemiro dropped 15.0%",
-        "impact": "Panic selling observed"
-      },
-      {
-        "week": 12,
-        "event": "Rodri dropped 15.0%",
-        "impact": "Panic selling observed"
-      },
-      {
-        "week": 14,
-        "event": "Ederson dropped 15.0%",
+        "event": "Cole Palmer dropped 15.0%",
         "impact": "Panic selling observed"
       }
     ],
     "conclusions": [
-      "Average token return: 54.2% over 38 weeks.",
-      "Maximum system drawdown: 59.5%, indicating high risk.",
-      "Average volatility: 3.0% weekly standard deviation.",
-      "Platform collected $11842.33 in trading fees."
+      "Average token return: 37.3% over 38 weeks.",
+      "Maximum system drawdown: 57.8%, indicating high risk.",
+      "Average volatility: 3.9% weekly standard deviation.",
+      "Platform collected $15405.74 in trading fees."
     ],
     "riskAssessment": "HIGH",
     "recommendation": "High volatility detected. Review pricing multipliers and consider adding price floors/ceilings."

@@ -7,8 +7,8 @@
 import type { AthleteMarket, Sport, PricePoint, TimeFrame, PlayerStatsExtended, YieldDataExtended } from '../types';
 import athletesData from '../data/athletes.json';
 
-// Backend API base URL
-const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3001/api';
+// Backend API base URL (Railway production)
+const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://stockballer-api-production.up.railway.app/api';
 
 // Backend player response type (enhanced)
 interface BackendPlayer {

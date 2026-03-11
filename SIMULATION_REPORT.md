@@ -2,7 +2,7 @@
 
 ## Base Case - 2024/25 Season
 
-**Generated:** 2026-03-03T16:01:35.866Z
+**Generated:** 2026-03-05T20:17:42.248Z
 
 ---
 
@@ -11,11 +11,11 @@
 | Metric | Value |
 |--------|-------|
 | Simulation Period | 38 weeks (2024-08-17 to 2025-05-03) |
-| Total Trading Volume | $3,198,956.69 |
-| Platform Fees Collected | $11842.33 |
-| Average Token Volatility | 3.0% |
-| Maximum Drawdown | 59.5% |
-| User Profitability Rate | 84.8% |
+| Total Trading Volume | $3,612,859.17 |
+| Platform Fees Collected | $15405.74 |
+| Average Token Volatility | 3.9% |
+| Maximum Drawdown | 57.8% |
+| User Profitability Rate | 79.0% |
 | Risk Assessment | **HIGH** |
 
 ---
@@ -24,21 +24,21 @@
 
 | Rank | Player | Start Price | End Price | Return | Max Drawdown | Volatility |
 |------|--------|-------------|-----------|--------|--------------|------------|
-| 1 | Gabriel Martinelli | $103.21 | $340.90 | +230.3% | 2.3% | 3.0% |
-| 2 | Erling Haaland | $100.32 | $283.09 | +182.2% | 0.8% | 1.9% |
-| 3 | Cole Palmer | $106.59 | $231.72 | +117.4% | 1.5% | 2.8% |
-| 4 | Ollie Watkins | $108.60 | $231.37 | +113.0% | 3.4% | 2.8% |
-| 5 | Bukayo Saka | $102.15 | $215.78 | +111.2% | 1.0% | 1.8% |
-| 6 | Son Heung-min | $100.01 | $183.92 | +83.9% | 2.4% | 1.7% |
-| 7 | Bruno Fernandes | $100.33 | $171.23 | +70.7% | 3.5% | 1.7% |
-| 8 | Martin Odegaard | $100.55 | $168.22 | +67.3% | 0.8% | 1.3% |
-| 9 | Declan Rice | $100.13 | $164.26 | +64.0% | 0.7% | 1.6% |
-| 10 | Phil Foden | $100.34 | $149.57 | +49.1% | 0.7% | 1.5% |
-| 11 | Trent Alexander-Arnold | $100.58 | $146.99 | +46.1% | 0.9% | 1.3% |
-| 12 | Ruben Dias | $100.03 | $138.47 | +38.4% | 1.4% | 1.1% |
-| 13 | Kevin De Bruyne | $100.20 | $107.27 | +7.1% | 1.4% | 0.4% |
-| 14 | Marcus Rashford | $85.00 | $64.79 | -23.8% | 42.2% | 5.7% |
-| 15 | Gabriel Jesus | $100.71 | $67.12 | -33.4% | 40.8% | 5.9% |
+| 1 | Erling Haaland | $103.05 | $356.24 | +245.7% | 1.3% | 2.0% |
+| 2 | Gabriel Martinelli | $102.87 | $337.72 | +228.3% | 2.0% | 3.0% |
+| 3 | Bruno Fernandes | $99.73 | $223.78 | +124.4% | 1.1% | 1.8% |
+| 4 | Marcus Rashford | $85.00 | $157.93 | +85.8% | 40.2% | 6.9% |
+| 5 | Declan Rice | $100.64 | $171.89 | +70.8% | 0.9% | 1.6% |
+| 6 | Bukayo Saka | $100.36 | $159.03 | +58.5% | 1.5% | 1.8% |
+| 7 | Ruben Dias | $100.15 | $143.31 | +43.1% | 0.9% | 1.3% |
+| 8 | Ollie Watkins | $105.11 | $149.98 | +42.7% | 3.4% | 1.8% |
+| 9 | Phil Foden | $100.25 | $137.58 | +37.2% | 15.4% | 3.2% |
+| 10 | Ederson | $101.35 | $111.35 | +9.9% | 4.9% | 1.2% |
+| 11 | Kevin De Bruyne | $100.03 | $105.52 | +5.5% | 0.8% | 0.4% |
+| 12 | Gabriel Jesus | $103.34 | $69.13 | -33.1% | 42.7% | 6.0% |
+| 13 | Cole Palmer | $106.24 | $70.31 | -33.8% | 45.2% | 6.6% |
+| 14 | Trent Alexander-Arnold | $100.78 | $65.01 | -35.5% | 43.5% | 6.5% |
+| 15 | Son Heung-min | $85.00 | $52.96 | -37.7% | 46.9% | 7.0% |
 
 ---
 
@@ -46,10 +46,10 @@
 
 | Type | Count | Avg Return | Profitability | Best | Worst | Avg Trades |
 |------|-------|------------|---------------|------|-------|------------|
-| BANDWAGON | 350 | +84.8% | 100.0% | +138.5% | +43.2% | 5.0 |
-| HODLER | 300 | +48.2% | 100.0% | +92.8% | +4.5% | 5.6 |
-| PANIC | 200 | +37.0% | 99.0% | +101.7% | -3.8% | 8.0 |
-| VALUE | 150 | -9.8% | 0.0% | +0.0% | -15.2% | 3.1 |
+| BANDWAGON | 350 | +87.8% | 100.0% | +141.5% | +8.2% | 9.2 |
+| HODLER | 300 | +43.8% | 76.7% | +95.5% | -22.5% | 3.8 |
+| PANIC | 200 | +24.9% | 94.5% | +92.2% | -7.9% | 9.0 |
+| VALUE | 150 | -11.3% | 14.0% | +4.0% | -17.8% | 6.3 |
 
 ---
 
@@ -57,25 +57,25 @@
 
 | Week | Event | Impact |
 |------|-------|--------|
-| 3 | Ederson dropped 15.0% | Panic selling observed |
 | 4 | Casemiro dropped 15.0% | Panic selling observed |
+| 5 | Martin Odegaard dropped 15.0% | Panic selling observed |
+| 5 | Cole Palmer dropped 15.0% | Panic selling observed |
 | 6 | Rodri dropped 15.0% | Panic selling observed |
+| 7 | Son Heung-min dropped 15.0% | Panic selling observed |
 | 7 | Marcus Rashford dropped 15.0% | Panic selling observed |
 | 7 | Gabriel Jesus dropped 15.0% | Panic selling observed |
+| 8 | Trent Alexander-Arnold dropped 15.0% | Panic selling observed |
 | 8 | Rodri dropped 15.0% | Panic selling observed |
-| 9 | Ederson dropped 15.0% | Panic selling observed |
-| 10 | Casemiro dropped 15.0% | Panic selling observed |
-| 12 | Rodri dropped 15.0% | Panic selling observed |
-| 14 | Ederson dropped 15.0% | Panic selling observed |
+| 9 | Cole Palmer dropped 15.0% | Panic selling observed |
 
 ---
 
 ## Conclusions
 
-- Average token return: 54.2% over 38 weeks.
-- Maximum system drawdown: 59.5%, indicating high risk.
-- Average volatility: 3.0% weekly standard deviation.
-- Platform collected $11842.33 in trading fees.
+- Average token return: 37.3% over 38 weeks.
+- Maximum system drawdown: 57.8%, indicating high risk.
+- Average volatility: 3.9% weekly standard deviation.
+- Platform collected $15405.74 in trading fees.
 
 ---
 
