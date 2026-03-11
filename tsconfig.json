@@ -16,6 +16,7 @@
   "exclude": [
     "node_modules",
     "api",
-    "blockchain"
+    "blockchain",
+    "chainlink"
   ]
 }
