@@ -38,6 +38,9 @@ yarn-error.*
 .env*.local
 .env
 
+# Docker compose (contains sensitive defaults)
+docker-compose.yml
+
 # Environment files in subdirectories
 api/.env
 blockchain/.env
